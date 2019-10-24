@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>28</Anum>
+  <Name>Newbies</Name>
+  <FileName>newbie.are</FileName>
+  <LowRange>0</LowRange>
+  <HighRange>13691</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>2</UID>
+    <UID>12</UID>
+    <UID>8</UID>
+    <UID>1</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835008</VRef>
+      <Name>The Tolnedra School of Mudding Entrance</Name>
+      <Description>Stepping through the small gates you are greeted by a friendly
+instructor from the school. She stands in front of a fairly large
+building made of stone with a red tiled roof. The grounds are well
+kept, there is a garden surrounding the building on all sides and a
+vast lawn of green grass.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835009</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>To the door of the School</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835017</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835009</VRef>
+      <Name>Porch of the School</Name>
+      <Description>Walking up the steps you stand on the porch of the school. On the wall
+there is a sign, you may want to ^bLOOK SIGN^x. The door stands open
+waiting for you to enter, so you may begin your lessons.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835013</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Into the school</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835008</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>sign</Name>
+          <Keywords>sign</Keywords>
+          <Description>You examine the sign, it says, "This school founded by the city of
+Tolnedra to better train its citizens on the Day of the Great Gods, in
+the 5th Month of the Great Evil."</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835010</VRef>
+      <Name>School Office</Name>
+      <Description>Walking into the office you notice a large desk with a beautfiul
+secretary sitting behind it. Before you interrupt her work she points
+to the wall where another sign hangs. On the sign you read, "All new
+students please use the door to the ^bWEST^x. All those experienced
+students may go ^rNORTH^x to the gardens."</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835018</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835014</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>To the first lesson</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835015</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835012</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835011</VRef>
+      <Name>Equipment Room</Name>
+      <Description>Continuing along, you enter the equipment room. Here a rather large
+man sits in a chair that seems too be a bit to small for him. In front
+of him a long banquet table is covered with rows of packs with a pair
+of boots in front of it. There are two shelves in the back containing
+various odds and ends.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835010</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835012</VRef>
+      <Name>A Classroom</Name>
+      <Description>Now that you have received your new equipment it is time to learn how
+to get around the MUD. You already used the ^blook^x command. Use the ^blook^x
+command to view the lesson on the board.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835027</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835010</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835013</VRef>
+      <Name>School Office</Name>
+      <Description>Walking into the office you notice a large desk with a beautfiul
+secretary sitting behind it. Before you interrupt her work she points
+to the wall where another sign hangs. On the sign you read, "All new
+students please use the door to the ^bEAST^x.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835011</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835014</VRef>
+      <Name>Equipment Room</Name>
+      <Description>You re-enter the equipment room. Here a rather large man sits in a
+chair that seems too be a bit to small for him. In front of him a long
+banquet table is covered with rows of packs with a pair of boots in
+front of it. There are two shelves in the back containing various odds
+and ends.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835010</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835015</VRef>
+      <Name>Porch of the School</Name>
+      <Description>Walking up the steps you stand on the porch of the school. On the wall
+there is a sign, you may want to ^bLOOK SIGN^x. The door stands open
+waiting for you to enter, so you may begin your lessons.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835010</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835016</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835016</VRef>
+      <Name>The Tolnedra School of Mudding Entrance</Name>
+      <Description>Stepping through the small gates you are greeted by a friendly
+instructor from the school. She stands in front of a fairly large
+building made of stone with a red tiled roof. The grounds are well
+kept, there is a garden surrounding the building on on all sides and a
+vast lawn of green grass.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835015</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835017</VRef>
+      <Name>A grassy area</Name>
+      <Description>You are off to the side of the gates from the city into the school.
+The school itself is still within plain view from where you are. The
+only thing in the immediate area would be the wall and alot of grass.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835008</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835018</VRef>
+      <Name>A hallway</Name>
+      <Description>Walking past the school office and the entrance to the classrooms, you
+must feel confident in your abilities already. The walls have small
+notes and notices tacked up in various places. The hall continues
+further to the north.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835019</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835010</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835019</VRef>
+      <Name>A hallway</Name>
+      <Description>You are somewhat boxed into the narrow hall by two large wooden plank
+walls. As you walk down this corridor the floor creaks beneath your
+feet.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835020</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835018</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835020</VRef>
+      <Name>A hallway</Name>
+      <Description>You are at the opposite end of the hallway that bypasses the
+classrooms in the school. There is a door that leads out into the
+gardens of the school. You may go out there to kill whatever may be
+roaming about at the time.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835021</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835019</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835021</VRef>
+      <Name>Outside the School</Name>
+      <Description>Outside the school. To the west the building extends a way, hear the
+faint sounds of people shuffling about from a small window. Further to
+the north you see the center of the garden and its large fountain.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835022</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835020</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835022</VRef>
+      <Name>Gates to the Garden</Name>
+      <Description>Students that have finished with their classes walk out of the door to
+the west and head through the gate. Through the large iron gate you
+can clearly see the fountain, there is a cleric that stands there,
+watching over the students as they murder the garden's inhabitants.
+You may go back south through the hallway to the office of the school,
+then out to the entrance from which you may enter the city of
+Tolnedra.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>38</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835023</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835021</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835031</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835023</VRef>
+      <Name>School Garden</Name>
+      <Description>Looking around the garden you take in the beauty of the landscape, it
+seems almost too perfect. Paths go off in every which direction, with
+small lamps scattered about, as to provide light for when night comes.
+In the center of this area, there is a large stone fountain, decorated
+in odd runes. Crystal clear water flows from a spout and into the pool
+below.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>34</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835026</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835024</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835022</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835025</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835024</VRef>
+      <Name>Garden Southeast Corner</Name>
+      <Description>Here the beauty of the garden is still present. There is a small
+covered space in midst of the garden where a school employe sells food
+and other items at a reasonable price.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835032</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835023</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835025</VRef>
+      <Name>Garden Southwest Corner</Name>
+      <Description>The southwest corner of the garden. Its a garden, it has plants. It
+looks nice.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835034</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835023</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835026</VRef>
+      <Name>Middle of the Garden</Name>
+      <Description>This is a rather flat, open area of the garden. Various shrubbery
+surround the area. The path goes to the east and the west to other
+parts of the garden.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835033</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835032</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835023</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835034</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835027</VRef>
+      <Name>A Classroom</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835028</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835012</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835028</VRef>
+      <Name>A Classroom</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835029</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835027</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835029</VRef>
+      <Name>A Classroom</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835030</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835028</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835030</VRef>
+      <Name>A Classroom</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835031</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835029</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835031</VRef>
+      <Name>A Classroom</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835022</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835030</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835032</VRef>
+      <Name>Garden East Side</Name>
+      <Description>The east side of the garden. Its a garden, it has plants. It looks
+nice. Don't feed the animals.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835035</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835024</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835026</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835033</VRef>
+      <Name>Garden North End</Name>
+      <Description>The northern end of the garden. Its a garden, it has plants. It looks
+nice.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835035</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835026</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835036</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835034</VRef>
+      <Name>Garden West Side</Name>
+      <Description>The west end of the garden. There are plants here. The garden is
+peaceful. The garden is NICE.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835036</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835026</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835025</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835035</VRef>
+      <Name>Northeast Garden</Name>
+      <Description>The northeast corner of the garden of the Tolnedra school of mudding
+where you learn to be a good little mudder. Plants, this is a garden.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835032</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835033</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1835036</VRef>
+      <Name>Northwest Garden</Name>
+      <Description>The northwest corner of the garden. I think a garden is rather self
+explanatory at this point.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835033</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1835034</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1835008</VRef>
+      <Name>a Marble Fountain</Name>
+      <PName>Marble fountains</PName>
+      <Keywords>crude bronze ball</Keywords>
+      <ShortDesc>^wAn elaborate marble fountain sits here^x</ShortDesc>
+      <PShortDesc>$t elaborate marble fountains sit here</PShortDesc>
+      <Description>Under Construction.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>102</Level>
+      <Weight>1000.000000</Weight>
+      <Materials>131073</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1835008</VRef>
+      <Name>Tobon</Name>
+      <PName>Tobons</PName>
+      <Keywords>tobon</Keywords>
+      <ShortDesc>Tobon sits here, handing out equipment</ShortDesc>
+      <PShortDesc>$t sit here, handing out equipment</PShortDesc>
+      <Description>Tobon isn't much to look at...</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>6</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1048579</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1835009</VRef>
+      <Name>An Elven Priest</Name>
+      <PName>Elven Priests</PName>
+      <Keywords>elven priest</Keywords>
+      <ShortDesc>^w+^x^yAn Elven Priest stands here, ready to give his blessings^x.</ShortDesc>
+      <PShortDesc>^rToo many priests, please tell an Imm to have this fixed -the mgmnt.^x</PShortDesc>
+      <Description>Looking upon the proud priest you notice he is dressed in nothing more
+than a simple priest's outfit. He carries a large wooden staff.</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>3</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1048579</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+  </Populations>
+</Area>

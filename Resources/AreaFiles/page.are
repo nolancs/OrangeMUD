@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>21</Anum>
+  <Name>Pageism</Name>
+  <FileName>page.are</FileName>
+  <LowRange>21061</LowRange>
+  <HighRange>20768</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>2</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1376256</VRef>
+      <Name>Central Ungari</Name>
+      <Description>This large, circular room is the base floor of the city of Ungari. The city
+itself takes the cylindrical shape of it's center. Each floor houses four
+rooms, each room being a quarter circle that wraps around the center, Central
+Ungari. Room entrances are in the four cardinal directions, while stairs
+ascend up between the entrances. This floor contains the guard and supply
+rooms that keep the city safe from outsiders.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376260</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376257</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376258</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376259</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376261</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1376257</VRef>
+      <Name>Ungari Guard Quarters</Name>
+      <Description>This room is fairly bare. Some beds line the walls, filled sacks and locked
+chests lie by them. Several maps cover the far wall, while various weapons
+hang on the near. Some rugs lie about the cold stone floor, one at the
+entrance and one beneath the sole window, looking eastwardly over the
+desert.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1376258</VRef>
+      <Name>A Supply Room</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1376259</VRef>
+      <Name>Ungari Guard Quarters</Name>
+      <Description>This room is fairly bare. Some beds line the wals, filled sacks and locked
+chests lie by them. Several maps cover the far wall, while various weapons
+hand on the near. Some rugs lie about the cold stone floor, one at the
+entrance and one beneath the sole window, looking westwardly over the
+desert.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1376260</VRef>
+      <Name>Ungari Defense Center</Name>
+      <Description>Look at the map, damn it.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>a map</Name>
+          <Keywords>map</Keywords>
+          <Description>|\                   _,.:''
+      ; ',            ,..:'
+      ':  ' ___,;''--'
+       '
+       '    *
+        ;
+       '
+       :
+      '
+     :                      *
+    /
+</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1376261</VRef>
+      <Name>Central Ungari</Name>
+      <Description>Be back later.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1376256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376256</VRef>
+      <Name>a long Wind-Shear bow</Name>
+      <PName>long Wind-Shear bows</PName>
+      <Keywords>long wind-shear bow wind shear</Keywords>
+      <ShortDesc>A long bow lies here.</ShortDesc>
+      <PShortDesc>$t long bows lie here.</PShortDesc>
+      <Description>This bow was crafted in the Wind-Shear style, making it lightweight and quick.
+The handle is carved of bleached bone and sanded smooth. Each shaft screws into
+the handle and can be assembled or disassembled in mere moments. The curve of
+the shafts is wide, yet flat on the outter side, each one with a thin line of
+silver set into the inner curve. The wood itself is stained the color of the
+night sky and is tipped with dark-stained bone.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>50</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>2.620000</Weight>
+      <Materials>802816</Materials>
+      <AntiFlags>15815</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>10</Value0>
+      <Value1>14</Value1>
+      <Value2>14</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376257</VRef>
+      <Name>a dark-stained arrow</Name>
+      <PName>dark-stained arrows</PName>
+      <Keywords>dark-stained arrow dark stained</Keywords>
+      <ShortDesc>A dark arrow sticks out of the ground.</ShortDesc>
+      <PShortDesc>$t dark arrows stick out of the ground.</PShortDesc>
+      <Description>This arrow is about twenty-five inches long. It's tip is of metal which
+spirals back in a corkscrew for nearly a quarter of it's length. The wood
+shaft is stained a very dark umber, with black fletching.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>0.033000</Weight>
+      <Materials>540672</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>11</Value0>
+      <Value1>5</Value1>
+      <Value2>10</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376258</VRef>
+      <Name>a dark-stained leather quiver</Name>
+      <PName>dark-stained leather quivers</PName>
+      <Keywords>quiver</Keywords>
+      <ShortDesc>A dark leather quiver lies here.</ShortDesc>
+      <PShortDesc>$t dark leather quivers lie here.</PShortDesc>
+      <Description>This quiver is slightly smaller than the average, allowing for a greater range
+of movement. The leather is the shade of the open night sky. The strap is tied
+through small holes and can be easily adjusted, or ripped away if need be.</Description>
+      <ContCapacity>40.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>2.500000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>33554433</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376259</VRef>
+      <Name>a set of dark-stained arrows</Name>
+      <PName>sets of dark-stained arrows</PName>
+      <Keywords>set dark-stained arrows dark stained</Keywords>
+      <ShortDesc>A set of dark arrows are stuck into the ground.</ShortDesc>
+      <PShortDesc>$t sets of dark arrows are stuck into the ground.</PShortDesc>
+      <Description>These arrows are about twney-five inches long, with metal tips that spiral
+back along the shaft in a sorkscrew. The wood is stained a very dark umber,
+with black fletching. The arrows are loosely held together by small notches,
+which pull apart once fired, enabling them to spread out.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>540672</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>11</Value0>
+      <Value1>15</Value1>
+      <Value2>30</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376260</VRef>
+      <Name>a jewel-handled knife</Name>
+      <PName>jewel-handled knives</PName>
+      <Keywords>jewel-handled knife jewel handled blade</Keywords>
+      <ShortDesc>An ornate knife lies here.</ShortDesc>
+      <PShortDesc>$t ornate knives lie here.</PShortDesc>
+      <Description>A richly detailed knife with blue and green diamond-shaped jewels inlaid in
+the handle and a dragon carved into the blade. A red transparent jewel, which
+shines oddly, is set into the base of the handle.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>40</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>65540</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>1</Value0>
+      <Value1>6</Value1>
+      <Value2>9</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376261</VRef>
+      <Name>a leather wrist guard</Name>
+      <PName>leather wrist guards</PName>
+      <Keywords>leather wrist guard</Keywords>
+      <ShortDesc>A leather wrist guard lies here.</ShortDesc>
+      <PShortDesc>$t wrist guards lie here.</PShortDesc>
+      <Description>This simple guard offers minimun protection to the wrist and some what of the
+back of the hand. The dark leather ties to a tight fit, the ties themselves
+slightly worn.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>3</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>262145</WearFlags>
+      <Value0>10</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376262</VRef>
+      <Name>a poison-tipped arrow</Name>
+      <PName>poison-tipped arrows</PName>
+      <Keywords>poison-tipped arrow poison tipped</Keywords>
+      <ShortDesc>A dark arrow sticks out of the ground.</ShortDesc>
+      <PShortDesc>$t dark arrows stick out of the ground.</PShortDesc>
+      <Description>This arrow is about twenty-five inches long. It's tip is of metal which
+spirals back in a corkscrew for nearly a quarter of it's length. There is a
+small slit in the tip in which some deadly poison is held. The wood shaft is
+stained a very dark umber, with black fletching.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>0.034000</Weight>
+      <Materials>540672</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>11</Value0>
+      <Value1>5</Value1>
+      <Value2>10</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376263</VRef>
+      <Name>a pair of leather arm bands</Name>
+      <PName>pairs of leather arm bands</PName>
+      <Keywords>leather arm bands</Keywords>
+      <ShortDesc>A pair of leather arm bands lie here.</ShortDesc>
+      <PShortDesc>$t leather bands lie here.</PShortDesc>
+      <Description>These dark leather bands offer little to no protection at all. They are used
+to carry specialty items, arrows and bolts to be exact. Each band has five
+slots to place an arrow or a bolt. To access them from the bands is not the
+easiest thing to do in battle, so one would be better off by placing them in a
+quiver just before they are to be used.</Description>
+      <ContCapacity>5.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>3</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>0.050000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>16385</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376264</VRef>
+      <Name>a large pouched belt</Name>
+      <PName>large pouched belts</PName>
+      <Keywords>large pouched belt</Keywords>
+      <ShortDesc>A large belt lies here.</ShortDesc>
+      <PShortDesc>$t large belts lie here.</PShortDesc>
+      <Description>This large belt is made of dark leather. Attatched it it are several small
+leather pouches, each drawn shut with string. The wide belt has a tarnished
+silver tip and clasp.</Description>
+      <ContCapacity>100.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>3</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>131073</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376265</VRef>
+      <Name>a leather bandolier</Name>
+      <PName>leather bandoliers</PName>
+      <Keywords>leather bandolier quiver</Keywords>
+      <ShortDesc>A leather bandolier lies here.</ShortDesc>
+      <PShortDesc>$t leather bandoliers lie here.</PShortDesc>
+      <Description>This bandolier is made of dark leather. It ties together at one end and sports
+twenty spots for one to place some crossbow bolts or other small items.</Description>
+      <ContCapacity>67.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>1.250000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>33554433</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376266</VRef>
+      <Name>a steel bolt</Name>
+      <PName>steel bolts</PName>
+      <Keywords>steel bolt arrow</Keywords>
+      <ShortDesc>A steel bolt is stuck in the ground.</ShortDesc>
+      <PShortDesc>$t steel bolts are stuck in the ground.</PShortDesc>
+      <Description>This bolt is about eight inches long. It clips into any standard crossbow and
+can be fired at high speeds to pierce friend of foe. This bolt is about eight
+inches in length. Any visible light reflects off the metal slightly.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>0.330000</Weight>
+      <Materials>4</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>11</Value0>
+      <Value1>10</Value1>
+      <Value2>15</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376267</VRef>
+      <Name>a simple wooden crossbow</Name>
+      <PName>simple wooden crossbows</PName>
+      <Keywords>simple wooden crossbow</Keywords>
+      <ShortDesc>A simple wooden crossbow lies here.</ShortDesc>
+      <PShortDesc>$t simple crossbows lie here.</PShortDesc>
+      <Description></Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>15</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>4.000000</Weight>
+      <Materials>16386</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>10</Value0>
+      <Value1>15</Value1>
+      <Value2>15</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376268</VRef>
+      <Name>a small bed</Name>
+      <PName>small beds</PName>
+      <Keywords>small bed</Keywords>
+      <ShortDesc>A small bed is here.</ShortDesc>
+      <PShortDesc>$t small beds are here.</PShortDesc>
+      <Description>Flags don't work. Got pissed and will finish later.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>10.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376269</VRef>
+      <Name>a large cabinet</Name>
+      <PName>large cabinets</PName>
+      <Keywords>cabinet</Keywords>
+      <ShortDesc>A large cabinet stands against the wall.</ShortDesc>
+      <PShortDesc>$t large cabinets are here.</PShortDesc>
+      <Description>This large cabinet is roughly crafted from sturdy oak, stained in raw umber.
+It stands over six feet in height and hosts many shelves.</Description>
+      <ContCapacity>1000.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>10.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1376270</VRef>
+      <Name>a large desk</Name>
+      <PName>large desks</PName>
+      <Keywords>desk</Keywords>
+      <ShortDesc>A large desk sits here.</ShortDesc>
+      <PShortDesc>$t large desks sit here.</PShortDesc>
+      <Description></Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>21</ItemType>
+      <Level>1</Level>
+      <Weight>10.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1376256</VRef>
+      <Name>an archers target</Name>
+      <PName>archer targets</PName>
+      <Keywords>archer target</Keywords>
+      <ShortDesc>An archers target sits here.</ShortDesc>
+      <PShortDesc>$t archer targets sit here.</PShortDesc>
+      <Description>You see a spherical little protomob floating in front of you. Its pinkish fleshy body waiting to be shaped by the divine powers of Age of Wonder.</Description>
+      <Movement>doesn't move</Movement>
+      <Sex>0</Sex>
+      <Level>0</Level>
+      <Alignment>3</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>30000</HitsMin>
+      <HitsMax>30000</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>0</MovesMin>
+      <MovesMax>0</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>0</AttacksPerRound>
+      <Attacks>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>bulls eye</Name>
+          <ACMod>100</ACMod>
+          <Size>1</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>inner ring</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>1950720</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>middle ring</Name>
+          <ACMod>100</ACMod>
+          <Size>6</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>outer ring</Name>
+          <ACMod>100</ACMod>
+          <Size>10</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1376257</RoomVRef>
+      <ObjectVRef>1376268</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1376257</RoomVRef>
+      <ObjectVRef>1376268</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1376257</RoomVRef>
+      <ObjectVRef>1376268</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1376259</RoomVRef>
+      <ObjectVRef>1376268</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1376259</RoomVRef>
+      <ObjectVRef>1376268</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1376259</RoomVRef>
+      <ObjectVRef>1376268</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1376258</RoomVRef>
+      <ObjectVRef>1376269</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+  </Populations>
+</Area>

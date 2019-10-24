@@ -1,0 +1,2626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>12</Anum>
+  <Name>The serpent temple</Name>
+  <FileName>sergod.are</FileName>
+  <LowRange>0</LowRange>
+  <HighRange>0</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>7</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786432</VRef>
+      <Name>Temple Entrance</Name>
+      <Description>This dimly lit room has an unfamiliar scent of incense that lingers in
+the air. Various objects lie about in the mist-like There are cushions
+and multicolored pieces of fabric strewn about the floor. A large wall
+hanging depicts the ledgend of the serpent who swallows its tail, the
+bright colors making it seem ethereal and almost to glow with its own
+inner light. This seems to be some sort of temple to some forgotten
+god...or goddess.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786435</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786433</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786433</VRef>
+      <Name>Temple Garden</Name>
+      <Description>Multicolored flowers open their petals to the sun in this vast
+courtyard. Various stone statues peer in the centre of a clearing,
+soft light reflects off of the shiny incadecent stones that lay in the
+bottom of the pool.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786432</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786434</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786434</VRef>
+      <Name>Pathway to the Temple</Name>
+      <Description>You find yourself faced with a massive archway made of dark stone, it
+seems old, but still shines with a dark lustre. The surrounding area
+is dotted with strange silvery flowers and wild roses.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786433</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786440</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the stone archway</Name>
+          <Keywords>stones</Keywords>
+          <Description>Made of darkly glowing stones that seem to create their own internal
+light. The glossy surface of the archway appears to have been carved
+out of a singular piece of stone.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786435</VRef>
+      <Name>A Dark Hallway</Name>
+      <Description>Dim light flickers through this narrow passageway. Several old looking
+torches are burning in brackets along the corridor. Strange symbols
+cover the vast floor. Intricate wall hangings and paintings adorn the
+ancient walls.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786438</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786437</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786432</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786436</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786436</VRef>
+      <Name>The Prayer Room</Name>
+      <Description>You are standing in a small dark room, the air smells musty and of
+herbs. Unlit candles lay strewn about the room, some small stones are
+sitting on an oaken table near the far wall. A tattered tapestry hangs
+upon the wall to your left, it seems somehow familiar, depicting the
+serpent of Mana, Gaia, the snake who swallowed her tail. The tapestry
+glows with an otherworldly glow.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786435</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the tapestry of Gaia</Name>
+          <Keywords>tapestry wall hanging</Keywords>
+          <Description>The ancient fabric of this once stunningly beautiful wall hanging are
+somewhat worn around the edges, yet it still retains it's ethreal
+beauty. The eyes of the serpent seem alive, and seem to watch
+everything that goes on in this room.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786437</VRef>
+      <Name>The Altar Room</Name>
+      <Description>This room humms with static energy, the air crackles with flecks of
+light, reflecting the light from the many candles in incadecent
+rainbow hues. A large carpet is casually draped across the floor, its
+pale blue tones glowing with the candlelight. An aura of peace and
+power fluctuate throughout the air, unsettling and serene at the same
+time.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786435</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786438</VRef>
+      <Name>Temple Chamber</Name>
+      <Description>The high vaulted ceiling of this massive room is made of some sort of
+pearly white stone that glitters brilliantly in the dim light. This
+chamber looks as if it could hold many people comfortably. Tall
+pillars line the room, each with some sort of gem or statue perched
+upon it. In the direct center of the room sits a towering fountain.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786435</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786439</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786439</VRef>
+      <Name>The Shrine of the Goddess</Name>
+      <Description>A silver glow emits from the walls of this spectacular room, at closer
+inspection, you realize the walls are gilded in silver. The large room
+is dominated by a huge silver statue of a woman with a golden serpent
+entwined around her. A plaque is attached to the bottom of the statue,
+ancient runic letters grace it's surface. This is a shrine to the
+serpent goddess, and the statue, the likeness of the goddess herself.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786438</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786449</ToVRef>
+        <Flags>43</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name>runic</Name>
+        <Keywords>runes</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786440</VRef>
+      <Name>Pathway to the Temple</Name>
+      <Description>Dark stones outline this pathway, leading the way to a strange looking
+dark building nestled in the middle of a dense forest. A large archway
+stands in front the Temple, obstructing any attempt to see what lies
+in the clearing. Though old, this pathway seems well used, although
+you don't see anyone else on it.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786434</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786441</VRef>
+      <Name>The Blue Cavern</Name>
+      <Description>An eerie glow eminates from this cavern. Lit internally by some sort
+of incandescent rock fungi. The many tiny glowing fungi cast shadows
+across the blue crystals that lay throughout this cavern. A faint
+almost crystaline humming is coming from the walls. A small waterfalll
+cascades down the western wall, between two massive blue crystals and
+falls into a clear pool surrounded with smaller crystals.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786443</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786442</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786442</VRef>
+      <Name>Cavern Entrance</Name>
+      <Description>Glittering stone rises in breath taking spires hundreds of feet into
+the air. Stalagmites and Stalactites glitter in the sparse sunlight
+that penetrates this monsterous cavern. To the east lies an opening in
+the wall of the cave. Multicolored crystals shimmer softly, seeming to
+beckon the unwary traveller to enter into the darkness beyond.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786454</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786441</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786443</VRef>
+      <Name>The Purple Cavern</Name>
+      <Description>Crystals of all shades of purple shine in the light of a strange
+glowing rock fungus. A still pool of water sits in the center of the
+cavern. The water seems to be a dark shade of purple itself, as if
+trying to mimic the purple crystals that are clusterd around it.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786444</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786441</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786444</VRef>
+      <Name>The Silver Cavern</Name>
+      <Description>A beautiful silver glow shines throughout this cavern. A faint humming
+resonates from the walls and ceiling, the crystals themselves seem to
+respond to the hum, creating a crystaline melody.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786443</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786445</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786445</VRef>
+      <Name>The Golden Cavern</Name>
+      <Description>Solid gold crystals line the walls and ceiling of this cave. The floor
+is bare, except for a large cluster of the golden crystals in the
+center of the room. They glow with a strange golden light, as if lit
+from within.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786446</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786444</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786447</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786446</VRef>
+      <Name>The Transparent Cavern</Name>
+      <Description>Beams of piercing light reflect from the glowing crystals in this
+cavern, each facet reflects millions of colors from the spectrum,
+creating a dazzling display of light. White sand glitters on the
+floor, reflecting the light of the thousands of crystals, making this
+cavern almost blindingly bright.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786445</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786447</VRef>
+      <Name>A Dark Pit</Name>
+      <Description>Broken shards of crystal lie in a clutter across the floor here. You
+find yourself looking into the gaping maw of a monsterous black pit.
+The only thing keeping you from certain death is a narrow ledge that
+runs from the eastern wall to the west. The ledge seems flimsy, and
+not strong enough to handle much weight. Decent into this hole seems
+to be certain death.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786445</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786448</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786448</VRef>
+      <Name>The Chamber of the Dragon</Name>
+      <Description>Red and black crystals jut up from the ground of this chamber. A large
+cluster of transparent crystals stand in the center of the room. This
+is the secret of the crystal caverns. Seen by few. The air sparks with
+powerful magic. A large waterfall runs down the far wall, creating a
+loud roar that echoes throughout the cave. This room also seems to be
+the source of the strange humming. The crystal pillar in the center of
+the room is emitiing a strange noise.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786447</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786449</VRef>
+      <Name>The Dwelling of Acheris</Name>
+      <Description>You have stumbled upon the domain of the serpent goddess. The walls are draped
+with black and burgundy silk hangings and there is a comfortable couch sitting
+against the wall. A large spiral staircase leads down into the depths of her
+home.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786439</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786450</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786450</VRef>
+      <Name>A Large Black Spiral Stairway</Name>
+      <Description>You make your way down the stairway. Your way is lit by strange glowing orbs
+that float near the walls. A deep red carpet is casually draped down the
+elaborate stairway, it almost seems a pity to walk on it.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786449</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786451</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786451</VRef>
+      <Name>A Breathtaking Corridor</Name>
+      <Description>You reach the bottom of the stairs only to find youself faced with an amazing
+corridor. The floor is made of the finest black marble veined with gold. The
+ceiling is so far up it is barley visible in the dim light. A large mantled
+fireplace flickers on the far side of the room, creating dancing shadows and
+comforting warmth.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786452</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786450</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786452</VRef>
+      <Name>The Sitting Room</Name>
+      <Description>This cozy yet large room is richly furnished with the finest fabrics and
+furniture. The marble floor is coverd with a beautiful black and burgundy
+carpet. Soft couches and chairs sit in various locations about the room
+welcoming the weary visitor to rest.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786453</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786451</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786453</VRef>
+      <Name>Acheris' Bedroom</Name>
+      <Description>You step into the bedroom of the serpent goddess. The dark decor of the
+previous rooms lingers here also. From the carpet to the walls, everything is
+different shades of black or burgundy, with the ocassional gold, silver, or
+emerald green thrown in.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786452</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786454</VRef>
+      <Name>Deshera Forest</Name>
+      <Description>The damp air smells of earth and plants. Many strange plants and animals dwell
+in this deep dark forest. The ground is soft and muffles the footfall of both
+large and small beasts. You seem to feel eyes watching you from behind every
+branch and leaf. A thick mist covers the area, creating flickering light and
+moving shadows.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786442</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786455</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786455</VRef>
+      <Name>Deshera Forest</Name>
+      <Description>The damp air smells of earth and plants. Many strange plants and
+animals dwell in this deep dark forest. The ground is soft and muffles
+the footfall of both large and small beasts. You seem to feel eyes
+watching you from behind every branch and leaf. A thick mist covers the
+area, creating flickering light and moving shadows.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786454</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>Deshara Forest.</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786456</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786457</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786456</VRef>
+      <Name>Deshera Forest</Name>
+      <Description>The damp air smells of earth and plants. Many strange plants and animals dwell
+in this deep dark forest. The ground is soft and muffles the footfall of both
+large and small beasts. You seem to feel eyes watching you from behind every
+branch and leaf. A thick mist covers the area, creating flickering light and
+moving shadows.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786463</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786459</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786455</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786457</VRef>
+      <Name>Deshera Forest</Name>
+      <Description>To the east you see a small hut. The damp air smells of earth and plants. Many
+strange plants and animals dwell in this deep dark forest. The ground is soft
+and muffles the footfall of both large and small beasts. You seem to feel eyes
+watching you from behind every branch and leaf. A thick mist covers the area,
+creating flickering light and moving shadows.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786455</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786458</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>a small door.</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786465</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786458</VRef>
+      <Name>A Small Hut</Name>
+      <Description>The walls of this tiny shop are lined with shelves. Each one coverd with vials
+and herbs of some sort. Several strange looking amulets and talismans are
+hanging behind the counter.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786457</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>a small door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786459</VRef>
+      <Name>A Mossy Grove</Name>
+      <Description>You step into a grove. The sound of running water greets your ears. The little
+stream at your feet seems to have come from the large waterfall you see to your
+west. A ring of toadstools is off to your east. The trees here are coverd in a
+strange green moss, it drips off of the branches like living icicles and
+reaches to the mossy forest floor.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786456</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786460</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786460</VRef>
+      <Name>The Waterfall of Creation</Name>
+      <Description>A beautiful waterfall dominates this clearing in the Deshera forest. The clear
+water falls down the face of a sheer crystal cliff and ripples into a clear
+pool at the bottom.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786459</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786461</ToVRef>
+        <Flags>8</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the waterfall of creation</Name>
+          <Keywords>waterfall</Keywords>
+          <Description>Sparkling water falls down the sheer crystal cliff, the many facets of the
+water and stone creating tiny rainbows all around the clearing. Glancing upward
+you think you see some sort of a cave...Could it be?</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786461</VRef>
+      <Name>The Cave of Creation</Name>
+      <Description>You crawl through the waterfall to find yourself inside of a shimmering crystal
+cave. The air humms with energy. Strange flowers grow right out of the crystal,
+unlike anything you have ever seen.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>34</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786462</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786460</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786462</VRef>
+      <Name>The Cave of Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786461</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786463</VRef>
+      <Name>Deshera Forest</Name>
+      <Description>The damp air smells of earth and plants. Many strange plants and animals dwell
+in this deep dark forest. The ground is soft and muffles the footfall of both
+large and small beasts. You seem to feel eyes watching you from behind every
+branch and leaf. A thick mist covers the area, creating flickering light and
+moving shadows.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786464</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786456</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786464</VRef>
+      <Name>Deshera Forest</Name>
+      <Description>The damp air smells of earth and plants. Many strange plants and animals dwell
+in this deep dark forest. The ground is soft and muffles the footfall of both
+large and small beasts. You seem to feel eyes watching you from behind every
+branch and leaf. A thick mist covers the area, creating flickering light and
+moving shadows.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786463</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>786465</VRef>
+      <Name>Deshera Forest</Name>
+      <Description>The damp air smells of earth and plants. Many strange plants and animals dwell
+in this deep dark forest. The ground is soft and muffles the footfall of both
+large and small beasts. You seem to feel eyes watching you from behind every
+branch and leaf. A thick mist covers the area, creating flickering light and
+moving shadows.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786457</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851968</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble Way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786432</VRef>
+      <Name>a hawking gauntlet</Name>
+      <PName>hawking gauntlets</PName>
+      <Keywords>leather hawking gauntlet glove</Keywords>
+      <ShortDesc>a leather and metal hawk gauntlet lies here.</ShortDesc>
+      <PShortDesc>$t leather and metal hawk gauntlets lie here.</PShortDesc>
+      <Description>Under Construction.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4608</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>8193</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786433</VRef>
+      <Name>a black and silver cape</Name>
+      <PName>black and silver capes</PName>
+      <Keywords>black silver cape serpent </Keywords>
+      <ShortDesc>a black cape is here.</ShortDesc>
+      <PShortDesc>$t black capes are here.</PShortDesc>
+      <Description>This beautiful cape is made of thin black material with silver embroidery
+carefully sewn onto it. The cape is clasped at the neck with the familiar
+symbol of the serpent Goddess, twin silver snakes with glowing emerald eyes.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4268544</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33554433</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786434</VRef>
+      <Name>a serpent armband</Name>
+      <PName>serpent armbands</PName>
+      <Keywords>sepent armband band</Keywords>
+      <ShortDesc>a snake-like bracelet is here.</ShortDesc>
+      <PShortDesc>$t snake-like bracelets are here.</PShortDesc>
+      <Description>A silver snake that wraps around the wearer's arm. It glows with a strange
+blueish aura.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2097664</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>524289</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786435</VRef>
+      <Name>a serpent helm</Name>
+      <PName>serpent helms</PName>
+      <Keywords>serpent helm metal helm</Keywords>
+      <ShortDesc>a metal helm is here.</ShortDesc>
+      <PShortDesc>$t metal helms are here.</PShortDesc>
+      <Description>Made of the finest silver and decorated with rare ebony, this helm unlike most
+others, is more of a series of bands and metal clasps than a helment. A pair of
+emerald eyed twin snakes coil together at the front of this ornate headpiece.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2097668</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>129</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source></Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>0</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786436</VRef>
+      <Name>the soulblade</Name>
+      <PName>soul blades</PName>
+      <Keywords>soulblade blade</Keywords>
+      <ShortDesc>a glowing sword is here.</ShortDesc>
+      <PShortDesc>$t glowing swords are here.</PShortDesc>
+      <Description>The soul blade gleams icy blue, fragments of light refracting off of its
+polished surface. Know for its ability to cleave flesh with the greatest ease,
+the soul blade is a weapon to be respected, and feared.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2097156</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>2</Value0>
+      <Value1>400</Value1>
+      <Value2>500</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786437</VRef>
+      <Name>a tiger-striped bodysuit</Name>
+      <PName>tiger-striped bodysuits</PName>
+      <Keywords>tiger striped bodysuit</Keywords>
+      <ShortDesc>a tight tiger-striped bodysuit is here, very sexy.</ShortDesc>
+      <PShortDesc>$t tight sexy tiger-striped bodysuits are here.</PShortDesc>
+      <Description>This tight bodysuit is made of durable furry fabric, it fits tightly to the
+body of the wearer, creating a 'second skin' as it were. Cut short and low in
+all the right places this bodysuit is very sexy. It comes complete with a
+delicate tigress tail placed on the back end of it.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>17</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786438</VRef>
+      <Name>a pair of tiger-striped cat ears</Name>
+      <PName>tiger-striped cat ears</PName>
+      <Keywords>tiger striped cat ears</Keywords>
+      <ShortDesc>a oddly shaped, crude bronze ball is here.</ShortDesc>
+      <PShortDesc>$t pairs of tiger-striped cat ears are here.</PShortDesc>
+      <Description>This cute pair of ears have been artfully crafted of synthetic material that
+closley resembles tiger fur. Made to look just like the real thing, these ears
+go perfectly with a tiger-striped bodysuit.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>257</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786439</VRef>
+      <Name>a tiger-striped wristband</Name>
+      <PName>tiger-striped wristbands</PName>
+      <Keywords>tiger striped wristband</Keywords>
+      <ShortDesc>a tiger-striped wristband is here.</ShortDesc>
+      <PShortDesc>$t tiger-striped wristbands are here.</PShortDesc>
+      <Description>This cute little wristband is decorated with vivid tiger stripes. Made to be
+worn with the tiger outfit. Very well made, and sexy.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>262145</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786440</VRef>
+      <Name>a pair of tiger-striped thigh high spiked boots</Name>
+      <PName>tiger-striped thigh high spiked boots</PName>
+      <Keywords>tight tiger striped spiked boots</Keywords>
+      <ShortDesc>a pair of tight tiger-striped thigh high spiked boots.</ShortDesc>
+      <PShortDesc>$t pairs of tight tiger-striped thigh high spiked boots are here.</PShortDesc>
+      <Description>This pair of tight boots has a tiger-striped pattern on it, very sexy, the
+perfect accessory for any tigress.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>513</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786441</VRef>
+      <Name>a tigress whip</Name>
+      <PName>tigress whips</PName>
+      <Keywords>tigress whip</Keywords>
+      <ShortDesc>a black whip is here, begging for someone to dare use it.</ShortDesc>
+      <PShortDesc>$t black whips are here, begging for someone to dare use them.</PShortDesc>
+      <Description>This cruel black whip is tipped with steel barbs similar to a tigers claws.
+Obviously designed for pain and torture this whip has an aura of pain
+surrounding it. Crafted from exquisite leather and fine steel, this whip is
+very durable.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>8</Value0>
+      <Value1>1000</Value1>
+      <Value2>3000</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786442</VRef>
+      <Name>a set of tigress claws</Name>
+      <PName>tigress claws</PName>
+      <Keywords>steel tiger claw claws tigress</Keywords>
+      <ShortDesc>a pair of sharp steel tiger claws are here.</ShortDesc>
+      <PShortDesc>$t pairs of sharp steel tiger claws are here. </PShortDesc>
+      <Description>Wickedly curved steel claws, glinting with inner light and malicious intent.
+These claws make a powerful weapon, able to cleave the flesh from most anything
+in a single blow.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048579</WearFlags>
+      <Value0>0</Value0>
+      <Value1>3000</Value1>
+      <Value2>5000</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786443</VRef>
+      <Name>a pair of kitty ears</Name>
+      <PName>pair of kitty ears</PName>
+      <Keywords>kitty ears</Keywords>
+      <ShortDesc>a pair of cute kitty ears are here.</ShortDesc>
+      <PShortDesc>$t pair of cute kitty ears are here.</PShortDesc>
+      <Description>This is a cute pair of cat ears, made of fine floss like fur that closley
+resembles cat fur and is just as soft and pettable. A tiny pink bow is
+delicatley clipped to the left ear, making this pair of ears totally adorable.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>257</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786444</VRef>
+      <Name>a silver kitten bell</Name>
+      <PName>silver kitten bells</PName>
+      <Keywords>kitten bell collar</Keywords>
+      <ShortDesc>a delicate silver kitten bell is here.</ShortDesc>
+      <PShortDesc>$t delicate silver kitten bells are here.</PShortDesc>
+      <Description>This cute bell is tied to a light purple strand of fine satin. Perfect for the
+cute little kitten type. The bell itself is finley made and jingles sweetly
+with the slightest movement.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>5</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786445</VRef>
+      <Name>a furry catgirl bikini top</Name>
+      <PName>furry catgirl bikini top</PName>
+      <Keywords>cute furry catgirl bikini top</Keywords>
+      <ShortDesc>a cute furry catgirl bikini top is here.</ShortDesc>
+      <PShortDesc>$t cute furry catgirl bikini top's are here.</PShortDesc>
+      <Description>This tiny bikini top is made from fuzzy kitten soft fur. It fits tightly to the
+wearer's body, the perfect top for the aspiring catgirl.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>17</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786446</VRef>
+      <Name>a furry catgirl bikini bottom</Name>
+      <PName>furry catgirl bikini bottoms</PName>
+      <Keywords>fuzzy catgirl  bikini bottom</Keywords>
+      <ShortDesc>a cute fuzzy catgirl bikini bottom is here.</ShortDesc>
+      <PShortDesc>$t cute fuzzy catgirl bikini bottoms are here.</PShortDesc>
+      <Description>This tiny bikini bottom is made from fuzzy kitten soft fur. It fits tightly to
+the wearer's body, the perfect bottom for the aspiring catgirl. A fluffy kitten
+tail has been attached to the bottom of the bikini, creating that authentic
+catgirl look.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>131073</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786447</VRef>
+      <Name>a pair of kitten boots</Name>
+      <PName>pairs of kitten boots</PName>
+      <Keywords>fuzzy kitten boots</Keywords>
+      <ShortDesc>a pair of fuzzy kitten boots are here.</ShortDesc>
+      <PShortDesc>$t pairs of fuzzy kitten boots are here.</PShortDesc>
+      <Description>This pair of comfy fuzzy boots go perfect with any catgirl outfit. Made from
+soft fur with leather pads on the bottom for durability. Cute and functional at
+the same time.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>528384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>2049</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786448</VRef>
+      <Name>a pair of kitten paws</Name>
+      <PName>pairs of kitten paws</PName>
+      <Keywords>fuzzy kitten paws</Keywords>
+      <ShortDesc>a pair of fuzzy kitten paws are here.</ShortDesc>
+      <PShortDesc>$t pairs of fuzzy kitten paws are here.</PShortDesc>
+      <Description>These cute furry cat paws have been made to fit comfortably to the wearer's
+hands, creating an authentic looking kitten paw look. Fuzzy, warm, and durable,
+this is a good pair of paws.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>8193</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>786449</VRef>
+      <Name>a cat-o-nine-tails whip</Name>
+      <PName>cruel looking whips</PName>
+      <Keywords>cat whip cat-o-nine-tails </Keywords>
+      <ShortDesc>a cruel looking whip is here.</ShortDesc>
+      <PShortDesc>$t cruel looking whips are here.</PShortDesc>
+      <Description>This whip has been made from expencive leather and has 9 different tongues,
+hence the name 'cat-o-nine-tails' each tip has a barbed claw on the end, making
+this a very painful implement of torture.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4100</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>8</Value0>
+      <Value1>800</Value1>
+      <Value2>1000</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>786432</VRef>
+      <Name>Helios</Name>
+      <PName>pearly white pegasus'</PName>
+      <Keywords>helios pearly white pegasus</Keywords>
+      <ShortDesc>a pearly white pegasus is standing here, fluttering his beautiful wings.</ShortDesc>
+      <PShortDesc>$t pearly white pegasus' are standing here, fluttering their wings.</PShortDesc>
+      <Description>Rainbow hued eyes gaze back at you, sharp with intelligence and power.</Description>
+      <Movement>flutters his wings once and trots</Movement>
+      <Sex>1</Sex>
+      <Level>100</Level>
+      <Alignment>1</Alignment>
+      <Size>large</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>2</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>2500</HitsMin>
+      <HitsMax>2500</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>18874627</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>psi-blast</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>tail</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>hooves</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>wings</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>786433</VRef>
+      <Name>a green woman</Name>
+      <PName>green women</PName>
+      <Keywords>a green woman</Keywords>
+      <ShortDesc>a woman made of twigs and leaves is here, watching you.</ShortDesc>
+      <PShortDesc>$t women made of twigs and leaves are here, watching you.</PShortDesc>
+      <Description>Dark green eyes peer at you from under the leaves and other foliage that covers
+this woman from head to toe. Somewhat like a golem, she seems to be made out of
+plant material. Moss covers her thin branch like arms and ivy creeps down her
+head to form hair.</Description>
+      <Movement>creeps</Movement>
+      <Sex>2</Sex>
+      <Level>3</Level>
+      <Alignment>1</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>poison ivy</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>4</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>mossy arms</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>leafy head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>786434</VRef>
+      <Name>a silverwing falcon</Name>
+      <PName>silverwing falcons</PName>
+      <Keywords>black silverwing falcon</Keywords>
+      <ShortDesc>a black falcon with silver wings flies overhead.</ShortDesc>
+      <PShortDesc>$t black falcons fly overhead.</PShortDesc>
+      <Description>Cold fierce eyes stare at you as this powerful bird of prey studies you
+piercingly. It's feathers are shiny black, except for the wings, which are
+banded in silver.</Description>
+      <Movement>flies</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>screech</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>iron talon</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>psionic claw</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>interpret(mob, "emote screeches loudly",ch);</Source>
+          <Commands>poke</Commands>
+          <Keywords>falcon</Keywords>
+          <Type>2</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+        <Script ObjectClass="OrangeScript">
+          <Source>interpret(mob, "emote lands on  %s 's shoulder.",ch);</Source>
+          <Commands>call falcon</Commands>
+          <Keywords>call falcon</Keywords>
+          <Type>2</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>2</ID>
+        </Script>
+        <Script ObjectClass="OrangeScript">
+          <Source>interpret(mob, "follow %s",ch);</Source>
+          <Commands>tame falcon</Commands>
+          <Keywords>tame falcon</Keywords>
+          <Type>2</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>3</ID>
+        </Script>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>786435</VRef>
+      <Name>an iron maiden</Name>
+      <PName>iron maidens</PName>
+      <Keywords>iron maiden metal woman</Keywords>
+      <ShortDesc>a woman made of metal stands here, her expressionless face staring at nothing.</ShortDesc>
+      <PShortDesc>$t women made of metal stands here, their expressionless faces staring at nothing.</PShortDesc>
+      <Description>This cruel device of torture is crafted to look like a young woman. a gemstone
+hidden on her necklace, if pushed, triggers the clockwork mechanisim that causes
+her inanimate arms to reach out and grab her unsuspecting prey in her grip of
+iron and pull them into her spike lined interior to then welcome them into
+the cold iron embrace of death. The only thing that sets this iron maiden apart
+from others, is the fact that this one...has a mind of its own.</Description>
+      <Movement>grinds</Movement>
+      <Sex>2</Sex>
+      <Level>80</Level>
+      <Alignment>0</Alignment>
+      <Size>large</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>5000</HitsMin>
+      <HitsMax>9000</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>dead stare</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>bloody embrace</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>soul crush</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>6</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>interpret(mob, "kill %s",ch);
+interpret(mob, "emote 's arms grind loudly and her eyes slowly open",ch);</Source>
+          <Commands>poke</Commands>
+          <Keywords>maiden</Keywords>
+          <Type>2</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>786436</VRef>
+      <Name>an underpants gnome</Name>
+      <PName>underpants gnomes</PName>
+      <Keywords>underpants gnome</Keywords>
+      <ShortDesc>a shifty looking gnome is here, looking for underpants.</ShortDesc>
+      <PShortDesc>$t shifty looking gnomes are here, eyeing your underpants.</PShortDesc>
+      <Description>This tiny gnome eyes you curiously, wondering just what size your underpants
+are. Lookout or you may find yourself without your knickers.</Description>
+      <Movement>runs</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>super wedgie</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="MobilePopulation">
+      <Number>1</Number>
+      <RoomVRef>786432</RoomVRef>
+      <MobileVRef>1900549</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>2</Number>
+      <RoomVRef>786432</RoomVRef>
+      <MobileVRef>1900549</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>3</Number>
+      <RoomVRef>786448</RoomVRef>
+      <MobileVRef>1900556</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>4</Number>
+      <RoomVRef>786446</RoomVRef>
+      <MobileVRef>1900556</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>5</Number>
+      <RoomVRef>786448</RoomVRef>
+      <MobileVRef>1900556</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>6</Number>
+      <RoomVRef>786456</RoomVRef>
+      <MobileVRef>131072</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>7</Number>
+      <RoomVRef>786454</RoomVRef>
+      <MobileVRef>131072</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>8</Number>
+      <RoomVRef>786457</RoomVRef>
+      <MobileVRef>131072</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>9</Number>
+      <RoomVRef>786456</RoomVRef>
+      <MobileVRef>131072</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>10</Number>
+      <RoomVRef>786455</RoomVRef>
+      <MobileVRef>1572874</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>11</Number>
+      <RoomVRef>786459</RoomVRef>
+      <MobileVRef>1572874</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>12</Number>
+      <RoomVRef>786462</RoomVRef>
+      <MobileVRef>786432</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>13</Number>
+      <RoomVRef>786458</RoomVRef>
+      <MobileVRef>1900557</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>14</Number>
+      <RoomVRef>786464</RoomVRef>
+      <MobileVRef>786433</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>15</Number>
+      <RoomVRef>786460</RoomVRef>
+      <MobileVRef>786433</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>16</Number>
+      <RoomVRef>786465</RoomVRef>
+      <MobileVRef>786434</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>17</Number>
+      <RoomVRef>786464</RoomVRef>
+      <MobileVRef>786434</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+  </Populations>
+</Area>

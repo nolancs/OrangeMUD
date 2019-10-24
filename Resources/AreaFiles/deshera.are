@@ -1,0 +1,4402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>13</Anum>
+  <Name>Deshera forest &amp; goblin city</Name>
+  <FileName>deshera.are</FileName>
+  <LowRange>0</LowRange>
+  <HighRange>13691</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>7</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851968</VRef>
+      <Name>Cobble Way</Name>
+      <Description>This dusty road leads into the Goblin city of Drujah. The shiny cobblestone
+pathway bares evidence of the many feet that have taken this route to the
+Goblin city perhaps to seek wealth and fame, or visit one of the rare shops
+that have gained this city it's reputation to be among one of the most unique.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>786465</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Deshera Forest</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851969</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851969</VRef>
+      <Name>Cobble Way</Name>
+      <Description>This dusty road leads into the Goblin city of Drujah. The shiny cobblestone
+pathway bares evidence of the many feet that have taken this route to the
+Goblin city perhaps to seek wealth and fame, or visit one of the rare shops
+that have gained this city it's reputation to be among one of the most unique.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851968</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851970</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851970</VRef>
+      <Name>Cobble way</Name>
+      <Description>The towering spire of the huge gothic church is clearly seen here. The worn
+stones at your feet seem darker here. The gossamer wings of sound reach your
+ears, strange noises seem to assault your senses from every direction. All
+activity seems centerd around the strange dark church.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851969</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851971</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851971</VRef>
+      <Name>Crossroad at Cobble way &amp; Pebble road</Name>
+      <Description>East and West is Cobble way, to the North and South is Pebble road.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851973</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Pebble road</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851970</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851972</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Pebble road</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851974</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851972</VRef>
+      <Name>Pebble road</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851971</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852000</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the bank door</Name>
+        <Keywords></Keywords>
+        <Description>Gurach Goblin's Depository</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851973</VRef>
+      <Name>Pebble road</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851978</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Pebble road</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851971</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Crossroad at Cobble way &amp; Pebble road</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851974</VRef>
+      <Name>Cobble way</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851971</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Crossroad at Cobble way &amp; Pebble road</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851975</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851975</VRef>
+      <Name>Cobble way</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851974</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851976</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Derjha Square</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851976</VRef>
+      <Name>Derjha Square</Name>
+      <Description>The heart of Drujah, Derjha Square is a proud monument to the goblin city, a
+tall crystal fountain gurgles away in the center of the square creating a
+trickling melodic background to accent the usual happenings of the busy city
+life. Trees and various plants are arranged throughout the square, welcoming
+birds and people alike to sit in their shade.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851975</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852002</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851977</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851977</VRef>
+      <Name>Cobble way</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851976</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Derjha Square</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852001</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the deli door</Name>
+        <Keywords></Keywords>
+        <Description>Ghola goblin's deli.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851993</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way and Ebon Crest st.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851978</VRef>
+      <Name>Pebble road</Name>
+      <Description>a small yet crowded tavern is visible to the west.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851973</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Pebble road</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851979</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the tavern door</Name>
+        <Keywords></Keywords>
+        <Description>The Olde Crow</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851979</VRef>
+      <Name>The Olde Crow</Name>
+      <Description>The burly bartender growls menacingly at your approach, pausing from his
+'cleaning' of a spotted ale mug to raise his beady black eyes suspiciously at
+you. A rickety stairway leads down to the rougher part of the tavern.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851978</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the tavern door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851980</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851980</VRef>
+      <Name>The Olde Crow</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851981</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851979</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851981</VRef>
+      <Name>The Olde Crow</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851980</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851982</VRef>
+      <Name>Creation</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851983</VRef>
+      <Name>A Dark Torture Chamber.</Name>
+      <Description>Screams echo throughout this room and mutilated remains of past "visitors"
+litter the floor. Jagged broken bones jut up from the earth floor. Skeletal
+hands reach toward the freedom they never gained in life. The stench of blood
+and sweat lingers thickly in the air here. The whole atmosphere resonates with
+pain and carnage. Many unfortunate souls have found their way to this place,
+few ever live to see the outside again.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852067</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A Dark Torture Chamber.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851984</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name>the rusted trapdoor</Name>
+        <Keywords></Keywords>
+        <Description>the trapdoor leading to the pit.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851984</VRef>
+      <Name>The Pit</Name>
+      <Description>A complex network of metal grids and wrought iron make up this room.
+Criss-crossing bands of metal connect at the four corners and sharp spikes stud
+the walls to impale the unwary. Flame licks at the floor grid, making this a
+rather uncomfortable room to be in. This caged room is used for gladiator style
+fighting, brutal and gruesome as it is. The metal glints red with rust and
+blood. A sort of opera style box rises up above the main pit, allowing
+spectators the priveledge of watching the fights without becoming fouled by the
+blood and gore.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>38</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>-1</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>-1</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851983</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name>the rusted trapdoor</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851985</VRef>
+      <Name>The Dark Cathedral</Name>
+      <Description>The scent of stagnant incence and oils drifts about on the air here. Several
+benches are set up along the walls on either side of the Cathedral. Dark
+tapestries depicting either ancient scenes and battles or runic patters line
+the area. The black marble of the floor is like ice to the touch and seems to
+almost suck the meager light out of the room.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851986</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The Dark Cathedral</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852057</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The Dark Cathedral</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851986</VRef>
+      <Name>The Dark Cathedral</Name>
+      <Description>The walls of this massive room tower towards the sky almost relentlessley,
+cruel looking spires piercing the sky. Candles burn in holders and scones along
+the walls and sides of the room. Long tables line the back of the room, covered
+Strange looking objects are strewn across the tables, chalices, candles,
+incence sencors, and several strange looking tool like devices, vaugely
+resembling surgical instruments. Strange...</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851985</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The Dark Cathedral</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851987</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>a long dark stairway.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851987</VRef>
+      <Name>A Long Dark Staircase</Name>
+      <Description>This ancient staircase leads down to the storage rooms deep in the bowels of
+the cathedral. Made from rough stonework, it seems to have almost been hewn
+right from solid rock. A dark red carpet trails it's way down the first flight
+of stairs, there seems to be some sort of strange stains on it, they almost
+look like blood. A stairwell joins the two flights of stairs at the middle. A
+small table sits in the corner of the stairwell with a burnt out candle to
+decorate it. Trails of wax from past candles is stuck to the filmy cloth on the
+small table. This part of the cathedral is obviously not cleaned very often.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851986</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A Dark Cathedral.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851988</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>the stairwell</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851988</VRef>
+      <Name>The Stairwell</Name>
+      <Description>The stairway trunicates into a narrow stairwell. The floor is coverd with a red
+throw rug, some strange stains similar to the ones on the upper staircase are
+also here. A strange looking tapestry rug is hung upon the northern wall.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851991</ToVRef>
+        <Flags>25</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the rug</Name>
+        <Keywords>rug</Keywords>
+        <Description>A Hidden Passageway</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851987</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>the stairway</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851989</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A Dimly Lit Storage Room</Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the rug</Name>
+          <Keywords>rug</Keywords>
+          <Description>This tatterd rug has some morbid looking symbols upon it. A gothic style
+crucifix is emblazoned across the worn crimson material. The bottom of the rug
+is threadbare, a current of stagnant air wafts from under the rug. Upon closer
+inspection it appears there is something behind it, perhaps if you moved the
+rug aside...</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851989</VRef>
+      <Name>A Dimly Lit Storage Room</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851988</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851990</VRef>
+      <Name>Creation</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851988</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851991</VRef>
+      <Name>A Hidden Passageway</Name>
+      <Description>This small cramped passageway smells musty and old, built into the foundation
+of the cathedral many many years before. It leads down a narrow stairway. A
+faint light flickers at the end of the stairs, it appears this passageway is
+used, but for what?</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851988</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The Stairwell</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851992</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851992</VRef>
+      <Name>A Small Room</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852067</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>a rusted door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851991</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851993</VRef>
+      <Name>Cobble way and Ebon Crest st.</Name>
+      <Description>Cobble way continues to the east and south and Ebon Crest st leads north and
+south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851994</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851977</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851995</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851994</VRef>
+      <Name>Ebon Crest st.</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851998</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851993</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way and Ebon Crest st.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851995</VRef>
+      <Name>Ebon Crest st.</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851993</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cobble way and Ebon Crest st.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851997</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851996</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>a small door</Name>
+        <Keywords></Keywords>
+        <Description>Gwen Goblin's Alchemy Shop</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851996</VRef>
+      <Name>Gwen Goblin's Alchemy Shop</Name>
+      <Description>This small hut holds many wonders within. Strange tools and stones line the
+wooden shelves. Gwen goblin, storekeeper of this shop, smiles politley at all
+who enter her alchemy shop. The worn earthen floor is coverd with hand woven
+carpets and herbs are scatterd everywhere, giving the shop a unique scent. Gwen
+specializes in alchemy, herbs, and uncommon magic relics. If you came looking
+for a magic shop, you have come to the right place.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851995</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>a small door</Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851997</VRef>
+      <Name>Ebon Crest st.</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851995</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852003</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851998</VRef>
+      <Name>Ebon Crest st.</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851994</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851999</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A Small Courtyard</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>851999</VRef>
+      <Name>A Small Courtyard</Name>
+      <Description>A towering cathedral looms above the city to the north. A huge iron door is
+located up a flight of marble steps. A large fountain sits in the middle of the
+courtyard, bubbling away happily. Ornamental trees and plants surround the
+area, draping it in cool shade. Various birds nest in the nearby foliage and
+perch on the close buildings.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852057</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the tall iron door</Name>
+        <Keywords></Keywords>
+        <Description>The Dark Cathedral</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851998</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ebon Crest st.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852000</VRef>
+      <Name>Gurach Goblin's Depository</Name>
+      <Description>Gurach seems to be proud of himself in using a big word for the name of his
+bank. Despite the fancy word it is still just a bank. You may deposit or
+withdraw here. A wooden sign hangs on the wall telling how to use Gurach's
+bank.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>542</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851972</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the bank door</Name>
+        <Keywords></Keywords>
+        <Description>Pebble road</Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the wooden sign</Name>
+          <Keywords>sign</Keywords>
+          <Description>Balance-what you have in your bank account.
+Deposit-deposit something into your account.
+Withdraw-withdraw something from your account.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852001</VRef>
+      <Name>Ghola goblin's deli</Name>
+      <Description>A long counter lines the far wall of the deli, coverd in various types of food.
+Ghola sits behind the counter minding that no one pinches anything. Several
+small goblins run around the store, picking up discarded dishes and cleaning
+tables.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851977</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the deli door</Name>
+        <Keywords></Keywords>
+        <Description>Cobble way</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852002</VRef>
+      <Name>Quartz street</Name>
+      <Description>The main shopping row of Drujah, Quartz street is home to many of the most
+prominent and well known shops of Drujah, also the most expencive.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851976</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852006</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>a small door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852003</VRef>
+      <Name>Ebon weyr</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852004</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851997</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the weyr door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852004</VRef>
+      <Name>Ebon weyr</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852005</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852005</VRef>
+      <Name>Ebon arena</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852004</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852006</VRef>
+      <Name>No name yet</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>852002</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>a small door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852057</VRef>
+      <Name>The Dark Cathedral</Name>
+      <Description>Low chanting resonates from the walls of this cathedral. The ebony walls are
+tierd in early gothic fashion. Tall spires and towers seem to pierce the
+forboding sky like jagged black blades. The interior is dimly lit with candle
+and torch light. The black marble floor is veined with gold and silver making
+the cathedral seem almost encased in ice.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851985</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The Dark Cathedral</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851999</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the tall iron door</Name>
+        <Keywords></Keywords>
+        <Description>A Small Courtyard</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>852067</VRef>
+      <Name>A Dark Torture Chamber.</Name>
+      <Description>Stagnant air drifts through this cramped room. Thin light filters through
+several small arrow slit width holes in the wall creating wraith-like shadows
+that flicker through the chamber like lost souls. Various forms of torture
+cover the blood drenched dirt floor. Chains and flails hang from the ceiling
+creating a macabre chiming sound as the rusted metal grinds together.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851992</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>a rusted door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>851983</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A Dark Torture Chamber.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851968</VRef>
+      <Name>a pair of tight shiny vinyl pants.</Name>
+      <PName>tight shiny vinyl pants</PName>
+      <Keywords>tight shiny vinyl pants</Keywords>
+      <ShortDesc>a pair of very tight, shiny pants are here.</ShortDesc>
+      <PShortDesc>$t pairs of very tight, shiny pants are here.</PShortDesc>
+      <Description>Made from high quality vinyl, these black pants look comfortable even though
+they are quite tight. They show off the wearer's 'assets' to the best
+advantage.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>513</WearFlags>
+      <Value0>50000</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851969</VRef>
+      <Name>a short vinyl tanktop</Name>
+      <PName>short vinyl tanktops</PName>
+      <Keywords>shiny black tanktop top vinyl</Keywords>
+      <ShortDesc>a shiny black top is here.</ShortDesc>
+      <PShortDesc>$t shiny black tops are here.</PShortDesc>
+      <Description>This top has been finley crafted to look good while offering good protection.
+The shiny black vinyl is tough, yet supple enough to be very comfortable,
+somewhat like a second skin. Hardly more than a scrap of black vinyl, it is cut
+short about 4 inches above the wearer's navel.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33</WearFlags>
+      <Value0>50000</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851970</VRef>
+      <Name>a dark red agiel</Name>
+      <PName>dark red agiels</PName>
+      <Keywords>dark red agiel</Keywords>
+      <ShortDesc>a thin rod of red leather is here.</ShortDesc>
+      <PShortDesc>$t thin red leather rods are here.</PShortDesc>
+      <Description>This thin red leather rod doesn't look like much to the untrained eye, but
+within it lurks a sinister power. Pain. This rod has been crafted of carnal
+magic. Made to deliver unbearable pain to whomever it touches. A well placed
+hit, or even touch can kill. A small steel chain is attatched to the hilt of
+the weapon, allowing the user to hang it around their neck when not in use.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2101248</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048581</WearFlags>
+      <Value0>9</Value0>
+      <Value1>100</Value1>
+      <Value2>200</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851971</VRef>
+      <Name>a skin-tight red leather bodysuit</Name>
+      <PName>skin-tight red leather bodysuits</PName>
+      <Keywords>skin-tight red leather bodysuit</Keywords>
+      <ShortDesc>a skin-tight red leather bodysuit is here.</ShortDesc>
+      <PShortDesc>$t skin-tight red leather bodysuits are here.</PShortDesc>
+      <Description>Skin-tight leather that clings to the wearer's body like a red glove. This
+outfit is worn by the Mord-Sith. A vicious and relentless weapon. The Mord-Sith
+are women trained in the arts of pain and torture, and know them as a second
+nature. The reason for this bodysuit being red is so that the blood of their
+'pets' doesn't show up as well. A Mord-Sith in her red leather is a woman to be
+feared.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>17</WearFlags>
+      <Value0>100</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851972</VRef>
+      <Name>a pair of spike backed red leather gloves</Name>
+      <PName>pairs of red leather gloves</PName>
+      <Keywords>pair of spike backed red leather gloves</Keywords>
+      <ShortDesc>a pair of red leather gloves are here.</ShortDesc>
+      <PShortDesc>$t pairs of red leather gloves are here.</PShortDesc>
+      <Description>These gloves are made of tight hard leather and fit like a second skin. The
+knuckles are adorned with cruel steel spikes designed to backhand and be used
+in combat and training. These gloves belong with the red leather of a Mord
+Sith.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4100</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>8193</WearFlags>
+      <Value0>100</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851973</VRef>
+      <Name>a pair of red leather boots</Name>
+      <PName>pairs of red leather boots</PName>
+      <Keywords>pair of red leather boots</Keywords>
+      <ShortDesc>a pair of red leather boots are here.</ShortDesc>
+      <PShortDesc>$t pair of red leather boots are here.</PShortDesc>
+      <Description>These blood red leather boots fit tightly to the feet and calves of the wearer.
+They belong with the red leather of a Mord Sith. The black heels of the finley
+tooled boots are emblazoned with steel detail and runic writing.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4100</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>2049</WearFlags>
+      <Value0>1000</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851974</VRef>
+      <Name>a cloak of mists</Name>
+      <PName>cloaks of mists</PName>
+      <Keywords>cloak of mists</Keywords>
+      <ShortDesc>a shimmering cloak is here, it seems to be flickering in and out of existence.</ShortDesc>
+      <PShortDesc>$t shimmering cloaks are here, they seem to be flickering in and out of existence.</PShortDesc>
+      <Description>This lightweight cloak seems to be made out of mist. It is mostly transparent
+with tiny flecks of energy coursing along it's fibres. This cloak has the power
+to grant invisibility to it's wearer.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2097152</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>49</WearFlags>
+      <Value0>100</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>wear(obj, TRUE);
+act_to_char(wearch, ch, NULL, NULL);
+act_to_room(wearro, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>wearro</Name>
+            <Value>^c$n shimmers and becomes less visible somehow.^x
+^b$n vanishes from regular sight!^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>wearch</Name>
+            <Value>^cthe cloak molds tightly to your body.^x
+^byou vanish from regular sight!!^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>wear</Name>
+            <Value>^c$n shimmers and becomes less visible somehow.^x</Value>
+          </TextVar>
+        </Script>
+        <Script ObjectClass="OrangeScript">
+          <Source>remove(obj, TRUE);
+act_to_char(removech, ch, NULL, NULL);
+act_to_room(removero, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>3</Trigger>
+          <Flags>0</Flags>
+          <ID>2</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>removero</Name>
+            <Value>^c$n slowly fades back into existance.^x
+^b$n becomes fully visible.^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>removech</Name>
+            <Value>^cthe cloak flickers and fades.^x
+^byou become more visible.^x</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851975</VRef>
+      <Name>a tall pillar candle</Name>
+      <PName>tall pillar candles</PName>
+      <Keywords>tall pillar candle</Keywords>
+      <ShortDesc>a tall pillar candle stands upon a silver stand.</ShortDesc>
+      <PShortDesc>$t tall pillar candles stand upon silver stands.</PShortDesc>
+      <Description>This tall candle stands in an intricate silver stand that is engraved with
+strange looking runic symbols. A pair of twin snakes curl around the base of
+the stand, their dark eyes seem to be watching your every move.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>0</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524800</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>3</Value0>
+      <Value1>6</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>wear(obj, TRUE);
+act_to_char(enterch, ch, NULL, NULL);
+act_to_room(enterro, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>7</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>enterro</Name>
+            <Value>^bthe tall pillar candle bursts into^x ^rflame^x ^bas $n enters the room.^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>enterch</Name>
+            <Value>^bthe tall pillar candle bursts into^x ^rflame^x ^bas you enter the room.^x</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851976</VRef>
+      <Name>a serpent katana</Name>
+      <PName>serpent katanas</PName>
+      <Keywords>serpent katana</Keywords>
+      <ShortDesc>$t strange looking katanas are lying here, seething with power.</ShortDesc>
+      <PShortDesc>$t oddly shaped, crude bronze balls are here.</PShortDesc>
+      <Description>This strange looking weapon looks much like a regular katana, but it looks much
+older and has runic patterns inscribed all over it. Even more strange are the
+twin serpents that coil around the hilt, they seem to be almost alive.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2097156</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>2</Value0>
+      <Value1>400</Value1>
+      <Value2>500</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>wear(obj, TRUE);
+act_to_char(wieldch, ch, NULL, NULL);
+act_to_room(wieldro, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>wieldro</Name>
+            <Value>^bthe serpents on the hilt of the sword squirm and come to life!^x
+^gthe serpents wriggle and form tightly around $n 's wrist.^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>wieldch</Name>
+            <Value>^bthe serpents on the hilt of the sword squirm and come to life!^x
+^gthe serpents wriggle and form tightly around your wrists^x</Value>
+          </TextVar>
+        </Script>
+        <Script ObjectClass="OrangeScript">
+          <Source>remove(obj, TRUE);
+act_to_char(removech, ch, NULL, NULL);
+act_to_room(removero, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>3</Trigger>
+          <Flags>0</Flags>
+          <ID>2</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>removero</Name>
+            <Value>^bthe serpents hiss acidly.^x
+^gthe snakes slowly slither from $n's wrist and reform the hilt.^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>removech</Name>
+            <Value>^bThe serpents hiss acidly.^x
+^gthe snakes slowly slither from your wrist and reform the hilt.^x</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851977</VRef>
+      <Name>a hydra pendant</Name>
+      <PName>hydra pendants</PName>
+      <Keywords>hydra pendant necklace</Keywords>
+      <ShortDesc>a glittering snake pendant is here, glowing faintly.</ShortDesc>
+      <PShortDesc>$t glittering snake pendants are here, glowing faintly.</PShortDesc>
+      <Description>Oh look , a pendant how quaint.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>66048</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>5</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>wear(obj, TRUE);
+ act_to_all("$n appears out of thin air", create_mob(2102, room), NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851978</VRef>
+      <Name>a figurine of an angel</Name>
+      <PName>angel figurines</PName>
+      <Keywords>figurine of an angel</Keywords>
+      <ShortDesc>a small statue is here.</ShortDesc>
+      <PShortDesc>$t small statues are here.</PShortDesc>
+      <Description>A tiny figure of an angel with wings stretched toward the sky. Made from
+translucent crystal and inlaid with rare gemstones, this tiny angel glitters
+with light. At closer inspection you notice a small lock of black hair tied to
+a ribbon across it's wings. The hair must symbolize something...</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>104</Level>
+      <Weight>1.000000</Weight>
+      <Materials>98304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>wear(obj, TRUE);
+act_to_char(angelch, ch, NULL, NULL);
+act_to_room(angelro, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>angelro</Name>
+            <Value>the small angel in $n's hand glows faintly.</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>angelch</Name>
+            <Value>the tiny angel becomes warm to your touch
+you hear a faint voice whisper, "Always my angel..."</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851979</VRef>
+      <Name>a tempest sword</Name>
+      <PName>tempest swords</PName>
+      <Keywords>tempest sword blue blade</Keywords>
+      <ShortDesc>a glistening blue blade is here.</ShortDesc>
+      <PShortDesc>$t glistening blue blades are here.</PShortDesc>
+      <Description>Forged in the depths of the ocean. Made of elemental magic. This sword humms
+with power, it's blue blade glows softly with a flickering aura. The sword's
+lightweight blade is thin and well honed to razor sharpness. The hilt is an
+intricate network of intertwined strands of silver.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2163204</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>2</Value0>
+      <Value1>90</Value1>
+      <Value2>120</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>wear(obj, TRUE);
+act_to_char(swordch, ch, NULL, NULL);
+act_to_room(swordro, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>swordro</Name>
+            <Value>^b $n grabs ahold of a tempest sword, energy crackles around $m.^x
+^cThe blade gleams white and the silver wires of the hilt coil, forming to $n's hand.^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>swordch</Name>
+            <Value>^bYou grab ahold of the tempest sword, energy crackles around you.^x
+^cThe blade gleams white and the silver wires of the hilt coil to form to your hand.^x</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851980</VRef>
+      <Name>a silken gown</Name>
+      <PName>silken gowns</PName>
+      <Keywords>silken gown silk gown</Keywords>
+      <ShortDesc>a pile of watery silk and gauze is lying in a crumpled heap here.</ShortDesc>
+      <PShortDesc>$t piles of watery silk and gauze are lying in a crumpled heap here.</PShortDesc>
+      <Description>Under Construction.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4259840</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>17</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851981</VRef>
+      <Name>a chimera cloak</Name>
+      <PName>chimera cloaks</PName>
+      <Keywords>chimera cloak</Keywords>
+      <ShortDesc>a strange cloak is here, crumpled into a heap.</ShortDesc>
+      <PShortDesc>$t strange cloaks are here, crumpled into a heap.</PShortDesc>
+      <Description></Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33554433</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851982</VRef>
+      <Name>a mriswrith blade</Name>
+      <PName>mriswrith blades</PName>
+      <Keywords>mriswrith blade dagger</Keywords>
+      <ShortDesc>a tri bladed dagger is here.</ShortDesc>
+      <PShortDesc>$t tri bladed daggers are here.</PShortDesc>
+      <Description></Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2162692</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851983</VRef>
+      <Name>a goblin spear</Name>
+      <PName>goblin spears</PName>
+      <Keywords>goblin spear</Keywords>
+      <ShortDesc>a jagged, crudley made spear is here.</ShortDesc>
+      <PShortDesc>$t jagged, crudley made spears are here.</PShortDesc>
+      <Description>This metal spear isn't very well made, in fact, all that is holding the spear
+point onto the shaft is a strap of leather.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>5</Value0>
+      <Value1>100</Value1>
+      <Value2>900</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851984</VRef>
+      <Name>A parchment scroll</Name>
+      <PName>parchment scrolls</PName>
+      <Keywords>parchment scroll</Keywords>
+      <ShortDesc>a oddly shaped, crude bronze ball is here.</ShortDesc>
+      <PShortDesc>$t oddly shaped, crude bronze balls are here.</PShortDesc>
+      <Description>This old scroll is coverd in strange runic symbols. A small
+silver seal is emblazoned across the bottom left corner. Twin snakes, coiled
+around each other.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2097152</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_room(lookro, ch, NULL, NULL);
+ROOM to_room; 
+to_room = get_room("snow.are/8");
+transfer(ch, to_room, TRUE);
+act_to_char(lookch, ch, NULL, NULL);</Source>
+          <Commands>look</Commands>
+          <Keywords>scroll</Keywords>
+          <Type>1</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>lookch</Name>
+            <Value>^cyou start to mumble the strange words of the scroll.^x
+^cThe scroll glows softly and you are surrounded with^x ^ylight^x ^cand are transported.^x</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>lookro</Name>
+            <Value>^c$n starts to mumble strange words, eyes locked upon the scroll.^x
+^cThe scroll begins to glow, $n is suddenly engulfed in^x ^ylight^x ^cand dissapears.^x</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851985</VRef>
+      <Name>a pair of six inch spiked heels</Name>
+      <PName>pairs of six inch spiked heels</PName>
+      <Keywords>pair of six inch spiked heels</Keywords>
+      <ShortDesc>a pair of spiked heels are here.</ShortDesc>
+      <PShortDesc>$t pair of spiked heels are here.</PShortDesc>
+      <Description></Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4608</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>2049</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851986</VRef>
+      <Name>a flowing black robe</Name>
+      <PName>flowing black robe</PName>
+      <Keywords>flowing black robe</Keywords>
+      <ShortDesc>a flowing black robe is here, crumpled into a ball.</ShortDesc>
+      <PShortDesc>$t flowing black robes are here, crumpled into a pile.</PShortDesc>
+      <Description>This dark robe seems to suck all light into it's ebony folds. It glows
+internally. The soft fabric is light and almost like gossamer. It is worn flung
+over the wearers shoulder, offering them almost invisibility in low light.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2105856</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33554433</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851987</VRef>
+      <Name>a silver gilded wyvern collar</Name>
+      <PName>silver gilded wyvern collars</PName>
+      <Keywords>silver gilded glittering wyvern collar</Keywords>
+      <ShortDesc>a glittering silver collar</ShortDesc>
+      <PShortDesc>$t glittering silver collars</PShortDesc>
+      <Description>This small collar has been made specifically for pet wyverns. Often owned by
+rich citizens as a mark of status, or just a novelty. Wyverns make excellent
+pets, able to carry messages, assist in battle, and provide company. The collar
+glitters softly, the silver reflecting light and the ornate gemstones gleaming
+brightly in their settings. This collar was designed for a cherished pet.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>66048</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>5</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851988</VRef>
+      <Name>a harem veil</Name>
+      <PName>harem veils</PName>
+      <Keywords>harem veil</Keywords>
+      <ShortDesc>a translucent veil is here.</ShortDesc>
+      <PShortDesc>$t translucent veils are here.</PShortDesc>
+      <Description>A shimmery veil to be worn on the face of a harem dancer.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>67108865</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>851989</VRef>
+      <Name>a pair of kruuhya boots</Name>
+      <PName>pairs of kruuhya boots</PName>
+      <Keywords>strange kruuhya boots</Keywords>
+      <ShortDesc>a pair of strange boots are here.</ShortDesc>
+      <PShortDesc>$t pairs of strange boots are here.</PShortDesc>
+      <Description>Under Construction.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851968</VRef>
+      <Name>a Mord Sith</Name>
+      <PName>Mord Sith</PName>
+      <Keywords>mord sith woman</Keywords>
+      <ShortDesc>a woman clad in blood red leather is standing here, glaring angrily.</ShortDesc>
+      <PShortDesc>$t brand new mobiles stand here, expressionless and boring.</PShortDesc>
+      <Description>Dark cold eyes glare at you from this woman's beautiful yet cruel face. Her
+hair is pulled back into a tight braid that hangs midway down her back. She
+stands with rigid pride. Something insane flickers deep within her eyes. She is
+clad in blood red leather that clings tightly to her attractive figure. Precise
+lines of scars line the right side of her neck, acting as a sinister tattoo
+proclaiming what she is, if the red leather itself didn't give her away.
+Standing before you is a Mord Sith, most feared of all women. Trained in the
+arts of pain and torture since a very young age, forced even to kill their own
+parents, The Mord Sith themselves are a ruthless weapon, able to instantly
+break even the strongest of wills.</Description>
+      <Movement>taps her Agiel in her palm and walks</Movement>
+      <Sex>2</Sex>
+      <Level>85</Level>
+      <Alignment>0</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>5000</HitsMin>
+      <HitsMax>8000</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>taunt</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>backhand</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>leg</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arm</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851969</VRef>
+      <Name>a nun</Name>
+      <PName>nuns</PName>
+      <Keywords>nun woman</Keywords>
+      <ShortDesc>A humble looking woman is here, dressed in a nun's habit.</ShortDesc>
+      <PShortDesc>$t humble looking women are here, dressed in a nuns habits.</PShortDesc>
+      <Description></Description>
+      <Movement>hobbles</Movement>
+      <Sex>2</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1000</HitsMin>
+      <HitsMax>2000</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>bible thump</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>rosary bead whip</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>ruler slap</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>bad habit</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>5</Number>
+          <Message>holy hand grenade</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>6</Number>
+          <Message>crucify</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851970</VRef>
+      <Name>a silver hydra</Name>
+      <PName>silver hydras</PName>
+      <Keywords>silver hydra</Keywords>
+      <ShortDesc>a small silver hydra is here, flicking it's tongue at you.</ShortDesc>
+      <PShortDesc>$t small silver hydras are here, flicking their tongues at you.</PShortDesc>
+      <Description>This tiny silver snake seems to have been made of gilded silver, its eyes of
+cut emeralds. The small serpent is achingly beautiful despite the fact that it
+is a small viper, a highly deadly snake.</Description>
+      <Movement>slithers</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>257</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>venom</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>4</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851971</VRef>
+      <Name>a fallen angel</Name>
+      <PName>fallen angels</PName>
+      <Keywords>fallen angel</Keywords>
+      <ShortDesc>a fallen angel is here, cursing all it has lost.</ShortDesc>
+      <PShortDesc>$t fallen angels are here, cursing all they have lost.</PShortDesc>
+      <Description>This once angelic diety now stands with a look of utter discust marring it's
+once radiant face. It's once lustrious angel wings are now tatterd and more
+serpentine than anything. Crystaline skin is pulled taut over alabaster bones
+and various colors flicker across the surface, as if the being were cloaked in
+a skin of opal.</Description>
+      <Movement>bows its head and walks</Movement>
+      <Sex>0</Sex>
+      <Level>100</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>9000</HitsMin>
+      <HitsMax>18928</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>carnal glare</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>soul rend</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>wings</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851972</VRef>
+      <Name>the chaos dragon </Name>
+      <PName>chaos dragons</PName>
+      <Keywords>chaos dragon</Keywords>
+      <ShortDesc>the chaos dragon is here, flexing his massive wings.</ShortDesc>
+      <PShortDesc>$t chaos dragons are here, flexing their massive wings.</PShortDesc>
+      <Description></Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851973</VRef>
+      <Name>a luna moth</Name>
+      <PName>luna moths</PName>
+      <Keywords>luna moth</Keywords>
+      <ShortDesc>a beautiful giant moth is here, fanning its brilliant wings.</ShortDesc>
+      <PShortDesc>$t beautiful giant moths are here, fanning their brilliant wings.</PShortDesc>
+      <Description>This giant moth hovers inches from the ground, it's brightly colored wings
+fanning the air. Shades of blue, purple, and silver hues glitter upon the wings
+of the luna moth. Specks of wing dust falls from them like fairy dust, leaving
+a faint trail like moonlight wherever the luna moth rests, hence the name 'luna
+moth'.</Description>
+      <Movement>flutters</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>wingslap</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851974</VRef>
+      <Name>a goblin guard</Name>
+      <PName>goblin guards</PName>
+      <Keywords>goblin guard</Keywords>
+      <ShortDesc>A goblin guard stands here, alert for trouble.</ShortDesc>
+      <PShortDesc>$t goblin guards stand here, alert for trouble.</PShortDesc>
+      <Description>This guard stands watch with a bored look on his wrinkled face. He appears to
+be a seasoned professional, that is, untill he belches loudly and slumps lazily
+against his spear. Hired to stand guard for the goblin city, this guard is
+relativley well paid, making him somewhat loyal to his work of making sure
+trouble stays away from the city. He watches you with a weary eye before once
+again belching and complaining that he isn't fed well enough.</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>4194307</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>lunge</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_char(enterch, ch, NULL, NULL);
+act_to_room(enterro, ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>2</Type>
+          <Trigger>7</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>enterch</Name>
+            <Value>A goblin guard burps loudly and inquires if you have any spare food.</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>enterro</Name>
+            <Value>A goblin guard burps loudly and asks $n if they have any spare food.</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851975</VRef>
+      <Name>Gurok the bartender</Name>
+      <PName>burly bartenders</PName>
+      <Keywords>gurok the bartender</Keywords>
+      <ShortDesc>Gurok the bartender is here, spit shining the dishes.</ShortDesc>
+      <PShortDesc>$t burly bartenders are here, spit shining the dishes.</PShortDesc>
+      <Description>Gurok glares in your direction, something tells you to either buy something or
+get out before he gets angry. He holds a cleaning rag in one calloused hand.
+Bushy eyebrows frame his beady black eyes and cruel snarling mouth. Thickly
+corded muscles bulge over his goblinesque body, making him the type you
+wouldn't want to mess with. Besides, he keeps an axe, sharpend and ready,
+behind the counter to deal with 'pests'.</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>17956929</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_room(pokero, ch, NULL, NULL);
+act_to_char(pokero, ch, NULL, NULL);</Source>
+          <Commands>poke gurok</Commands>
+          <Keywords>poke gurok</Keywords>
+          <Type>2</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>pokero</Name>
+            <Value>Gurok raises a bushy eyebrow and glares at $n, "A trouble maker are ye?"</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851976</VRef>
+      <Name>a goblin vagabond</Name>
+      <PName>goblin vagabonds</PName>
+      <Keywords>goblin vagabond</Keywords>
+      <ShortDesc>a dirty goblin shuffles about here, begging for coins and food.</ShortDesc>
+      <PShortDesc>$t dirty goblins shuffle about here, begging for coins and food.</PShortDesc>
+      <Description>This small goblin is dressed in tatterd rags and bits of flotsam. His eyes look
+vacant, and seem to be staring at something just beyond normal vision. He
+mutters mindlessley to himself and scuttles around searching for 'pretties' and
+food that may be lying in the dirt.</Description>
+      <Movement>shuffles</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>5</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>wail</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851977</VRef>
+      <Name>a goblin trinket vendor</Name>
+      <PName>goblin trinket vendors</PName>
+      <Keywords>goblin trinket vendor</Keywords>
+      <ShortDesc>a goblin vendor is here, selling various objects.</ShortDesc>
+      <PShortDesc>$t goblin vendors are here, selling various objects.</PShortDesc>
+      <Description>This short goblin sells all sorts of trinkets and strange objects. It carries a
+large bag slung over it's back, holding it's wears. It is clad in travel worn 
+threadbare clothing and no shoes, it is hard to tell if the goblin is male or
+female.</Description>
+      <Movement>clinks</Movement>
+      <Sex>3</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1179649</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851978</VRef>
+      <Name>a giant mutant taco</Name>
+      <PName>giant mutant tacos</PName>
+      <Keywords>giant mutant taco</Keywords>
+      <ShortDesc>a huge mutant taco is here, glaring angrily.</ShortDesc>
+      <PShortDesc>$t huge mutant tacos are here, glaring angrily.</PShortDesc>
+      <Description>This huge mutant taco glares at you angrily. It stands about 5 feet tall and
+has no legs, only beady evil little angry eyes.</Description>
+      <Movement>rolls</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>24464</HitsMin>
+      <HitsMax>-31072</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>Taco Yell(tm)</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>Jalapeno breath</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>Super Combo(tm)</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>Gordita blast(tm)</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>5</Number>
+          <Message>indigestion</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>4</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>6</Number>
+          <Message>takeout</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>taco sauce</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>ground beef</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>tomato</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>lettuce</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>shell</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851979</VRef>
+      <Name>Gwen the alchemist</Name>
+      <PName>Goblin alchemists</PName>
+      <Keywords>gwen goblin alchemist</Keywords>
+      <ShortDesc>Gwen the goblin alchemist is here, overseeing her shop.</ShortDesc>
+      <PShortDesc>$t goblin alchemists are here.</PShortDesc>
+      <Description>Actually quite attractive for a goblin, Gwen watches you with bright
+intelligent eyes. She stands about 5 feet tall, coverd in a green dress that
+reaches to her ankles. She occasionally mumbles something about a new stone or
+powder she has stocked, hoping perhaps you will buy something.</Description>
+      <Movement>shuffles</Movement>
+      <Sex>2</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1179713</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851980</VRef>
+      <Name>Gurach the banker</Name>
+      <PName>goblin bankers</PName>
+      <Keywords>gurach goblin banker</Keywords>
+      <ShortDesc>Gurach the banker is here, gibbering to himself.</ShortDesc>
+      <PShortDesc>$t goblin bankers are here, gibbering to themselves.</PShortDesc>
+      <Description>Not quite the smartest goblin in Drujah, Gurach stares off into the distance
+and mumbles to himself. Although quite dim, he runs his bank quite well. Making
+sure all accounts are in order.</Description>
+      <Movement>waddles</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1048641</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851981</VRef>
+      <Name>Ghola goblin</Name>
+      <PName>goblin waitresses</PName>
+      <Keywords>ghola goblin waitress</Keywords>
+      <ShortDesc>Ghola goblin is here, taking orders.</ShortDesc>
+      <PShortDesc>$t pretty goblin waitresses are here, taking orders.</PShortDesc>
+      <Description>Ghola goblin is a very pretty goblin girl. Most females of her kind are rather
+ordinary looking while the males tend to be quite grotesque and ugly. Her hair
+is pinned back behind her ears with several hairpins, strands of it falling out
+of the ties, making her look almost flusterd. A small apron is tied around her
+slender waist, she waits for your order, smiling politley.</Description>
+      <Movement>tiptoes</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1179713</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851982</VRef>
+      <Name>a rewyn wyvern</Name>
+      <PName>rewyen wyverns</PName>
+      <Keywords>rewyn wyvern</Keywords>
+      <ShortDesc>a beautiful rewyn wyvern is here, flitting around.</ShortDesc>
+      <PShortDesc>$t beautiful rewyn wyverns are here, flitting around.</PShortDesc>
+      <Description>This small dragon stretches it's fine wings, displaying brilliant shades of
+purple and streaks of silver. Glittering silver eyes whirl slowly, reflecting a
+spectrum of colors. The wyvern chirps softly and purls. Maybe it is hungry?
+Bred for speed and agility, the rewyn wyverns make excellent carrier pets, able
+to deliver messages. Also a very docile breed, the rewyn are also suitable as
+pets for small children.</Description>
+      <Movement>flutters</Movement>
+      <Sex>3</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>30000</HitsMin>
+      <HitsMax>-15536</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>screech</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>tiny head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>6573643</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>neck</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>tail</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>wings</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851983</VRef>
+      <Name>a ghost dancer</Name>
+      <PName>ghost dancers</PName>
+      <Keywords>ghost dancer</Keywords>
+      <ShortDesc>a shimmering woman is here, slowly twirling and spinning.</ShortDesc>
+      <PShortDesc>$t shimmering women are here, slowly twirling and spinning.</PShortDesc>
+      <Description>A sad melancholic look accentuates this ones beautiful woman's face. Pale
+glowing skin and translucent eyes swirl around the room as she moves.</Description>
+      <Movement>materializes</Movement>
+      <Sex>2</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1</HitsMin>
+      <HitsMax>50</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>vaporize</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851984</VRef>
+      <Name>a moon sphinx</Name>
+      <PName>moon sphinx</PName>
+      <Keywords>moon sphinx</Keywords>
+      <ShortDesc>a silver moon sphinx is here, it's glowing eyes staring right at you.</ShortDesc>
+      <PShortDesc>$t silver moon sphinx are here, their glowing eyes staring at you.</PShortDesc>
+      <Description>Sharp intelligent eyes stare unblinkingly at you from the face of this noble
+creature. The sphinx, known as a most formidable creature of great intellect,
+stands crouched at about seven feet high at the shoulders. The body is that of
+a winged lion, the torso that of a human. This particular sphinx is a rare moon
+sphinx, instead of a tawny lion color, it is shining silver, like moonlight.</Description>
+      <Movement>materializes</Movement>
+      <Sex>3</Sex>
+      <Level>50</Level>
+      <Alignment>1</Alignment>
+      <Size>large</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>4500</HitsMin>
+      <HitsMax>5500</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>piercing stare</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>claws</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>wings</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>torso</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>851985</VRef>
+      <Name>a nelwyn sorcerer</Name>
+      <PName>nelwyn sorcerers</PName>
+      <Keywords>nelwyn sorcerer</Keywords>
+      <ShortDesc>a nelwyn sorcerer</ShortDesc>
+      <PShortDesc>$t grizzled nelwyn sorcerers are here.</PShortDesc>
+      <Description>This very small man stands before you his furrowed brow lined with age. Massive
+braids and strands of silvery hair frame the wizened old face, hints of what
+might have been red tinting the grey hair. In one hand he holds a small gnarled
+white stick, in the other an ordinary looking acorn.</Description>
+      <Movement>hobbles</Movement>
+      <Sex>1</Sex>
+      <Level>10</Level>
+      <Alignment>4</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>800</HitsMin>
+      <HitsMax>800</HitsMax>
+      <EnergyMin>10</EnergyMin>
+      <EnergyMax>10</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>acorn toss</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>bite</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>left arm</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>right arm</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>851980</RoomVRef>
+      <ObjectVRef>327696</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>2</Number>
+      <RoomVRef>852067</RoomVRef>
+      <MobileVRef>786435</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>3</Number>
+      <RoomVRef>851983</RoomVRef>
+      <MobileVRef>851968</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+        <InvPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>851971</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>7</Liquid>
+          <ToWearLoc>9</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </InvPop>
+        <InvPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>851972</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>8</Liquid>
+          <ToWearLoc>15</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </InvPop>
+        <InvPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>851973</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>13</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </InvPop>
+        <InvPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>851970</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>24</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </InvPop>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>851985</RoomVRef>
+      <ObjectVRef>851975</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>851989</RoomVRef>
+      <ObjectVRef>131123</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393227</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393229</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393223</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393223</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393223</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393221</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393221</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393221</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393221</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393221</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>393221</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>6</Number>
+      <RoomVRef>786442</RoomVRef>
+      <MobileVRef>851973</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>7</Number>
+      <RoomVRef>786457</RoomVRef>
+      <MobileVRef>851973</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>8</Number>
+      <RoomVRef>851979</RoomVRef>
+      <MobileVRef>851975</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>9</Number>
+      <RoomVRef>851977</RoomVRef>
+      <MobileVRef>851977</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>10</Number>
+      <RoomVRef>851996</RoomVRef>
+      <MobileVRef>851979</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>11</Number>
+      <RoomVRef>852000</RoomVRef>
+      <MobileVRef>851980</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>12</Number>
+      <RoomVRef>852001</RoomVRef>
+      <MobileVRef>851981</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+  </Populations>
+</Area>

@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>11</Anum>
+  <Name>The Academy</Name>
+  <FileName>academy.are</FileName>
+  <LowRange>0</LowRange>
+  <HighRange>0</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>7</UID>
+    <UID>2</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720896</VRef>
+      <Name>Outside the acadamy</Name>
+      <Description>This is the Academy of Manetheren and is considered one of the best schools in
+all the world. People from all over the land send their children here to be
+tutored in academics as well as the art of war. You stand outside the Acadamy.
+Before you is the wooden door leading inside. Over the door is a handcrafted
+sign.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720897</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>sign</Name>
+          <Keywords>sign</Keywords>
+          <Description>"Omne Datum Optimum"</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720897</VRef>
+      <Name>The Acadamy Foyer</Name>
+      <Description>This small room serves as a foyer for the acadamy. Since the rain doesn't seem
+to let up all that often in this coastal town, the acadmy ask that you leave
+your wet jackets, hats and umbrellas in the coatroom to the east. You may
+continue into the acadamy to the north and exit to the south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>10</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720899</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720898</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720896</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720898</VRef>
+      <Name>The Coatroom</Name>
+      <Description>The first thing you notice is the smell. It smells overwhealmingly damp with a
+hint of mildew. This room is little more than a closet but serves as the
+acadamy's coatroom. Hangers run up and down each wall. A wide selection of
+hats, jackets and umbrellas hang from the hooks. Here and there there is still
+space for you to hang your wet outer clothes.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>5</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1966106</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720899</VRef>
+      <Name>Hallway</Name>
+      <Description>This room is much larger than the foyer. The hallway is lined with portraits of
+the acadamy's great graduates. Blixa, Bianca and Andie are all featured with a
+portrait of their own and a small plaque listing their accomplishments. To the
+east you see a long study hall. The west exit leads to the library and to the
+south, the hallway continues. Stairs lead both up and down.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>10</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1966106</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720901</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720902</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720903</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720918</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720909</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>paintings</Name>
+          <Keywords>Blixa Bianca Andie plaque painting</Keywords>
+          <Description>Colorfull and expensive portraits accurately portray the graduates in their
+prime. Brass, engraved plaques list the sizeable accomplishments of each.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720900</VRef>
+      <Name>Study Hall</Name>
+      <Description>The study hall continues from the east and turns north here. The entire
+eastern wall has been turned into a picture window in a futile attempt to make
+this place seem bright and happy. Students sit at a long wooden table, studying
+for their final exams coming up tomarrow.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>20</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720904</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720901</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720901</VRef>
+      <Name>Study Hall</Name>
+      <Description>This is the beginning of a long study hall. Students of the acadamy sit on a
+long bench that stretches along the entire room and continues east. Quietly
+sitting, they study their newest spell assignment, the biology of an elf or
+the proper way to joust.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>20</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720900</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720899</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720902</VRef>
+      <Name>Hallway</Name>
+      <Description>The hallway comes to an abrupt end here. You see a door to the east with a
+neatly printed sign on it. It reads: Headmaster. The hallway continues south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>10</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720899</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720905</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the door to the headmaster's office</Name>
+        <Keywords>door headmaster office</Keywords>
+        <Description>This is a plain, brown door with "Headmaster's Office" printed on it.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720903</VRef>
+      <Name>Southeast Library</Name>
+      <Description>This is the library of the academy. It holds tomes on a vast range of
+subjects. Everything from elven folklore to extinct mushrooms. The books are
+held on a bookcase that covers the southern wall. Feel free to read the books
+but remember: only students of the acadamy may check them out!</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720907</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720899</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720906</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720904</VRef>
+      <Name>Study Hall</Name>
+      <Description>The study hall ends here. The long table that has followed you from the
+enterance to the hall dissapears into the northern wall. The windows from the
+south have continued into this part of the hall but a wall of trees just
+outside the room makes this the darkest part of the study hall. Unsuprisingly,
+not many students sit here.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>20</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720900</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720905</VRef>
+      <Name>The headmaster's office</Name>
+      <Description>The walls are liberally spotted with the headmaster's credentials as well as  
+various articals praising the school. The school's sizeable trophy case is
+against the north wall. Sitting behind a plain, wooden desk, the headmaster
+looks up expectantly at you.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720902</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the door back out into the hallway</Name>
+        <Keywords>door headmaster office</Keywords>
+        <Description>This door leads back out into the hallway of the acadamy.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720906</VRef>
+      <Name>Southwest Library</Name>
+      <Description>This part of the library contains books on potions, foci, spells and all
+things magical. The books are held in two bookcases that cover the south and
+western walls. Feel free to read the books but remember: only student of the
+acadamy may check  them out!</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>15</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720908</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720903</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720907</VRef>
+      <Name>Northeast Library</Name>
+      <Description>This part of the library contains books on the history of this land and her
+people. The books are held in two bookcases that cover the northern and eastern
+walls. Feel free to read the books but remember: only students of the acadamy
+may check them out!</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>15</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720903</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720908</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720908</VRef>
+      <Name>Northwest Library</Name>
+      <Description>This part of the library contains books on armour, weapons, battle strategy
+and all things of war. The books are held into two bookcases that cover the
+north and western walls. Feel free to read the books but remember: only
+students of the acadamy may check them out!</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720907</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720906</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720909</VRef>
+      <Name>The Training Floor</Name>
+      <Description>This hallway is lit by several torches set into the wall. Being underground,
+it seems dank. This floor, however contains the training rooms for the
+academy's more physical subjects. The hallway extends to the east and the west.
+There is a clear sign on the wall to direct you.
+&lt;--- Warrior Training Rooms
+Mage Training Rooms ---&gt;</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>38</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>10</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720911</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720910</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720899</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720910</VRef>
+      <Name>In the Hallway</Name>
+      <Description>The sound of grunts and clashing steel assault your ears from all sides. They
+seem to be coming mostly from the east and to the north. The door to the north
+is padded with a small window set into it. Looking into the window, you see
+students in full padded armor fighting each otehr with wooden swords. You can
+go back to the hallway to the east and you can continue deeper into the noise
+to the west.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720912</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>padded door</Name>
+        <Keywords>padded door</Keywords>
+        <Description>This is a brown, padded door with a small window set into it. From looking
+through the window, it seems to lead to a battle training room.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720909</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720913</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720911</VRef>
+      <Name>In the Hallway</Name>
+      <Description>This hallway would be dark in it wasn't light from the flashing liights coming
+from the window in the door to the north. You peer into the door and see mages
+practicing their newest spells. The dark hallway seems to be lighter to the
+west and you can go back to the east.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720915</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>The wooden door</Name>
+        <Keywords>wooden door north n</Keywords>
+        <Description>This door is made of what seems to be plain wood. It glows with magic, though
+and it seems that some powerful spells have enchanted this door so that it can
+withstand the force of the spells being practiced.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720916</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720909</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720912</VRef>
+      <Name>Fighting Training Room</Name>
+      <Description>Light floods this room from several lamps set in key corners of the room.
+Around the room are dummys, weapons racks and spare suits of armor. Students
+whap dummys and spar with each other in various parts of the room. In one
+corner, observing his students, is the sparring coach. He stands with an even
+eye, appraising the students form.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720910</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>padded door</Name>
+        <Keywords>padded door</Keywords>
+        <Description>A brown, padded door with a window inset into it. Looking through the window,
+you see that it lead back into the hall.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720913</VRef>
+      <Name>East End of the Hall</Name>
+      <Description>The hallway ends here into a blank wall. From the north, the sound of grunting
+can be heard. You assume that it is the exercise room. To the east you can go
+back down the hallway and the door to the north leads to the academy's
+exercise room.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720914</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720910</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720914</VRef>
+      <Name>The Gym</Name>
+      <Description>The smell of sweat and maybe a little blood attack your nostils as soon as you
+enter this room. Scattered around the room is various pieces of workout
+equipment. Barbells, weights and punching bags as big as trolls dominate the
+room but most of them seem to be in use by students of the academy who are hard
+at work honing their skills.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>38</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720913</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720915</VRef>
+      <Name>Mage's Training Room</Name>
+      <Description>The walls of this room are scortched and stained. Spellbooks are open in the 
+hands of young mages who ponder over the correct incantation of their newest
+spell. In other parts of the room, more experienced sorcerers create huge
+fireballs and launch them at each other, only to be destroyed by the defensive
+spells of their schoolmates. Three fully armoured warriors hired by the school
+stand around the room, ready to deal with any creatures that the young
+magikwielders summon that get out of control.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720911</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>The door to the hallway</Name>
+        <Keywords>s south door hallway</Keywords>
+        <Description>This door is made of what seems to be plain wood. It glows with magic, though
+and it seems that some powerful spells have enchanted this door so that it can
+withstand the force of the spells being practiced.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720916</VRef>
+      <Name>West End of the Hallway</Name>
+      <Description>Pugnet smells assault your senses. You think that it must be coming from the
+door marked 'Alchemist's Study.' Looking to the east, you see flashes of
+brightly colored light in the darkness. On the wall is printed the magician's
+oath.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720917</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>The alchemist's study</Name>
+        <Keywords>alchemist's study door n north</Keywords>
+        <Description>This plain, wooden door has 'Alchemist's Study' carved into it in a fine
+example of craftsmanship. Smells that cannot be described eminated from the
+room and you are afraid to open the door.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720911</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>oath</Name>
+          <Keywords>oath</Keywords>
+          <Description>_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\
+Only ones who follow the path of evil under the shadow of Volkaran
+may be hunted with the power
+Only in self defense may the power be used as a weapon
+At every turn, confron the dark and spread the light
+-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/-\_/</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720917</VRef>
+      <Name>The alchemist's study.</Name>
+      <Description>All around the room are baskets, boxes, vials and bottles full of every type of
+herb and plant you can imagine. Wolfsbane, fairystool, mint and countless
+others are here. Along oneside of the room are the student's projects. Bottles,
+full of swirling colors and some bubbling over and steaming sit awaiting the
+head alchemist's approval. You decide that's where the foul odors are coming
+from. Suprisingly, none of the students seem to notice the horrible smells but
+then you see the twin plugs stuck into their noses.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720916</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>The door to the hallway</Name>
+        <Keywords>door hallway s south</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720918</VRef>
+      <Name>The Second Floor</Name>
+      <Description>You stand on top of the stairs that lead down to the hallway. This floor houses
+the students of the academy in barrack-like rooms. The teachers and
+administration have their own homes in the town. You can continue to the north
+and the west. You can decend the stairs to go back to the hallway.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720919</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720920</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720899</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720919</VRef>
+      <Name>Hallway</Name>
+      <Description>The hallway turns east here. Looking down the hall you see that it extends that
+way for some time. This room is quite unremarkable and you have the urge to
+either go east towards the dorms or back south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720921</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720918</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720920</VRef>
+      <Name>Hallway</Name>
+      <Description>This is a plain, white hallway that leads to the western dorm rooms. The
+plainess of the room starts to bug you and you feel the definite urge to
+scribble things on the wall but then decide to just keep moving. A large door
+is inset into the northern wall. It seems plain and the only marking on it is a
+large number 1.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720925</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the door</Name>
+        <Keywords>door n north</Keywords>
+        <Description>This door has a large 1 painted on it. You guess that it leads to west dorm room 1.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720918</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720926</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720921</VRef>
+      <Name>East Dorm Hallway</Name>
+      <Description>Obviously, there is some rivalry between the east and west dormatories as a
+huge banner hangs from the ceiling here, proudly proclaiming that 'East Dorm
+Rules OK!' Other than the makeshift banner, the hallway is quite plain. It
+continues to the east and west. You can enter the dorms to the south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720922</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720923</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>The door to the dormitory</Name>
+        <Keywords>south s dorm dormitory door</Keywords>
+        <Description>This door leads to the first of the east dormitory rooms.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720919</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720922</VRef>
+      <Name>End of the Hallway</Name>
+      <Description>The hallway ends here in a large picture window, looking out onto the rooftops
+of the city. You are momentarily amazed that such a wide variety of buildings
+and peoples have found their way into this one city. rdesc Light from the
+window floods this room and serves to light the entire hallway. To the south is
+more sleeping quarters for students.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720924</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>Door to dorm room 2</Name>
+        <Keywords>door s south</Keywords>
+        <Description>This is a large door with '2' painted on it. You think it leads to dorm room 2
+but you're still not quite sure...</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720921</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720923</VRef>
+      <Name>East Dorm Room 1</Name>
+      <Description>The room is filled to the brim with bunkbeds rising three levels into the air.
+From the masses of beds you estimate that the room holds at least fifty
+students. The boys have tried their best to make this home. Portraits of family
+and small baubles decorate the walls around the beds.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720921</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>The door to the hallway</Name>
+        <Keywords>n north door</Keywords>
+        <Description>This door leads back out into the hallway.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720924</VRef>
+      <Name>East Dorm Room 2</Name>
+      <Description>It's amazing how much this room looks like the other dorm rooms. Right down to
+the wooden screws used to hold the bunk beds together, this room's basics
+looks exactly like the other. The only thing that makes this room different
+from the others are the collections of junk that have found themselves brought
+into the rooms by the students. On the walls are various flags from different
+cities, probably where the students are from. Tolnedran, Caeryn and even a
+Walnut Grove flag adorn the white-washed walls. What's that? Out of the corner
+of your eye you see what looks like a Del'Shavan flag poking out from a pillow.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720922</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the door</Name>
+        <Keywords>door n north</Keywords>
+        <Description>This door leads back into the hallway.</Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>a Del'Shavan flag</Name>
+          <Keywords>del'shava del'shavan</Keywords>
+          <Description>It is! You pull the horrific looking flag from the pillow and gaze at it with a
+dumbstruck look on your face. A traitor in the academy! You must report this to
+the headmaster at once!</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720925</VRef>
+      <Name>West Dorm 1</Name>
+      <Description>The rooms whitewashed walls are covered in portraits of families, coats of arms
+and some Wanted posters from some misguided students. Even in the face of the
+obviously faceless nature of the room, it emotes a certain comfort. The
+students have turned this plain barrack into a true home away from home.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720920</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the door</Name>
+        <Keywords>door s south</Keywords>
+        <Description>This side of the plain door has no markings but a list of rules of conduct are printed on it.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720926</VRef>
+      <Name>West End Hallway</Name>
+      <Description>The western hallway ends here. Instead of the large window that the east side
+boasts, at the end of the hallway is painted a huge crest, the emblem of the
+school. The crest covers the entire wall richly detailed. Your hand
+unconciously reaches out to touch it before you remember your good manners. To
+the north you can enter the second of the western dorm rooms or you can go down
+the hallway to the east.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720927</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the door</Name>
+        <Keywords>n door north</Keywords>
+        <Description>This door, with a intricate 2 painted on it, leads to the second dorm room in
+the western half of the floor.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720920</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720927</VRef>
+      <Name>West Dorm Room 2</Name>
+      <Description>This room, unlike the other dorm rooms, seems to have no vestiges of home
+around it. No baubles, portraits, letters from family lie about. Only a few of
+the beds are occupied. The newest, youngest students must be sent here.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>720926</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the door</Name>
+        <Keywords>s south door</Keywords>
+        <Description>This door leads back to the hallway.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>720928</VRef>
+      <Name>Creation</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1966101</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>720896</VRef>
+      <Name>a long bench</Name>
+      <PName>long benches</PName>
+      <Keywords>long bench benches</Keywords>
+      <ShortDesc>a long study bench is here</ShortDesc>
+      <PShortDesc>$t long study benches are here</PShortDesc>
+      <Description>This bench stretches the entire length of the room. It is obviously quickly
+constructed as it is little more than a long raised table flanked by an
+equally long bench on either side of it. Students crowd along the table after
+school and during breaks to study that certain spell they can't quite get
+right.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>20</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>8</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>720897</VRef>
+      <Name>the trophy case</Name>
+      <PName>trophy cases</PName>
+      <Keywords>trophy case </Keywords>
+      <ShortDesc>The academy's trophy case stands here, quite full</ShortDesc>
+      <PShortDesc>$t oddly shaped, crude bronze balls are here.</PShortDesc>
+      <Description>This is the academy's prized trophy case. Crafted out of glass and bronze by
+friendly dwarves, the case holds all the trophys earned by the academy's
+students. It looks to be quite full, it seems that the time has arrived to get
+another one or put some of the trophies in the closet.</Description>
+      <ContCapacity>100.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>1</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1048577</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>720898</VRef>
+      <Name>a plain, mahogany desk</Name>
+      <PName>plain, mahogany desks</PName>
+      <Keywords>headmaster headmaster's desk</Keywords>
+      <ShortDesc>the headmaster's desk stands here</ShortDesc>
+      <PShortDesc>$t oddly shaped, crude bronze balls are here.</PShortDesc>
+      <Description>This desk belongs to the headmaster as the nameplate resting ontop of it
+reminds you. The top of it is almost clear of any junk, besides the odd
+gradebook or tome from the library. Behind it sits the headmaster. He looks
+expectantly at you, awaiting you to state your business.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>40.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>32</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>720899</VRef>
+      <Name>an oak bookcase</Name>
+      <PName>crude bronze balls</PName>
+      <Keywords>bookcase case</Keywords>
+      <ShortDesc>an oaken bookcase stands against the wall here</ShortDesc>
+      <PShortDesc>$t oaken bookcases stand against the wall here</PShortDesc>
+      <Description>This magnificantly crafted bookcase holds volume upon volume of books from all
+over the known world. On the side of the case is inscibed the coat of arms of
+the Manetheren Academy.</Description>
+      <ContCapacity>5000.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>720896</VRef>
+      <Name>student warrior</Name>
+      <PName>student warriors</PName>
+      <Keywords>student warrior</Keywords>
+      <ShortDesc>A student warrior is assaulting a punching bag here.</ShortDesc>
+      <PShortDesc>$t student warriors are sparring with fists raised here.</PShortDesc>
+      <Description>This student is training in the finer points of hand to hand combat.</Description>
+      <Movement>walks</Movement>
+      <Sex>3</Sex>
+      <Level>10</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>0</HitsMin>
+      <HitsMax>0</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>0</MovesMin>
+      <MovesMax>0</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>arm</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>6812379</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>720901</RoomVRef>
+      <ObjectVRef>720896</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>720900</RoomVRef>
+      <ObjectVRef>720896</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>720904</RoomVRef>
+      <ObjectVRef>720896</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>720905</RoomVRef>
+      <ObjectVRef>720897</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>720905</RoomVRef>
+      <ObjectVRef>720898</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>6</Number>
+      <RoomVRef>720912</RoomVRef>
+      <MobileVRef>720896</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>7</Number>
+      <RoomVRef>720912</RoomVRef>
+      <MobileVRef>720896</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>8</Number>
+      <RoomVRef>720912</RoomVRef>
+      <MobileVRef>720896</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+  </Populations>
+</Area>

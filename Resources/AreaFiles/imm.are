@@ -1,0 +1,3243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>6</Anum>
+  <Name>Immortal Complex</Name>
+  <FileName>imm.are</FileName>
+  <LowRange>20490</LowRange>
+  <HighRange>16448</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>2</UID>
+    <UID>12</UID>
+    <UID>8</UID>
+    <UID>7</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393216</VRef>
+      <Name>The Pearly Gates</Name>
+      <Description>You stand before an impossibly large set of pearly white gates. An impassable
+wall of gleaming white marble stretches over each horizon. The land around you
+appears to be a endless wasteland, lacking any sign of life. There is no sound
+to be heard anywhere and the dark clouds rolling overhead have no end and the
+tearing wind is relentless.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393217</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the pearly white gates</Name>
+        <Keywords>pearly white gate</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393220</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393218</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name></Name>
+          <Keywords>pearly gate</Keywords>
+          <Description>An impressive set of gates made of some sort of coral.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393217</VRef>
+      <Name>Marble Path</Name>
+      <Description>A long marble walkway connects the large gates with a palace of sorts to the
+north. The climate is a severe contrast from the frigid cold of outside. The
+sun is shining brightly and there isn't a cloud in the sky. The grass is a
+lush green and there are numerous animals around, seemingly indifferent to
+each other, as if some presence is calming their instincts.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393222</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393216</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the pearly white gates</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393218</VRef>
+      <Name>Towering Marble Wall</Name>
+      <Description>A large, very sturdy looking wall looms overhead. It stretches towards some
+cliffs to the west and eastward there appears to be a large gate of sorts. The
+extremely cold temperature is harsh and the icy ground doesn't look like it's
+ever been home to any plants. There don't even seem to be any weeds or insects
+festering in this gloomy environment.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393216</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393219</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393219</VRef>
+      <Name>Towering Marble Wall</Name>
+      <Description>The marble continues up to an even more imposing cliff which continues down to
+the south. To the east, there appears to be a break in the wall or something
+to that effect. There doesn't seem to be any soil underfoot, just a rather
+thick layer of ice. The menacing clouds overhead are motionless, as if they'd
+been there since the beginning of time.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393218</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393227</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393220</VRef>
+      <Name>Towering Marble Wall</Name>
+      <Description>The inpenetrable barrier of marble is as cold as the ice which surrounds it.
+Because of the shape of this crevice, the snow has gathered in the northeast
+corner where several meter drifts are propped up against the wall. The wall
+continues on to the east and snow banks make passage to the south impossible.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393221</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393216</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393221</VRef>
+      <Name>Under An Icy Overhang</Name>
+      <Description>The snow is gathered here like a mountain. It rises up about fifty feet and the
+continual shifting of the snow makes for uneasy footing. Staying here for too
+long could easily leave someone buried alive! The shape of the opening to the
+south causes the wind to howl incessantly. A huge amount of snow is balanced
+precariously on the edge of the cliff above. A good sneeze could easily cause
+an avalanche..</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>10</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393220</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the large overhang</Name>
+          <Keywords>up overhang</Keywords>
+          <Description>A large amount of snow is balanced precariously on the cliff above.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393222</VRef>
+      <Name>Before A Shiny Bridge</Name>
+      <Description>Through the middle of this oasis-like "freak of nature", runs a crystal clear
+^bstream^x that must come from up in the peaks to the east into a small lake
+just to the west. The strange thing is that there are ducks, geese and all
+manner of water fowl which wouldn't normally frequent such cold waters. A
+bridge is here, spanning the width of the narrow stream, made completely of
+^cplatinum^x. The sun reflecting off it's polished surface is almost blinding.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393223</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393217</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name></Name>
+          <Keywords>stream</Keywords>
+          <Description>The ^bwater^x sparkles in the ^ysun^x and momentary flashes of ^csilver^x can be seen under the surface.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393223</VRef>
+      <Name>On The Bridge</Name>
+      <Description>You stand upon an extremely shiny bridge which arches over the stream. It looks
+^bblue^x but upon closer inspection the color is actually from a reflection of
+the cloudless sky. This fine handiwork has actually been made to be one solid
+piece of platinum! From this vantage point, the bridge is roughly halfway in
+between a large set of gates to the south and some kind of structure to the
+north.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>120</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393224</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393222</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name></Name>
+          <Keywords>bridge</Keywords>
+          <Description>The clarity is astounding, your reflection stares right back at you.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393224</VRef>
+      <Name>Marble Path</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393223</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393225</VRef>
+      <Name>Jon's Playroom</Name>
+      <Description>Can we say TEST?</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393226</VRef>
+      <Name>Creation</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393227</VRef>
+      <Name>Towering Marble Wall</Name>
+      <Description>The marble continues a good hundred meters westward, finally breaking, giving
+way to the mountain and the heavy drifts. The slope of the mountain steepens
+as it goes west, creating an unpassible way south, and a deadly chance of an
+avalanche. The wind here howls sharply, making the air deathly cold, bringing
+with it particles of snow from the drifts. A pair of snow-covered wooden doors
+lie north, just several meters before the marble ends, partly blocked by a
+small drift.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>30</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393228</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>a pair of wooden doors</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393219</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393228</VRef>
+      <Name>A Small Chamber</Name>
+      <Description>This small room was carved directly into the mountainside, the ceiling and
+walls are still rather unsmooth, with the deep cuts left in them. The floor.
+however, is smooth and is mostly covered by a light brown rug, which matches
+the rest of the room. Several candles hang from the walls, lighting the room
+with their dim flame. A large watersilver door closes off the nothern exit.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393229</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393227</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>a pair of wooden doors</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393229</VRef>
+      <Name>A Long Hall</Name>
+      <Description>Smooth, flawless, white stone walls shoot up towards the high ceiling,
+continuing down the long hall in the same fashion. Every so often the ceiling
+meets a lower arch, which trail down from the point into rectangular pillars,
+carved with simple, yet beautiful designs. The hall is wide, able to hold
+several full-sized men side-to-side comfortably. The floor is made of thick
+marble, white and shimmering in the light from the overhead chandeliers. The
+same light that illuminates the marble floor casts shadows in the doorways
+and halls on the sides.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393230</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393237</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393228</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393236</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393230</VRef>
+      <Name>A Long Hall</Name>
+      <Description>Smooth, flawless, white stone walls shoot up towards the high ceiling,
+continuing down the long hall in the same fashion. Every so often the ceiling
+meets a lower arch, which trail down from the point into rectangular pillars,
+carved with simple, yet beautiful designs. The hall is wide, able to hold
+several full-sized men side-to-side comfortably. The floor is made of thick
+marble, white and shimmering in the light from the overhead chandeliers. The
+same light that illuminates the marble floor casts shadows in the doorways
+and halls on the sides.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393231</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393235</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393229</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393234</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393244</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name>the floor</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393231</VRef>
+      <Name>A Long Hall</Name>
+      <Description>Smooth, flawless, white stone walls shoot up towards the high ceiling,
+continuing down the long hall in the same fashion. Every so often the ceiling
+meets a lower arch, which trail down from the point into rectangular pillars,
+carved with simple, yet beautiful designs. The hall is wide, able to hold
+several full-sized men side-to-side comfortably. The floor is made of thick
+marble, white and shimmering in the light from the overhead chandeliers. The
+same light that illuminates the marble floor casts shadows in the doorways
+and halls on the sides.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393233</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393230</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393232</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393232</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393231</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393233</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393231</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393234</VRef>
+      <Name>A Dimly Lit Hall</Name>
+      <Description>This hall, much dimmer than the one just to the east, is fairly short, exiting
+to just two rooms, one on either side. The light is blocked by the low arch over
+the eastern entrance, letting only a small amount of light streak through over
+a few feet in. A few candles line the walls, flickering and casting dancing
+shadows down the hall. Spotless white marble suits as the floor and flawless
+white stone serve as the walls.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393230</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393238</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393235</VRef>
+      <Name>A Dimly Lit Hall</Name>
+      <Description>This hall, much dimmer than the one just to the west, is fairly short, exiting
+to just two rooms, one on either side. The light is blocked by the low arch over
+the western entrance, letting only a small amount of light streak through over a
+few feet in. A few candles line the walls, flickering and casting dancing
+shadows down the hall. Spotless white marble suits as the floor and flawless
+white stone serve as the walls.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393239</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393230</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393236</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393229</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393237</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393229</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393238</VRef>
+      <Name>A Dimly Lit Hall</Name>
+      <Description>This part of the hall is even more dim than the eastern side. The candles are
+set a good distance from the western wall, casting it in a good amount of
+shade. Inlaid on the wall is a mirror. Not just any mirror though. This mirror
+reflects only certain light, dark light. The mirror is now pure black. In the
+corners hang the pulled back curtains. A royal blue plush velvet. Doors lead
+both to the north and the south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393242</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393234</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393243</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393239</VRef>
+      <Name>A Dimly Lit Hall</Name>
+      <Description>The hall comes to an end here. The eastern wall has a marvelously carved
+depiction of a tropical land, complete with dazzling waterfalls from towering
+cliffs and luscious rain forests. Each of the carved lines has been carefully
+filled in with watersilver, reflecting any light that shines upon it. In the
+corners hang the pulled back curtains, a deep royal blue plush velvet.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393240</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393241</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393235</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393240</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393239</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393241</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393239</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393242</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393238</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393243</VRef>
+      <Name>Creation</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393238</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>a watersilver door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393244</VRef>
+      <Name>A Long Dark Stairway</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393230</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name>the ceiling</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393245</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393245</VRef>
+      <Name>A Long Dark Stairway</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393244</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393246</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393246</VRef>
+      <Name>A Long Dark Stairway</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393245</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393247</VRef>
+      <Name>Under the branches of a weeping willow</Name>
+      <Description>Long thin branches stretch down to the ground, their branches brushing the dirt
+lightly as a gentle breaze blows through. Quiet and cut off from the world, the
+tree limbs fall around you and gives you a sense of peace within its quiet
+embrace. Roots jut up from the ground, forming armrests. The trunk, wide and
+soft to the touch, the perfect backrest.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>294</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393267</ToVRef>
+        <Flags>43</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords>move branches</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131077</ToVRef>
+        <Flags>43</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name>the ground</Name>
+        <Keywords>down</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>trunk</Name>
+          <Keywords>trunk</Keywords>
+          <Description>Something appears to be carved into the trunk here, initials, with a little
+heart surrounding them.
+       ____    ____
+      /    \  /    \
+     |      \/      |
+     |    C.J.G.    |
+      \            /
+       \    +     /
+        \ M.M.O. /
+         \      /
+          \    /
+           \  /
+            \/</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393248</VRef>
+      <Name>Kiara's Bedroom</Name>
+      <Description>Stained glass windows provide the only light for this rather large room. Your
+feet sink in as you step onto the plush carpetting covering the the floor. The
+dresser, vanity, and bed appear to be the only objects in the room leaving it
+rather plain looking. A door off to the west leads into a grand bathroom. To
+the south appears to be the sitting room.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>38</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393249</ToVRef>
+        <Flags>1</Flags>
+        <Key>1900551</Key>
+        <Direction>2</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393250</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>mirror</Name>
+          <Keywords>mirror</Keywords>
+          <Description>Staring back at you is a fuzzy version of yourself. The mirror appears very old
+and wavy.</Description>
+          <Flags>0</Flags>
+        </Spot>
+        <Spot ObjectClass="Spot">
+          <Name>window</Name>
+          <Keywords>window</Keywords>
+          <Description>Blue red and yellow glass stains the room as sunlight poors through the window.
+The glass appears to make the shape of a large heart with vines spreding out
+around it. Although in good shape it seems to be an antique window.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393249</VRef>
+      <Name>Sitting Room</Name>
+      <Description>A few cheap paintings cover the beige walls surrounding you. A fan hangs from
+the ceiling circulating air in this stuffy room. Humming noises come from the
+corner of the room where a small refrigerator sits. The room smells stale
+despite the vain attempts of the fan to clear the air.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393248</ToVRef>
+        <Flags>1</Flags>
+        <Key>1900551</Key>
+        <Direction>0</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393266</ToVRef>
+        <Flags>7</Flags>
+        <Key>1900551</Key>
+        <Direction>2</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393250</VRef>
+      <Name>Bathroom</Name>
+      <Description>Candles around the midnight blue room give off the only light to be found. A
+small sink in the corner is cluttered with different types of oils and perfumes
+giving the room a warm heaty smell. The dark wooden floor is cool as your feet
+touch it.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393248</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393251</ToVRef>
+        <Flags>7</Flags>
+        <Key>1900551</Key>
+        <Direction>2</Direction>
+        <Name>the panel</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393251</VRef>
+      <Name>A Small Closet</Name>
+      <Description>Darkness closes around you as you step into this small space. A bar across the
+top of the closet stands empty. Holding a light up you can see the ceiling
+covered in cobwebs. The walls are painted black, faded now to a dull gray. A
+sense of claustrophobia begins to fill you.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393250</ToVRef>
+        <Flags>7</Flags>
+        <Key>1900551</Key>
+        <Direction>0</Direction>
+        <Name>the panel</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393252</VRef>
+      <Name>Hallway</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393266</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393253</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393255</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393253</VRef>
+      <Name>Guest Room</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393252</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393254</VRef>
+      <Name>Bathroom</Name>
+      <Description>White walls and wooden floors make this room appear larger than it really is. A
+toilet hides in the corner, the plaster shining brightly, and hanging off the
+wall a small sink imacuately clean are all that this tiny room holds.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393266</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393255</VRef>
+      <Name>The Stairway</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393252</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393256</VRef>
+      <Name>Front Hall</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393263</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393265</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393258</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393257</ToVRef>
+        <Flags>7</Flags>
+        <Key>1900551</Key>
+        <Direction>3</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393255</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393257</VRef>
+      <Name>Outside</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393256</ToVRef>
+        <Flags>7</Flags>
+        <Key>1900551</Key>
+        <Direction>1</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393258</VRef>
+      <Name>Parlor</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393259</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393259</VRef>
+      <Name>Dinning Hall</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393265</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393260</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393258</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393260</VRef>
+      <Name>Kitchen</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393264</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393259</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393261</VRef>
+      <Name>Pantry</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393264</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393262</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393262</VRef>
+      <Name>Study</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393261</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393265</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393263</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393263</VRef>
+      <Name>Ballroom</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393262</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393264</VRef>
+      <Name>Kitchen</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393261</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393260</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393265</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393265</VRef>
+      <Name>Back Hallway</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393262</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393264</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393259</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393256</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393266</VRef>
+      <Name>Hallway</Name>
+      <Description></Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393249</ToVRef>
+        <Flags>7</Flags>
+        <Key>1900551</Key>
+        <Direction>0</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393254</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the door</Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393252</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393267</VRef>
+      <Name>Creation</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>393247</ToVRef>
+        <Flags>43</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords>move branches</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>393415</VRef>
+      <Name>In The Big Inning</Name>
+      <Description>Gatzchu
+Ungari
+Del'Shava</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393216</VRef>
+      <Name>a statue of a ^ygolden^x monkey</Name>
+      <PName>statues of ^ygolden^x monkeys</PName>
+      <Keywords>golden monkey</Keywords>
+      <ShortDesc>A statue of a ^ygolden^x monkey.</ShortDesc>
+      <PShortDesc>$t statues of ^ygolden^x monkies.</PShortDesc>
+      <Description>It seems like a molten mass of bronze was tossed into some cool water. Most likely a quick attempt to form something of substance for the gods to craft with. It's quite boring to look at but its size, about that of a human skull, is good for lobbing at those annoying mortals.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>0</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1024</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194304</WearFlags>
+      <Value0>100</Value0>
+      <Value1>150</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393217</VRef>
+      <Name>a recipe for "Rawkin's Shish Kabobs"</Name>
+      <PName>recipes for "Rawkin's Shish Kabobs"</PName>
+      <Keywords>recipe Rawkin's Shish Kabobs</Keywords>
+      <ShortDesc>a recipe for "Rawkin's Shish Kabobs" lies on the ground.</ShortDesc>
+      <PShortDesc>$t recipes for "Rawkin's Shish Kabobs" lie on the ground.</PShortDesc>
+      <Description>It's a piece of paper which reads:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=[Rawkin's Shish Kabobs]-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+What you Need:
+
+One Piece Rabbit Meat
+One Piece Goat Meat
+One Piece Deer Meat
+One Iron Skewer
+One Cup of Sauces
+
+Makes:
+One Rawkin's Shish Kabob!
+
+First, cut the meat into appropriate sizes (unfortunately, you can only get one
+shish kabob per three pieces of meat) and place it on the iron skewer. Place in
+the oven until rabbit meat has seared nicely and deer meat is a nice dark brown.
+Don't skimp on the sauces, or the taste will be dull and uninviting.
+
+Enjoy!
+Tellus Rawkin, Cook
+
+--------------------------------------------------------------------------------</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>250</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>if(obj_in_room(room, 305) == NULL)
+{
+act_to_char("You need an oven to use the $o.", ch, obj, NULL);
+}</Source>
+          <Commands>cook</Commands>
+          <Keywords>Rawkin's Shish Kabobs</Keywords>
+          <Type>1</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393218</VRef>
+      <Name>a monkey shaped pez dispenser</Name>
+      <PName>monkey pez dispensers</PName>
+      <Keywords>monkey pez dispenser</Keywords>
+      <ShortDesc>a monkey shaped pez dispenser</ShortDesc>
+      <PShortDesc>$t monkey pez dispensers</PShortDesc>
+      <Description>A delicate little object of some blue unknown material. It stands maybe 5"
+tall and has a strange head of a little monkey on top.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>108</Level>
+      <Weight>0.100000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>10</Value0>
+      <Value1>10</Value1>
+      <Value2>500</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393219</VRef>
+      <Name>a cloak of darkest night</Name>
+      <PName>cloaks of darkest night</PName>
+      <Keywords>cloak darkest night</Keywords>
+      <ShortDesc>A velvet cloak of darkest night lies here.</ShortDesc>
+      <PShortDesc>$t velvet cloaks of darkest night lie here.</PShortDesc>
+      <Description>This cloak is mysterious to say the least. The black material of which it is
+comprised is dark, darker than seems possible. By itself, this cloak could
+easily be mistaken for nothing more than a shadow. The folds of material flow
+amongst themselves, making no sound whatsoever. Enclosing it's wearer, this
+cloak is darker than night itself.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>108</Level>
+      <Weight>2.000000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33554433</WearFlags>
+      <Value0>5000</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393220</VRef>
+      <Name>a slender, shadow-infused katana</Name>
+      <PName>shadow-infused katanas</PName>
+      <Keywords>shadow katana</Keywords>
+      <ShortDesc>A slim, shadowy blade lies here.</ShortDesc>
+      <PShortDesc>$t slim, shadowy blades lie here.</PShortDesc>
+      <Description></Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>103</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>2</Value0>
+      <Value1>10</Value1>
+      <Value2>100</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393221</VRef>
+      <Name>an apple</Name>
+      <PName>apples</PName>
+      <Keywords>apple food</Keywords>
+      <ShortDesc>a tasty looking apple rests on the ground.</ShortDesc>
+      <PShortDesc>$t tasty looking apples lie in a pile on the ground.</PShortDesc>
+      <Description>It's an apple. It's red and shiny and looks quite delicious.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>15</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>eat(ch, obj);
+obj_to_char(create_obj("imm.are/8"), ch);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>11</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393222</VRef>
+      <Name>an orange</Name>
+      <PName>oranges</PName>
+      <Keywords>orange food</Keywords>
+      <ShortDesc>a juicy orange rests on the ground.</ShortDesc>
+      <PShortDesc>$t juicy oranges are scattered on the ground.</PShortDesc>
+      <Description>A big juicy orange, busting with flavor! Yum!</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>15</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_char("You carefully peel $p.", ch, obj, NULL);
+act_to_room("$n carefully peels $s $o.", ch, obj, NULL);
+obj_to_char(create_obj("imm.are/10"), ch);
+junk_obj(obj);</Source>
+          <Commands>peel</Commands>
+          <Keywords>*</Keywords>
+          <Type>1</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+        <Script ObjectClass="OrangeScript">
+          <Source>eat(ch, obj);
+act_to_char("Blech, you remind yourself to peel it next time.", ch, NULL, NULL);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>11</Trigger>
+          <Flags>0</Flags>
+          <ID>2</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393223</VRef>
+      <Name>a banana</Name>
+      <PName>bananas</PName>
+      <Keywords>banana food</Keywords>
+      <ShortDesc>a ripe yellow banana lies on the ground.</ShortDesc>
+      <PShortDesc>$t ripe yellow bananas lie on the ground.</PShortDesc>
+      <Description>A long yellow and very ripe banana.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>15</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_char("You carefully peel $p.", ch, obj, NULL);
+act_to_room("$n carefully peels $s $o.", ch, obj, NULL);
+eat(ch, obj);
+obj_to_char(create_obj("imm.are/9"), ch);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>11</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393224</VRef>
+      <Name>an apple core</Name>
+      <PName>apple cores</PName>
+      <Keywords>apple core</Keywords>
+      <ShortDesc>a discarded apple core has been thrown here.</ShortDesc>
+      <PShortDesc>$t discarded apple cores have been thrown here.</PShortDesc>
+      <Description>Looks like someone's apple core.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>21</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393225</VRef>
+      <Name>a banana peel</Name>
+      <PName>banana peels</PName>
+      <Keywords>banana peel</Keywords>
+      <ShortDesc>a banana peel sits on the ground, looks dangerous.</ShortDesc>
+      <PShortDesc>$t banana peels sit on the ground, looks dangerous.</PShortDesc>
+      <Description>Someone obviously enjoyed this banana.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>21</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>if(random(1, 10) != 5) end;
+act_to_char("^yYou don't see $p lying on the ground and you step on it and slip!^x", ch, obj, NULL);
+act_to_room("^y$n doesn't see $p lying on the ground and slips on it!^x", ch, obj, NULL);
+interpret(ch, "sit", NULL);
+junk_obj(obj);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>7</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393226</VRef>
+      <Name>a peeled orange</Name>
+      <PName>peeled oranges</PName>
+      <Keywords>peeled orange food</Keywords>
+      <ShortDesc>a juicy peeled orange rests on the ground.</ShortDesc>
+      <PShortDesc>$t juicy peeled oranges rest on the ground.</PShortDesc>
+      <Description>Someone has gone to the trouble of peeling this extremely juicy looking orange!</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>10</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393227</VRef>
+      <Name>a piece of rabbit meat</Name>
+      <PName>pieces of rabbit meat</PName>
+      <Keywords>rabbit meat</Keywords>
+      <ShortDesc>a piece of rabbit meat sits here.</ShortDesc>
+      <PShortDesc>$t pieces of rabbit meat sit here.</PShortDesc>
+      <Description>This is a small, rather shapeless piece of meat which looks like it has been
+carved from the corpse of a rabbit. It weighs about half a pound and is quite
+boring. It is after all, just a piece of meat.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>20</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393228</VRef>
+      <Name>a chunk of goat meat</Name>
+      <PName>chunks of goat meat</PName>
+      <Keywords>goat meat</Keywords>
+      <ShortDesc>a chunk of goat meat lies on the ground.</ShortDesc>
+      <PShortDesc>$t chunks of goat meat lie on the ground.</PShortDesc>
+      <Description>It looks like a chunk of goat meat cut out of some poor goat. It's still quite
+bloody and is staining pretty much everything it comes into contact with a dark
+red color. It looks rather unappetizing and staring at it for long periods of
+time can induce vomiting.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>25</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.800000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393229</VRef>
+      <Name>a slab of venison</Name>
+      <PName>chunks of goat meat</PName>
+      <Keywords>slab venison</Keywords>
+      <ShortDesc>a slab of venison is lying here.</ShortDesc>
+      <PShortDesc>$t slabs of venison are lying here.</PShortDesc>
+      <Description>This is a rather large (and rather bloody) slab of meat which looks like it
+came from a deer or some similar animal. For some reason the sight of so much
+red meat raises some primal being in you and makes you want to howl and sink
+your teeth into it. Still, this enormous piece of meat would make a lion sick
+and the previous owner probably needed it more than you. For shame.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>35</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>1.200000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393230</VRef>
+      <Name>an iron skewer</Name>
+      <PName>iron skewers</PName>
+      <Keywords>iron skewer</Keywords>
+      <ShortDesc>an iron skewer lies on the ground.</ShortDesc>
+      <PShortDesc>iron skewers</PShortDesc>
+      <Description>An extremely plain, straight piece of black iron, used primarily for cooking.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>250</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393231</VRef>
+      <Name>a cutting knife</Name>
+      <PName>cutting knives</PName>
+      <Keywords>cutting knife</Keywords>
+      <ShortDesc>a clean cutting knife lies here.</ShortDesc>
+      <PShortDesc>$t clean cutting knives lie here.</PShortDesc>
+      <Description>This is a small little knife. It's made of stainless steel and won't rust,
+one it's edges is serrated which makes it excellent for cutting meat. Apart
+from that, about all it's good for is for cooking.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>150</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>1</Value0>
+      <Value1>1</Value1>
+      <Value2>-2</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393232</VRef>
+      <Name>a cube of rabbit meat</Name>
+      <PName>cubes of rabbit meat</PName>
+      <Keywords>cube rabbit meat food</Keywords>
+      <ShortDesc>a cube of rabbit meat is lying on the ground.</ShortDesc>
+      <PShortDesc>$t cubes of rabbit meat are lying on the ground.</PShortDesc>
+      <Description>A small cube-sized piece of rabbit meat.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>10</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393233</VRef>
+      <Name>a cube of goat meat</Name>
+      <PName>cubes of goat meat</PName>
+      <Keywords>cube goat meat food</Keywords>
+      <ShortDesc>a cube of goat meat is lying on the ground.</ShortDesc>
+      <PShortDesc>$t cubes of goat meat are lying on the ground.</PShortDesc>
+      <Description>A small cube-sized piece of goat meat.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>10</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393234</VRef>
+      <Name>a cube of venison</Name>
+      <PName>cubes of venison</PName>
+      <Keywords>cube venison meat food</Keywords>
+      <ShortDesc>a cube of venison is lying on the ground.</ShortDesc>
+      <PShortDesc>$t cubes of venison are lying on the ground.</PShortDesc>
+      <Description>A small cube-sized piece of venison.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>10</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393235</VRef>
+      <Name>a large marble fountain</Name>
+      <PName>large marble fountains</PName>
+      <Keywords>white marble fountain</Keywords>
+      <ShortDesc>a white marble fountain is here, flowing with sparkling water.</ShortDesc>
+      <PShortDesc>$t white marble fountains are here, flowing with sparkling water.</PShortDesc>
+      <Description>This large circular fountain is made of the same white marble as the floor
+is. The lip of the rim hangs out over the water a few inches, then curls
+under. The center sprouts up into a cylinder, perfectly smooth, which is the
+base for a statue of a woman, sitting back to the side of her bent legs. Her
+hair flows behind her, captured perfectly in the marble. Her dress snuggly
+clings to her body. Her hands are lowered near the water and cupped, water
+gently flows from them and the small holes in the base. Small crystalline fish
+swim about in the fountain, blending with the marble.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>11</ItemType>
+      <Level>0</Level>
+      <Weight>1.000000</Weight>
+      <Materials>131072</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>38</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393236</VRef>
+      <Name>a leather collar</Name>
+      <PName>leather collars</PName>
+      <Keywords>leather collar</Keywords>
+      <ShortDesc>A leather collar lays abandoned here.</ShortDesc>
+      <PShortDesc>$t leather collars lay discarded here.</PShortDesc>
+      <Description>Braided leather curls slightly, forming a rather small circle with seemingly no
+end. At what appears to be the front of the strange looking necklace is a
+little silver hoop, like you would see on a dog collar.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>2.000000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>5</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393237</VRef>
+      <Name>a leather teddy</Name>
+      <PName>Leather teddies</PName>
+      <Keywords>leather teddy</Keywords>
+      <ShortDesc>A leather teddy lies here forgotten.</ShortDesc>
+      <PShortDesc>$t leather teddies lie here forgotten.</PShortDesc>
+      <Description>Soft leather fabric create a tiny hour glass shape. Rough leather straps cross
+under the low-cut bossum in a seductive fashion. Clinging tightly to the
+wearer, this teddy enhances the natural figure of any female, making her more
+alluring than she normally would appear.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>17</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393238</VRef>
+      <Name>a leather wrist cuff</Name>
+      <PName>leather wrist cuffs</PName>
+      <Keywords>leather wrist cuff</Keywords>
+      <ShortDesc>A leather wrist cuff lays discarded here.</ShortDesc>
+      <PShortDesc>$t leather wrist cuffs lay discarded here.</PShortDesc>
+      <Description>A simple leather strap. About half inch wide and fourth inch thick. A tiny
+silver buckle holds the strap together, making it fit tightly around the wrist
+and leaving a tiny hoop so the wearer can hook it to something else if needed.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>262145</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>393415</VRef>
+      <Name>a giant ball of protoclay</Name>
+      <PName>giant balls of protoclay</PName>
+      <Keywords>giant ball protoclay clay</Keywords>
+      <ShortDesc>A giant ball of protoclay has been left here.</ShortDesc>
+      <PShortDesc>$t giant balls of protoclay have been left here.</PShortDesc>
+      <Description>Under construction.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>21</ItemType>
+      <Level>1</Level>
+      <Weight>10.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>393216</VRef>
+      <Name>a tiny monkey</Name>
+      <PName>tiny monkeys</PName>
+      <Keywords>tiny monkey</Keywords>
+      <ShortDesc>A tiny monkey is here, hopping from one foot to another.</ShortDesc>
+      <PShortDesc>$t tiny monkeys are here, hopping from one foot to another.</PShortDesc>
+      <Description>This is one tiny little monkey. She scampers and fidgets almost continously
+and peers about curiously with her small beady eyes, not unlike a child. She
+wears fur all over her body which is a healthy dark brown, almost black.</Description>
+      <Movement>scampers</Movement>
+      <Sex>2</Sex>
+      <Level>50</Level>
+      <Alignment>3</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>120</HitsMin>
+      <HitsMax>300</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>259</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>swipe</Message>
+          <Chance>85</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>fury of punches</Message>
+          <Chance>15</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>adorable little head</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>fuzzy tummy</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>hairy little leg</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>5</Number>
+      <Message>Flakes of snow swirl against the mountainside.</Message>
+      <VNum>11</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>1</Number>
+      <Message>A numbingly ^bcold^x wind howls through the area.</Message>
+      <VNum>0</VNum>
+      <VNum>2</VNum>
+      <VNum>3</VNum>
+      <VNum>4</VNum>
+      <VNum>5</VNum>
+      <VNum>11</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>2</Number>
+      <Message>A downpour of ^bsleet^x and ^bhail^x tears at you.</Message>
+      <VNum>0</VNum>
+      <VNum>2</VNum>
+      <VNum>3</VNum>
+      <VNum>4</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>3</Number>
+      <Message>A large chunk of ^bice^x lands alarmingly close with a heavy thud.</Message>
+      <VNum>5</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>4</Number>
+      <Message>A ^csilver^x fish jumps out of the ^bwater^x, and dives back in.</Message>
+      <VNum>7</VNum>
+    </RAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="ExitPopulation">
+      <Number>1</Number>
+      <RoomVRef>393216</RoomVRef>
+      <Direction>0</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>2</Number>
+      <RoomVRef>393217</RoomVRef>
+      <Direction>2</Direction>
+      <Flags>1</Flags>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>393224</RoomVRef>
+      <ObjectVRef>393216</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>393230</RoomVRef>
+      <ObjectVRef>393235</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>5</Number>
+      <RoomVRef>393247</RoomVRef>
+      <MobileVRef>1900544</MobileVRef>
+      <InPosition>5</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>393248</RoomVRef>
+      <ObjectVRef>1900583</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>851968</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131077</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>327690</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>655381</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131078</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131136</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>7</Number>
+      <RoomVRef>393227</RoomVRef>
+      <Direction>0</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>8</Number>
+      <RoomVRef>393228</RoomVRef>
+      <Direction>2</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>9</Number>
+      <RoomVRef>393228</RoomVRef>
+      <Direction>0</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>10</Number>
+      <RoomVRef>393229</RoomVRef>
+      <Direction>2</Direction>
+      <Flags>3</Flags>
+    </Population>
+  </Populations>
+</Area>

@@ -1,0 +1,3761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>27</Anum>
+  <Name>Mountain village</Name>
+  <FileName>snow.are</FileName>
+  <LowRange>8240</LowRange>
+  <HighRange>1034</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>7</UID>
+    <UID>8</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769472</VRef>
+      <Name>Throne Room</Name>
+      <Description>This room has fallen into disrepair. The stone floor tiles have been broken up
+and thrown around the room. The wooden paneling is cracked, and cobwebs hang
+from it. Draperies that hang from the ceiling are torn to shreds. The only thing
+that seems to be in perfect condition is the silver throne that sits at the back
+of the room on a stone platform.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769474</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>sapphire door</Name>
+        <Keywords>door s south</Keywords>
+        <Description>The mirror room is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769473</VRef>
+      <Name>Shadow Room</Name>
+      <Description>Shadows seem to shift and swirl in this room. The light from where you just came
+from seeps only centimeters into the room before the shadows envelop it. In the
+center of the room is a pedestal. Something important must be stored in here.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769474</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>onyx door</Name>
+        <Keywords>door e east</Keywords>
+        <Description>The mirror room is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769474</VRef>
+      <Name>Mirror Hall</Name>
+      <Description>Two small torches hang on the wall by the opening to the dark tunnel. The whole
+room is lit up by the reflection of the torches light against the mirrors that
+cover the surfaces in the room. Three doors lead to rooms of unknown contents.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769472</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>sapphire door</Name>
+        <Keywords>door n north</Keywords>
+        <Description>That way is a door made of sapphire.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769475</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>ruby door</Name>
+        <Keywords>door e east</Keywords>
+        <Description>That way is a door made of ruby.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769479</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A dark tunnel is that way.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769473</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>onyx door</Name>
+        <Keywords>door w west</Keywords>
+        <Description>That way is a door made of onyx.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769476</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Up the ladder is an opening to a courtyard of some sort.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769475</VRef>
+      <Name>Ballroom</Name>
+      <Description>A huge, high ceiling room. This room seems a little out of place compared to the
+other rooms, especially since it seems so well kept. This one is well lit by the
+gigantic, ornate chandeliers that hang from key points at the ceiling. Two twin,
+silver trimmed staircases lead down onto the dance floor. A breeze whips around
+in this room, and you could swear you could hear people laughing and a band
+still playing.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769474</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>ruby door</Name>
+        <Keywords>door w west</Keywords>
+        <Description>The mirror room is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769476</VRef>
+      <Name>Rundown Courtyard</Name>
+      <Description>Poisonous weeds crawl up the walls and all over anything it can reach on the
+ground. An old fountain, no longer working, sits in the center. Gargoyles that
+look like they're ready to attack are what used to spout out the water, but now
+they are choked with the weeds. This isn't the type of place you'd like to hang
+around in.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769474</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Down that way is the Mirror Hall.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769477</VRef>
+      <Name>Outside Dark Tunnel</Name>
+      <Description>A strong wind whips around this area, moving the old limbs of stooped over
+willow trees. It's terribly cold here. However if the wind hadn't been moving
+the tree branches, you never would have noticed the tunnel entrance.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769479</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A dark tunnel, that from here looks rather shiny.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769478</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The thin windy path is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769478</VRef>
+      <Name>Path to the Abandoned Castle</Name>
+      <Description>A thin winding path makes its way up a steep ridge. The wind is slowly picking
+up speed the closer you get to the castle. The few shrubs that dot the path seem
+to rustle in delight with the thought of another victim to fall off the cliff.
+The wolves howling in the distance don't help either.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769477</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The path ends that way, at a rock face just below the castle.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769486</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The path widens and the wind dies down in that direction.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769479</VRef>
+      <Name>Dark Tunnel</Name>
+      <Description>It is hard to see anything in this tunnel. The walls feel very cold and smooth
+to the touch, like glass. You could get lost in here if you couldn't see the
+light streaming from the entrance and a small beacon of light from the other
+end.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769474</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A bright light shines from that direction.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769477</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The way back to the outside.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769480</VRef>
+      <Name>Garden Path</Name>
+      <Description>The cobblestone path splits into many directions. Ivy and thick moss line along
+it. In these gardens it is continuously night, letting many of the night flowers
+stay open longer. The smells of the flowers float around you.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769483</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A lemon custard smell comes from that direction. And many white flowers bloom there.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769482</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A blackberry smell comes from that direction.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769481</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The smell of strawberries lingers from that direction, and something glowing is flying around.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769481</VRef>
+      <Name>Fae Garden</Name>
+      <Description>Rosemary and cowslip are among the flowers in this garden. Faeries fly above and
+around you, their glowing forms easily recognizable against the dark sky. A
+carpet of clover covers the ground, and elder trees and ferns sway to a gentle
+breeze. The smell of strawberries fills the air.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769480</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A path leading to the other parts of the garden is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769482</VRef>
+      <Name>Goth Garden</Name>
+      <Description>Flowers in all shades of black, red and purple are found here. Different species
+of roses and other flowers like hyacinth, irises, and the chocolate scented
+cosmos grow here in abundance. The cherry trees swaying here releases a lovely
+cherry breeze, which mingles with the smell of the blackberries that are all
+around you.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769480</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A path leading to the other parts of the garden is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769483</VRef>
+      <Name>Night Garden</Name>
+      <Description>Since it is always night here this garden is always in bloom. White flowers like
+nicotiana, moonflowers and night phlox glow in the moonlight. Gargoyle statues
+sit in various places within the garden, their grinning faces making you think
+that they love these flowers as much as the next person who'll come through
+here. A breeze blows through, stirring up the lemon custard scent of the evening
+primroses.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769484</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Bugs and bats fly around in abundance that way.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769480</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A path leading to the other parts of the garden is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769484</VRef>
+      <Name>Bat Garden</Name>
+      <Description>The assortment of flowers here isn't as large as the flowers in the other parts
+of the garden, but the assortment of bugs is one up from the others. You'd
+complain about it if the bats that flew around here weren't keeping them at bay.
+The salvia and the phlox here attract the food the bats love oh so much. It also
+smells lovely here with the scent of the spearmint wafting through the air.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769483</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A lemon custard smell comes from that direction. And many white flowers bloom there.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769485</VRef>
+      <Name>Nadia's Room of Contemplation (Bedroom so to speak)</Name>
+      <Description>A windowless, doorless room. Made for Nadia to sit in and build her little area.
+From time to time you might find odd things or creatures in here. Or worse you
+might run into HER!</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>34</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769486</VRef>
+      <Name>Path to the Abandoned Castle</Name>
+      <Description>This is the start of the path, the vegetation is getting less and less as you
+go, and what used to be a gentle breeze is getting more and more. Not a happy
+little path.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769478</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The path gets narrower and the wind picks up in that direction.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769487</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769487</VRef>
+      <Name>Dirt Path</Name>
+      <Description>A path beaten down by animals is here in the grass. Little harmless snakes and
+birds move around in the long grass, skittering away from your footsteps. It's
+almost sickening how peaceful it is here.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769488</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The long grass in that direction sways lightly in a breeze.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769486</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The vegetation starts to disappear that way, and a breeze picks up.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769488</VRef>
+      <Name>Dirt Path</Name>
+      <Description>A path beaten down by animals is here in the grass. Little harmless snakes and
+birds move around in the long grass, skittering away from your footsteps. It's
+almost sickening how peaceful it is here.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769489</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You can see a little clearing that way, with all sorts of animals walking about.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769487</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The long grass in that direction sways lightly in a breeze.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769489</VRef>
+      <Name>Little Clearing</Name>
+      <Description>A quiet clearing with paths leading both south and west. A pond sits in the
+center with little willow trees swaying beside it. Creatures emerge from the
+forest to the west to drink out of the pond. It's so peaceful here no one wants
+to fight.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>40</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>3</HitBonus>
+      <EnergyBonus>3</EnergyBonus>
+      <MoveBonus>3</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769490</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The warmth abruptly stops and snow coats everything in that direction.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769488</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The long grass in that direction sways lightly in a breeze.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769490</VRef>
+      <Name>Snowy Path</Name>
+      <Description>A small path between the canyon walls coated in a glittering white snow. The
+sounds of wolves echo around you. To the north of here you can see an odd
+clearing that looks somewhat out of place.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769489</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You can see a little clearing that way, with all sorts of animals walking about.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769491</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>To the south is the snow covered path of the wintery mountains.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769491</VRef>
+      <Name>Snowy Path</Name>
+      <Description>A small path between the canyon walls coated in a glittering white snow. It's
+the same as the path that started to the south, and it continues to the north.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769490</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>To the north is the snow covered path of the wintery mountains.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769492</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The canyon ends that way. But with it goes the protection from the wind.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769492</VRef>
+      <Name>Snowy Path</Name>
+      <Description>A bitter cold wind whips around you, and a glittering white snow falls to the
+ground. The same white ground surrounds you for quite a bit, and a canyon
+cutting through the rock face ahead of you makes a convenient natural pathway.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769491</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>To the north is the snow covered path of the wintery mountains.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769493</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Down there is a sheer drop, but dents in the cliff surface make adequete
+hand/foot holds.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769493</VRef>
+      <Name>Snowy Cliff Face</Name>
+      <Description>The cliff ends here and allows you to get a good foot hold on more solid ground.
+A nearby canyon cuts into the rock face. This is also one of those places that
+if you were acrophobic you might not want to look down..</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769492</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The flat ground nearing the top of the mountain welcomes you to it's icy slopes.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769494</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You're kidding! You want to look down?!</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769494</VRef>
+      <Name>Snowy Cliff Face</Name>
+      <Description>Staring at the cliff face as you climb up can get monotonous. With the white
+snow and the jutting black rocks being the only decor of the cliff. But hey it's
+better than looking down.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769493</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Finally you're nearing the end of the cliff.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769495</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You're kidding! You want to look down?!</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769495</VRef>
+      <Name>Snowy Cliff Face</Name>
+      <Description>You look up you see sky... you look down (although I wouldn't recommend it) and
+you see snow... you look forward you see snow and rock... there's no winning is
+there?</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769494</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>More cliff face... Hope you're getting used to this.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769496</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You're kidding! You want to look down?!</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769496</VRef>
+      <Name>Snowy Cliff Face</Name>
+      <Description>Snow, rock, snow, sparse grass, and oh did I mention snow? Such a lovely, yet so
+repetitive, scenery...</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769495</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Yup.. that would be the cliff... you can just make out the sky past all those
+outcroppings.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769497</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You're kidding! You want to look down?!</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769497</VRef>
+      <Name>Snowy Cliff Face</Name>
+      <Description>The snow on the cliff is thick, and it's starting to make your hands freeze.
+Fortunately it's quite loose, so you can knock it away. Unfortunately it falling
+off and plummeting to the ground reminds you that with one wrong move you could
+follow it down. And not by choice.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769496</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Ahh yes more cliff... interesting isn't it?</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769498</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You're kidding! You want to look down?!</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769498</VRef>
+      <Name>Snowy Cliff Face</Name>
+      <Description>Not too far off the ground and you can already get bored with the scenery. Would
+you like some more snow perhaps?</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>5</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769497</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>I wouldn't suggest looking up again... you might get a face full of snow..</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769499</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You're not that high up. Down there is the base on the cliff. It's safer down
+there you know.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769499</VRef>
+      <Name>At The Base of The Snowy Cliff</Name>
+      <Description>Looks interesting doesn't it? No? Well it's only the base of a cliff. Hard
+packed soil, and granite mix here to build up the mountain, and it's all coated
+in a thick blanket of snow. The cliff shoots straight up.. and up, and up... You
+get the picture.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769500</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The vast snow field is back that way.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769498</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Up that way is a steep climb to the top of the cliff. And what a climb it'll be
+if you try.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769500</VRef>
+      <Name>Snow Field</Name>
+      <Description>You're almost at the base of the mountain now. The town you left is but a speck
+of light, only making a small glow because of the snow reflecting the light. At
+least the snow is thinner here, because it's hard to walk through all this.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769499</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The base of the mountain is that way.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769516</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Look at all the pretty snowflakes.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769501</VRef>
+      <Name>Village Square</Name>
+      <Description>This is the center of the laid back little town. It's peaceful and has wondrous
+smells wafting through it. A small yet modest fountain stands in the center and
+the odd townsperson wanders through.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769505</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Sounds of buisness ring from that way, and wisps of heat beckon you towards it.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769504</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A very calm, well decorated road is that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769502</VRef>
+      <Name>Treance-chan's Home</Name>
+      <Description>This is a cozy little home. Almost all of the decore is in earthy tones, this is
+the main room.. it would appear there is only three other room other than this
+one. The one to the north, that is a small room with a table and many
+unidentifiable objects sit upon it. To the south is the kitchen, and to the west
+is the bathroom. There is a soft brown brown bed at the very back wall, it looks
+like it's only just become unoccupied.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769503</ToVRef>
+        <Flags>2055</Flags>
+        <Key>1769474</Key>
+        <Direction>1</Direction>
+        <Name>the little brown door</Name>
+        <Keywords>little brown door</Keywords>
+        <Description>Back out to the little path and towards the road!</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769503</VRef>
+      <Name>Path From Road to House</Name>
+      <Description>A thin cobblestone path winds it's way from the road to the little house to the
+west. The path is becoming overgrown with grass, and a few wildflowers little
+the front lawn of the house. The fence that you had to pass through along this
+path is short which is probably why you could just hop over it. Cute little
+house though.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769504</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Back over the fence to Rabbit-Skin Road?</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769502</ToVRef>
+        <Flags>7</Flags>
+        <Key>1769474</Key>
+        <Direction>3</Direction>
+        <Name>the little brown door</Name>
+        <Keywords>little brown door</Keywords>
+        <Description>The enterance of the cute little house.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769504</VRef>
+      <Name>Rabbit-Skin Road</Name>
+      <Description>A calm little road. The sides are lined with pretty potted plants, and small
+mounds of snow. The road has been shoveled clean, and salted to remove the ice.
+The road bends to the north, and a little path leads off to the west towards a
+little house... perhaps that is the home of the amazing Treance-chan!</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769501</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>That way is the Hyouden Village Square.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769503</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A short fence, then a cute little path to a cute little house.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769505</VRef>
+      <Name>Yuki Road</Name>
+      <Description>The more busy road of the village. The road has an almost oriental look to it.
+Little paper lanterns hang off of crystaline posts. The most of the stores
+lining the road give off a welcoming heat, and the red decorations in the
+windows give it a larger effect of being warm.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769506</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Further down Yuki Road. (the food area)</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769501</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Looking that way you can see the square's fountain, sparkling in the sunlight.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769506</VRef>
+      <Name>Yuki Road</Name>
+      <Description>A little further away from the village square, and the road is still the same.
+Besides the oriental look, the heat is still obvious. But this is the cooking
+area of the road. The smells of a bakery to your left and a candy store to your
+right can make your mouth water. The bakery though is apparently closed.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769507</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The road ends up that way as it comes up to a fence.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769505</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The part of Yuki Road which is closer to the village square.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769507</VRef>
+      <Name>Yuki Road</Name>
+      <Description>This is the last part of the road. A lane branches off to the right, where it
+begins to get VERY cold. To the front of you is a quiet little snow garden.
+There's a store to your left, but red curtains block your view in, so you don't
+know what it is.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769508</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>It get unusually cold that way, and the snow changes to a hard packed ice.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769506</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>More of the road. The bakery area.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769508</VRef>
+      <Name>Crunchy Lane</Name>
+      <Description>You can guess the lane name is a dumb pun at the state of the snow in this area.
+It crunches an unnecessary amount under your feet. This lane is very short. It
+runs along the fence of the garden to the north, and it ends in a rocky footpath
+to the east. The few people who live here are apparently the poorest of all.
+It's best not to stick around here....</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769509</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>It's very dark and shadowy down that path. But what's down there?</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769507</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>That's a better direction, it's warmer that way.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769509</VRef>
+      <Name>Freezing Path</Name>
+      <Description>The cold here is enough to make your whole body go numb. The snow itself has
+become so cold that it's like a sheet of ice. It's hard to keep ones footing,
+and it makes anyone wonder if it's worth following this path to see what's at
+the end.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769510</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>It's colder, but lighter that way.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769508</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>It's a little more bearable that way, even if it is rather shadowy.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769510</VRef>
+      <Name>Freezing Path</Name>
+      <Description>It's a little lighter at this spot, and gets even more lighter up ahead..
+however it's also colder here, and getting colder as the heat from the village
+disappears. Around here it's starting to snow.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769511</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The alley opens up to a vast plain of snow that way.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769509</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Well it's a little warmer that way.. mind you that's a little.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769511</VRef>
+      <Name>Snow Field</Name>
+      <Description>You're knee deep in snow. All out to the north of you is a vast field of snow.
+To the south is the village. If you squint hard enough through the snow, you can
+see that there's a mountain range in the northern direction. Choose quickly,
+because it's cold out here.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769512</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Further out into the snow field. It's cold.. and wet.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769510</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A small alley brakes through the buildings there.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769512</VRef>
+      <Name>Snow Field</Name>
+      <Description>Further away from the village now. The snow gets it's deepest here. A wind whips
+around your face painfully. It's not a good idea to stop here, it's not much of
+a rest stop.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769513</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A flat expanse of snow invites you to get lost in it.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769511</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The field ends soon that way, and opens up to the village.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769513</VRef>
+      <Name>Snow Field</Name>
+      <Description>No matter what the weather, or what time of day/night it is, the snow still
+glares up at you with a blinding light. The snow out in this part is slightly
+frozen over, and makes it harder to wade through. There's only really two ways
+to go.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769514</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Closer to the steep, snow encrusted mountains.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769512</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Closer to the village, but still deep in snow.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769514</VRef>
+      <Name>Snow Field</Name>
+      <Description>From here the village is but a blur, and the mountains are picking up more of a
+definite form. The wind is still whipping about you, and is picking up bits of
+snow from the ground to throw in your face.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769515</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Cold, wet, white snow that way.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769513</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>There's snow that way.. what did you expect?</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769515</VRef>
+      <Name>Snow Field</Name>
+      <Description>From here you can see the full height of the mountains. But not too many other
+details. The snow isn't quite as thick here, and weird prints are deeply pressed
+into the snow.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769516</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>A little less snow, and a lot more rock.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769514</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Hmm. A field of snow.. how original.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769516</VRef>
+      <Name>Snow Field</Name>
+      <Description>You can see more details of the mountains here. Like how the only climbable area
+is a flat, steep cliff. However you can always turn back. But that would mean
+going through the snow fields again.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769500</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Almost at the mountain.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1769515</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Oooh. Snow. How pretty.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769517</VRef>
+      <Name>Dragon Cavern</Name>
+      <Description>This cavern is very warm compared to the outside area. The walls and floor are
+smooth, like glass. All over the floor is bits of comforable fur, grasses, and
+other soft materials, mixed in with broken pieces of shell. There's also a large
+amount of bone shards, but they're so broken up you can't tell if they're human
+or not.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769518</VRef>
+      <Name>Demi-Cavern</Name>
+      <Description>A grey, stone table sits in the center of this room, with stone chairs sitting
+around it. A small grey bed sits to the side of the cave. On the bed lie a few
+objects. This cave room is warmed from some source further in the cave. Since
+the objects and surfaces have no dust layer its safe to assume that someone was
+here just recently.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1769519</VRef>
+      <Name>Small Junk Shop</Name>
+      <Description>An overwhelmingly stuffy and dusty scent overtakes you in this shop, from the
+fine coating of dust that has settled on everything. In the less than adequate
+lighting you can see that little trinkets and antiques are stuffed into every
+nook and cranny of the store. A little oriental style desk sits at the back, and
+behind it sits a little pale skinned man.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>3</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769472</VRef>
+      <Name>a dark mirror</Name>
+      <PName>dark mirrors</PName>
+      <Keywords>dark mirror</Keywords>
+      <ShortDesc>a mirror is here, it's surface is black and reflects nothing.</ShortDesc>
+      <PShortDesc>$t mirrors are here, their surfaces are black and reflect nothing.</PShortDesc>
+      <Description>A mirror made of black glass. A silver frame surrounds it, small birds and
+mythological beasts are carved into it. When you touch the glass it ripples like
+a pond.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>1000000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>102</Level>
+      <Weight>0.500000</Weight>
+      <Materials>1049088</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_room(mirrro, ch, NULL, NULL);
+ROOM to_room;
+to_room = get_room("snow.are/8");
+transfer(ch, to_room, TRUE);
+act_to_char(mirrch, ch, NULL, NULL);</Source>
+          <Commands>touch</Commands>
+          <Keywords>mirror</Keywords>
+          <Type>1</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>mirrch</Name>
+            <Value>When you touch the mirror you feel fuzzy and almost like you become water, then
+everything goes dark, and you are transported.</Value>
+          </TextVar>
+          <TextVar ObjectClass="OrangeScriptVariable">
+            <Name>mirrro</Name>
+            <Value>As $n touches the mirror, the mirror turns $n into liquid and invelops the
+liquid. The mirror itself disappears in a ^cblue light^x</Value>
+          </TextVar>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769473</VRef>
+      <Name>a shimmering translucent fountain</Name>
+      <PName>shimmering translucent fountains</PName>
+      <Keywords>shimmering fountain</Keywords>
+      <ShortDesc>a beautiful shimmering fountain sits here spewing forth sparkling water.</ShortDesc>
+      <PShortDesc>$t beautiful shimmering fountains sit here spewing forth sparkling water.</PShortDesc>
+      <Description>This fountain is made from hand-blown glass, causing it to catch the light and
+make it shimmer. It has been crafted to look like a thin, bare branched cherry
+tree. Tiny icicles dangle off the branches, and the water shoots out in streams
+from the icicle tips, into the wide basin firmly attached to the ground.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>11</ItemType>
+      <Level>1</Level>
+      <Weight>125.000000</Weight>
+      <Materials>1081344</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>38</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769474</VRef>
+      <Name>Treance's door key</Name>
+      <PName>Treance's door keys</PName>
+      <Keywords>door key</Keywords>
+      <ShortDesc>A small, metallic key. It has a very odd shape to it.</ShortDesc>
+      <PShortDesc>$t small, metallic keys. They have a very odd shape to them.</PShortDesc>
+      <Description>This little key is silver, and very oddly shaped. It's on a thin shot-bead
+chain, and has a couple of orange trinkets dangling from said chain.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>516</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769475</VRef>
+      <Name>an ornate ice throne</Name>
+      <PName>ornate ice thrones</PName>
+      <Keywords>ice throne</Keywords>
+      <ShortDesc>An ornate silvery-blue throne sits here.</ShortDesc>
+      <PShortDesc>$t ornate silvery-blue thrones sit here.</PShortDesc>
+      <Description>This throne is crafted from a beautiful ice-blue silver material. The cushioning
+is of a very soft, silken deep blue. The tall back of the throne has been
+detailed with tiny fighters carved straight into the metal, posing like they're
+ready to fight. This carving also continues onto the legs and the arms of the
+chair.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>1.500000</Weight>
+      <Materials>4227584</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>16</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769476</VRef>
+      <Name>a silver ribbon</Name>
+      <PName>silver ribbons</PName>
+      <Keywords>silver ribbon</Keywords>
+      <ShortDesc>a small, silken, silver ribbon is here.</ShortDesc>
+      <PShortDesc>$t small, silken, silver ribbons are here.</PShortDesc>
+      <Description>A beautiful ribbon, that looks like it should belong to a rich woman. It's made
+of a smooth, silver material that's soft and soothing to the touch. When the
+ribbon is moved it sparkles blue in the littlest of light showing its more than
+a normal ribbon.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>10</Level>
+      <Weight>0.200000</Weight>
+      <Materials>8208</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>129</WearFlags>
+      <Value0>25</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769477</VRef>
+      <Name>a grey stone table</Name>
+      <PName>grey stone tables</PName>
+      <Keywords>grey stone table</Keywords>
+      <ShortDesc>a short, grey, stone table sits here.</ShortDesc>
+      <PShortDesc>$t short, grey, stone tables sit here.</PShortDesc>
+      <Description>A short and sturdy stone table. The stone used is strong, and very thick. Little
+animals have been carved into the legs. The top of the table has been polished
+to a very smooth surface.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>30.000000</Weight>
+      <Materials>131072</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>3</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>8194</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769478</VRef>
+      <Name>a small grey bed</Name>
+      <PName>small grey beds</PName>
+      <Keywords>small grey bed</Keywords>
+      <ShortDesc>a small, grey bed sits here.</ShortDesc>
+      <PShortDesc>$t small, grey beds sit here.</PShortDesc>
+      <Description>This small grey bed is carved from stone, and has been smoothed and polished an
+amazing amount. Little animals have been carved into the legs and headboard of
+the bed. The bed has been made, with the blue and grey covers smoothed out to
+perfection.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>80.000000</Weight>
+      <Materials>139264</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>9362</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769479</VRef>
+      <Name>an ice dagger</Name>
+      <PName>ice daggers</PName>
+      <Keywords>blue dagger ice</Keywords>
+      <ShortDesc>a blue handled dagger lies here.</ShortDesc>
+      <PShortDesc>$t blue handled daggers lie here.</PShortDesc>
+      <Description>This little blue handled dagger is cool to the touch. The blade is around a foot
+long, and is serrated at the tip. In the hilt of the dagger is a light-blue
+crystal, that gives off a faint blue glow once in awhile.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>1000000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>20</Level>
+      <Weight>0.800000</Weight>
+      <Materials>32786</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>1</Value0>
+      <Value1>25</Value1>
+      <Value2>100</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769480</VRef>
+      <Name>a white cloak</Name>
+      <PName>white cloaks</PName>
+      <Keywords>white cloak</Keywords>
+      <ShortDesc>A soft, white cloak lays here.</ShortDesc>
+      <PShortDesc>$t soft, white cloaks lay here.</PShortDesc>
+      <Description>A slightly misleading name. It's not a cloak so much as it's a long trenchcoat
+thingy. The white material has a shiny quality to it, making it highly
+reflective. Much like a snow field.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>100</Level>
+      <Weight>0.200000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>32</WearFlags>
+      <Value0>40</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769481</VRef>
+      <Name>a pair of winter priestess pants</Name>
+      <PName>pairs of winter priestess pants</PName>
+      <Keywords>baggy pants</Keywords>
+      <ShortDesc>A pair of baggy black pants are here.</ShortDesc>
+      <PShortDesc>$t pairs of baggy black pants are here.</PShortDesc>
+      <Description>Created for the Priestess of the Eternal Winter. This pair of black pants are
+baggy to make them easier to move around in. The fabric is of unknown orgin, but
+is great at keeping one warm.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>100</Level>
+      <Weight>0.200000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>512</WearFlags>
+      <Value0>40</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769482</VRef>
+      <Name>a pair of winter priestess shoes</Name>
+      <PName>pairs of winter priestess shoes</PName>
+      <Keywords>w.p. shoes</Keywords>
+      <ShortDesc>A pair of w.p. shoes are sitting here.</ShortDesc>
+      <PShortDesc>$t pairs of w.p. shoes are sitting here.</PShortDesc>
+      <Description>Created for the Priestess of the Eternal Winter. A pair of black boots. Instead
+of laces, the boots are strapped up with two thick silver clasps. The style is
+something akin to ski boots, and they have small runic carvings here there and
+everywhere on them.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>100</Level>
+      <Weight>0.200000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>2048</WearFlags>
+      <Value0>40</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769483</VRef>
+      <Name>dragon talons</Name>
+      <PName>dragon talons</PName>
+      <Keywords>dragon talons</Keywords>
+      <ShortDesc>A set of dragon talons lay here.</ShortDesc>
+      <PShortDesc>$t sets of dragon talons lay here.</PShortDesc>
+      <Description>The razor-sharp talons themselves were taken from real ice dragons and hollowed
+out magically. Thin, flexable silver tubes run from the talons into a wristband
+that contains an unknown liquid, this is so if the talons are used in battle
+they do extra damage from the liquid. When the talons are worn they form to fit
+the wearer's fingers.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>100</Level>
+      <Weight>0.200000</Weight>
+      <Materials>524800</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>8192</WearFlags>
+      <Value0>40</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1769484</VRef>
+      <Name>stone box</Name>
+      <PName>stone boxes</PName>
+      <Keywords>stone box</Keywords>
+      <ShortDesc>A stone box sits here, being a box.</ShortDesc>
+      <PShortDesc>$t stone boxes sit here, being boxes.</PShortDesc>
+      <Description>Carved out from chunks of grey stone, this container looks like it could
+withstand a war. Little animals have been carved dancing across the top, and
+down around the hinges.</Description>
+      <ContCapacity>200.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>250.000000</Weight>
+      <Materials>131072</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769472</VRef>
+      <Name>a jackal guard</Name>
+      <PName>jackal guards</PName>
+      <Keywords>jackal guard</Keywords>
+      <ShortDesc>A jackal looking creature stands before you, his spear always ready.</ShortDesc>
+      <PShortDesc>$t jackal looking creatures stand before you, their spears always ready.</PShortDesc>
+      <Description>Deep violet fur covers the skin of this jackal headed creature. It's dressed all
+in gold trimmed Egyptian clothing, and it's clawed hands hold a large ruby
+tipped spear. Black, glassy eyes, that look like orbs filled with shadows are
+always watching carefully for intruders.</Description>
+      <Movement>walks silently</Movement>
+      <Sex>0</Sex>
+      <Level>50</Level>
+      <Alignment>1</Alignment>
+      <Size>large</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>10000</HitsMin>
+      <HitsMax>15000</HitsMax>
+      <EnergyMin>500</EnergyMin>
+      <EnergyMax>1000</EnergyMax>
+      <MovesMin>100</MovesMin>
+      <MovesMax>200</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>spear slash</Message>
+          <Chance>50</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>claw swipe</Message>
+          <Chance>50</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>jackal snap</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>winter howl</Message>
+          <Chance>10</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>1</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769473</VRef>
+      <Name>a garden faery</Name>
+      <PName>garden faeries</PName>
+      <Keywords>garden faery</Keywords>
+      <ShortDesc>A garden faery flutters around, a faint blue glow eminating from it.</ShortDesc>
+      <PShortDesc>$t garden faeries flutter around, a faint blue glow eminating from them.</PShortDesc>
+      <Description>This faery is quite fond of gardens. In fact that's probably the only place
+you'd find one. The faery's lithe body floats from flower to flower, enjoying
+the scent as only a fae could. Despite it's size, the way the faery glows when
+you step closer to it warns you not to bother it or face the consequences.</Description>
+      <Movement>flutters</Movement>
+      <Sex>3</Sex>
+      <Level>25</Level>
+      <Alignment>3</Alignment>
+      <Size>rodent</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1000</HitsMin>
+      <HitsMax>5000</HitsMax>
+      <EnergyMin>1000</EnergyMin>
+      <EnergyMax>1500</EnergyMax>
+      <MovesMin>100</MovesMin>
+      <MovesMax>500</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>3</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>faery tornado</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>blue fire</Message>
+          <Chance>15</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>2</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>slap</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>wings</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769474</VRef>
+      <Name>a small gargoyle</Name>
+      <PName>small gargoyles</PName>
+      <Keywords>small gargoyle</Keywords>
+      <ShortDesc>A small, grey gargoyle sits here, is it alive? Or is it just ignoring you?</ShortDesc>
+      <PShortDesc>$t small, grey gargoyles sit here, are they alive? Or are they just ignoring you?</PShortDesc>
+      <Description>It usually sleeps during the day and you'd usually notice it on fountains or on
+the outsides of castles and cathedrals. But everything gets bored once and a
+while. This little one seems to like to move about, keeping it's stony bulk off
+the ground with it's pitiful wings.</Description>
+      <Movement>floats</Movement>
+      <Sex>0</Sex>
+      <Level>5</Level>
+      <Alignment>3</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>500</HitsMin>
+      <HitsMax>1000</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>262147</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>head butt</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>dive bomb</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>fang blade</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>wings</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769475</VRef>
+      <Name>a garden bat</Name>
+      <PName>garden bats</PName>
+      <Keywords>bat</Keywords>
+      <ShortDesc>A small black-grey bat flys around your head eating bugs.</ShortDesc>
+      <PShortDesc>$t small black-grey bats fly around your head eating bugs.</PShortDesc>
+      <Description>Not a normal looking bat. The black, fuzzy creature looks more like a rabbit
+with wings. It eats bugs, but would probably take a bite at you if you annoy it
+too much. And with those teeth, I wouldn't try it.</Description>
+      <Movement>flaps</Movement>
+      <Sex>3</Sex>
+      <Level>5</Level>
+      <Alignment>4</Alignment>
+      <Size>rodent</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>200</HitsMin>
+      <HitsMax>600</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>262147</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>wing slap</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>ultrasonic scream</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>guano drop</Message>
+          <Chance>5</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>4</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>right wing</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>left wing</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769476</VRef>
+      <Name>Daniel Jones</Name>
+      <PName>Daniel Joneses</PName>
+      <Keywords>daniel jones</Keywords>
+      <ShortDesc>Daniel Jones stands here in all his splendor.</ShortDesc>
+      <PShortDesc>Many Daniel Joneses stand here in all their splendor.</PShortDesc>
+      <Description>Daniel Jones. He is the other half of the lead of Savage Garden, except he plays
+guitar/keyboards rather than singing. He has short scruffy dirty-blonde hair,
+and green eyes. Unlike his counterpart he is tall and thin. He wears black
+clothing and stays mainly in the shadows. Although he was raised in Australia
+his voice is obviously pure British.</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>50</Level>
+      <Alignment>3</Alignment>
+      <Size>large</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>5000</HitsMin>
+      <HitsMax>10000</HitsMax>
+      <EnergyMin>5000</EnergyMin>
+      <EnergyMax>10000</EnergyMax>
+      <MovesMin>5000</MovesMin>
+      <MovesMax>10000</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>crash and burn</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>2</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>violet</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>chained to you</Message>
+          <Chance>50</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769477</VRef>
+      <Name>Treance-chan</Name>
+      <PName>Treance-chans</PName>
+      <Keywords>treance chan</Keywords>
+      <ShortDesc>Treance-chan stands here, she seems uneasy.. and rather manly.</ShortDesc>
+      <PShortDesc>$t Treance-chans stand here, they seem uneasy.. and rather manly.</PShortDesc>
+      <Description>An unusually manly looking woman. Her short red jacket and even smaller blue
+shirt does nothing to hide the washboard-stomach underneath. This girl's entire
+build screams 'MAN!' She wears blue boots and has a blue and purple skirt on.
+The red jacket has long sleeves that have yellow ribbons tied at the wrists.
+Treance-chan has lavender shaded hair, which seems to be her normal color. And
+she has blue eyes. But still her muscular, masculine build is really disturbing.</Description>
+      <Movement>walks</Movement>
+      <Sex>0</Sex>
+      <Level>25</Level>
+      <Alignment>4</Alignment>
+      <Size>large</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>2500</HitsMin>
+      <HitsMax>4000</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>1</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>524289</ActFlags>
+      <AttacksPerRound>3</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>finish buster</Message>
+          <Chance>5</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>3</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>burning attack</Message>
+          <Chance>3</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>2</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>wine bottle smack</Message>
+          <Chance>50</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769478</VRef>
+      <Name>ice dragon</Name>
+      <PName>ice dragons</PName>
+      <Keywords>ice dragon</Keywords>
+      <ShortDesc>A giant, shimmering, white-blue dragon stands before you.</ShortDesc>
+      <PShortDesc>$t giant, shimmering, white-blue dragons stand before you.</PShortDesc>
+      <Description>Obviously very unimpressed with you being in it's presence. This dragon towers
+before you. It's body almost looks like glass, but you can't see-through it like
+glass. A blue shimmer runs over the dragon's body like waves. It's eyes swerve
+around, picking out your every weakness. Huge talon like hands flex into the
+ground, the silver claws glistening. Not a happy creature.</Description>
+      <Movement>walks</Movement>
+      <Sex>3</Sex>
+      <Level>100</Level>
+      <Alignment>2</Alignment>
+      <Size>titan</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1500</HitsMin>
+      <HitsMax>2000</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>100</MovesMin>
+      <MovesMax>1000</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>3</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>sonic roar</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>ice bolt</Message>
+          <Chance>15</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>1</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>talon rip</Message>
+          <Chance>75</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>bite</Message>
+          <Chance>75</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>spine</Name>
+          <ACMod>100</ACMod>
+          <Size>10</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>wings</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>neck</Name>
+          <ACMod>100</ACMod>
+          <Size>7</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>hindquarters</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>tail</Name>
+          <ACMod>100</ACMod>
+          <Size>7</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>back legs</Name>
+          <ACMod>100</ACMod>
+          <Size>6</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>front legs</Name>
+          <ACMod>100</ACMod>
+          <Size>6</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>underbelly</Name>
+          <ACMod>100</ACMod>
+          <Size>10</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769479</VRef>
+      <Name>a jackal merchant</Name>
+      <PName>jackal merchants</PName>
+      <Keywords>jackal merchant</Keywords>
+      <ShortDesc>A seedy looking jackal man watches you carefully.</ShortDesc>
+      <PShortDesc>$t seedy looking jackal men watch you carefully.</PShortDesc>
+      <Description>This Jackal is similar to the Jackal Guards that are throughout the abandoned
+castle, but for one thing it's much shorter than it's kindred. This Jackal also
+has no real interest in watching for intruders, only watching for prospective
+buyers for his ornate wares.</Description>
+      <Movement>walks silently</Movement>
+      <Sex>0</Sex>
+      <Level>55</Level>
+      <Alignment>1</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>10000</HitsMin>
+      <HitsMax>15000</HitsMax>
+      <EnergyMin>500</EnergyMin>
+      <EnergyMax>1000</EnergyMax>
+      <MovesMin>100</MovesMin>
+      <MovesMax>200</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>winter howl</Message>
+          <Chance>10</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>1</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>jackal snap</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>claw swipe</Message>
+          <Chance>50</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769480</VRef>
+      <Name>Mizaru</Name>
+      <PName>Multiple Mizaru</PName>
+      <Keywords>See Mizaru</Keywords>
+      <ShortDesc>A small, blue, deformed monkey stands here.</ShortDesc>
+      <PShortDesc>$t small, blue, deformed monkeys stand here.</PShortDesc>
+      <Description>This monkey doesn't really look much like a monkey apart from it's tail. It's
+entire body seems to show usage for genetic research of some type. The blue fur
+clumps up all over it's body, and it's teeth are needle-like points that it
+bares at you. The most frightening thing about this monkey is that it's eyes
+have been removed, and black pits stare at you.</Description>
+      <Movement>hops</Movement>
+      <Sex>0</Sex>
+      <Level>3</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>100</HitsMin>
+      <HitsMax>1000</HitsMax>
+      <EnergyMin>2000</EnergyMin>
+      <EnergyMax>2500</EnergyMax>
+      <MovesMin>100</MovesMin>
+      <MovesMax>1000</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>whip</Message>
+          <Chance>60</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>monkey tears</Message>
+          <Chance>15</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>bite</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>tail</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769481</VRef>
+      <Name>Iwazaru</Name>
+      <PName>Multiple Iwazaru</PName>
+      <Keywords>speak Iwazaru</Keywords>
+      <ShortDesc>A small, green, deformed monkey stands here.</ShortDesc>
+      <PShortDesc>$t small, green, deformed monkeys stand here.</PShortDesc>
+      <Description>This monkey doesn't really look much like a monkey apart from it's tail. It's
+entire body seems to show usage for genetic research of some type. The green fur
+clumps up all over it's body. I'm sure it would bare it's teeth at you if it's
+mouth hadn't been sown shut. And rather messily at that...</Description>
+      <Movement>hops</Movement>
+      <Sex>0</Sex>
+      <Level>3</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>100</HitsMin>
+      <HitsMax>1000</HitsMax>
+      <EnergyMin>2000</EnergyMin>
+      <EnergyMax>2500</EnergyMax>
+      <MovesMin>100</MovesMin>
+      <MovesMax>1000</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>whip</Message>
+          <Chance>60</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>monkey silence</Message>
+          <Chance>15</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>bite</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>tail</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1769482</VRef>
+      <Name>Kikazaru</Name>
+      <PName>Multiple Kikazaru</PName>
+      <Keywords>hear Kikazaru</Keywords>
+      <ShortDesc>A small, red, deformed monkey stands here.</ShortDesc>
+      <PShortDesc>$t small, red, deformed monkeys stand here.</PShortDesc>
+      <Description>This monkey doesn't really look much like a monkey apart from it's tail. It's
+entire body seems to show usage for genetic research of some type. The red fur
+clumps up all over it's body, and it's teeth are needle-like points that it
+bares at you. You could be surprised that it even noticed you, since it's ears
+have been sown shut...</Description>
+      <Movement>hops</Movement>
+      <Sex>0</Sex>
+      <Level>3</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>100</HitsMin>
+      <HitsMax>1000</HitsMax>
+      <EnergyMin>2000</EnergyMin>
+      <EnergyMax>2500</EnergyMax>
+      <MovesMin>100</MovesMin>
+      <MovesMax>1000</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>whip</Message>
+          <Chance>60</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>fury</Message>
+          <Chance>15</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>2</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>bite</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>tail</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arms</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>legs</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="MobilePopulation">
+      <Number>1</Number>
+      <RoomVRef>1769472</RoomVRef>
+      <MobileVRef>1769472</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>2</Number>
+      <RoomVRef>1769472</RoomVRef>
+      <MobileVRef>1769472</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>3</Number>
+      <RoomVRef>1769481</RoomVRef>
+      <MobileVRef>1769473</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>4</Number>
+      <RoomVRef>1769483</RoomVRef>
+      <MobileVRef>1769474</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>5</Number>
+      <RoomVRef>1769483</RoomVRef>
+      <MobileVRef>1769474</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>6</Number>
+      <RoomVRef>1769484</RoomVRef>
+      <MobileVRef>1769475</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>7</Number>
+      <RoomVRef>1769484</RoomVRef>
+      <MobileVRef>1769475</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>8</Number>
+      <RoomVRef>1769485</RoomVRef>
+      <MobileVRef>1900564</MobileVRef>
+      <InPosition>6</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>9</Number>
+      <RoomVRef>1769485</RoomVRef>
+      <MobileVRef>1769476</MobileVRef>
+      <InPosition>6</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1769473</RoomVRef>
+      <ObjectVRef>1769472</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1769501</RoomVRef>
+      <ObjectVRef>1769473</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>12</Number>
+      <RoomVRef>1769502</RoomVRef>
+      <MobileVRef>1769477</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1769485</RoomVRef>
+      <ObjectVRef>1769475</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>14</Number>
+      <RoomVRef>1769517</RoomVRef>
+      <MobileVRef>1769478</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1769518</RoomVRef>
+      <ObjectVRef>1769477</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1769518</RoomVRef>
+      <ObjectVRef>1769478</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>1769518</RoomVRef>
+      <ObjectVRef>1769484</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>1769479</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+      </ObjectsInside>
+    </Population>
+  </Populations>
+</Area>

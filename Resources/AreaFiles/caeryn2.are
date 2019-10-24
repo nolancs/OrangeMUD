@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>4</Anum>
+  <Name>Caeryn</Name>
+  <FileName>caeryn2.are</FileName>
+  <LowRange>0</LowRange>
+  <HighRange>13691</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>17731</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>2</UID>
+  </Builders>
+  <RoomIndexes>
+  </RoomIndexes>
+  <ObjectIndexes>
+  </ObjectIndexes>
+  <MobileIndexes>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+  </Populations>
+</Area>

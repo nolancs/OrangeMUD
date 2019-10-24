@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>25</Anum>
+  <Name>Ganesh Forest</Name>
+  <FileName>ganesh.are</FileName>
+  <LowRange>0</LowRange>
+  <HighRange>13691</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>2</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1638400</VRef>
+      <Name>Gateway To Ganesh</Name>
+      <Description>You stand before the elven forest of Ganesh. Great oaks, maples, and a
+scattering of pine lay before you. This forest is as ancient as time itself,
+entrusted to the elves by the immortal Drolen Silitari. Undergrowth is
+sparse as the sunlight rarely shines entirely through the canopy far above.
+The forest is certainly a wonder of nature, yet the awe inspiring beauty of
+the trees can't seem to overcome the feeling that you are being watched.
+Certainly it is the elves that are there, waiting for you to do something
+wrong. Remember, they are not known for their leniency when it comes to
+nature or their home. But for now, they remain unseen and the forest is
+yours to explore, with all its riches and bounty. Just remember who else is
+there...</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>3</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638401</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1638401</VRef>
+      <Name>Road North</Name>
+      <Description>Venturing further into the forest, the sounds of birds and other wildlife
+come to your ears, curiously absent only a few hundred yards south of you.
+Where once was the ominous feeling of being watched, here there is only
+nature.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>3</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638402</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638400</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1638402</VRef>
+      <Name>Creation</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638401</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1638403</VRef>
+      <Name>Outstide Alwist Tower</Name>
+      <Description>A large gray tower looms ahead of you in the pale half-light of the forest,
+highlighted by the sun that breaks through the opening the tower makes in the
+canopy. No light emanates from the few small openings in the walls that serve
+as windows and arrow slits. A large oaken door set with iron stands slightly
+ajar, beckonning you to enter.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>3</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638404</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1638404</VRef>
+      <Name>Alwist Tower: First Floor</Name>
+      <Description>The center of this room is dominated by a large staircase, spirraling upward.
+A small table and chairs are set to the far south wall. Several of the chairs
+are knocked over on their side, and there is a deck of cards scattered about
+the area. A fine layer of dust covers up two bloodstains on the floor, next to
+the table.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>5</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638403</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638405</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1638405</VRef>
+      <Name>Alwist Tower: Second Floor</Name>
+      <Description>time must have been stationed here. There are 5 beds lining the walls of this
+floor. They surround an identical spiralling staircase as that found in the
+floor just beneath you. A similar layer of dust also covers everything in a
+fine powder of white.  For some strange reason, two of the beds are missing
+mattresses, revealing the small foot lockers that lie beneath them.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>5</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638406</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638404</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1638406</VRef>
+      <Name>Alwist Tower: Third Floor</Name>
+      <Description>The top floor of the tower was used as a place for storing food and other
+items, but the weapon and armor racks are bare. However, most of the food
+remains. The walls are all but covered with barrels and sacks of drink and
+food. One of the sacks of grain has been cut open and overturned, its contents
+cascading across the floor and down the stairs. The only sign of life in this
+room are the tiny tracks of rats left in the everpresent dust.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>5</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>1638405</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1638400</VRef>
+      <Name>The Sword of Drolen</Name>
+      <PName>Swords of Drolen</PName>
+      <Keywords>Sword of Drolen</Keywords>
+      <ShortDesc>a strange dark sword emanating hidded power lies here.</ShortDesc>
+      <PShortDesc>$t strange dark swords emanating hidden power lie here.</PShortDesc>
+      <Description>This sword is made from the blackest metal. In fact, it seems to suck the very
+light from the area around it. The sword is a little over three feet long with
+the handle, hilt, and guard being another ten inches. Upon close inspection,
+the very blade seems to move in a slow, lethargic, vaguely fluid manner. The
+handle is formed of a very dark red material, and it depicts the charicatures
+of faces writhing in agony. The guard is made of the same material, but it is
+in the shape of bloody leaves intertwined.  The hilt is a skull crusher created
+from a saphire of the deepest cobalt blue.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>102</Level>
+      <Weight>300.000000</Weight>
+      <Materials>32</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>2</Value0>
+      <Value1>30000</Value1>
+      <Value2>30000</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1638401</VRef>
+      <Name>The Eldran Cloak</Name>
+      <PName>some Eldran Cloaks</PName>
+      <Keywords>Eldran cloak</Keywords>
+      <ShortDesc>A mysterious cloak darker than night lies here.</ShortDesc>
+      <PShortDesc>$t mysterious cloaks darker than night lie here.</PShortDesc>
+      <Description>This cloak is made of a material so fine and so well put together that no
+threads can be discerned. Whatever the material is, it does not reflect light
+or gather particles such as dust. These things simply fall away from the
+cloak. The cloak is long, stretching to the ankles, yet it never gets in the
+way. It also has a hood that completely covers the wearers face, should they
+wish to do so. The cloak also makes no sound, rendering the movements of its
+wearer silent.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>102</Level>
+      <Weight>2.500000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1638402</VRef>
+      <Name>wyrm plate</Name>
+      <PName>some wyrm plate</PName>
+      <Keywords>armor plate wyrm</Keywords>
+      <ShortDesc>platemail of interlocking scales lies here.</ShortDesc>
+      <PShortDesc>$t sets of platemail of interlocking scales lie here.</PShortDesc>
+      <Description>This suit of platemail armor is made from interlocking scales of adamantite.
+The metal is painstakingly worked so as to appear to be made from the scales
+of a dragon. It could have been any color originally, but now the metal has
+been scorched black, as if by fire. Despite being a full suit of upper body
+platemail, the armor is incredibly light and flexible, not restricting
+movement or any other abilities. In addition to its lightness, the mail is
+almost form fitting, not betraying the fact that armor is actually being worn.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>25000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>20</Level>
+      <Weight>20.000000</Weight>
+      <Materials>32</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>25</WearFlags>
+      <Value0>50000</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1638403</VRef>
+      <Name>a pair of braies</Name>
+      <PName>pairs of braies</PName>
+      <Keywords>braies pants</Keywords>
+      <ShortDesc>a pair of slightly baggy pants lie here.</ShortDesc>
+      <PShortDesc>$t pairs of slightly baggy pants lie here.</PShortDesc>
+      <Description>These black pants are only slightly baggy, offering comfort and freedom of
+movement.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>5</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>2.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>513</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1638404</VRef>
+      <Name>a pair of elven boots</Name>
+      <PName>pairs of elven boots</PName>
+      <Keywords>boots</Keywords>
+      <ShortDesc>a pair of boots lie here.</ShortDesc>
+      <PShortDesc>$t pairs of boots lie here.</PShortDesc>
+      <Description>Made from a soft yet durable leather, these boots are made for quiet movement
+through natural settings. Being made for traveling through terrain that is
+sometimes harsh, the boots tend to last for quite a long time before needing
+replaced.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>10</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>2049</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1638405</VRef>
+      <Name>The God's Throne</Name>
+      <PName>some Gods' Thrones</PName>
+      <Keywords>throne</Keywords>
+      <ShortDesc>a large dark throne stands here.</ShortDesc>
+      <PShortDesc>$t large dark thrones sit here.</PShortDesc>
+      <Description>This throne, standing only 6 feet tall is made from some unknown material of
+amazing density. The material is blacker than anything you have ever seen. It
+almost hurts to look at for any extended period of time. Vague movements seem to
+come from within the throne in the form of a gentle rolling, as if the throne
+was nothing more than water or fog. Other than these features, the throne is
+nondescript, as if its builder never finished.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>102</Level>
+      <Weight>200000.000000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>5</Value1>
+      <Value2>5</Value2>
+      <Value3>10</Value3>
+      <Value4>16</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>1638400</VRef>
+      <Name>an elven outer guardsman</Name>
+      <PName>elven outer guardsmen</PName>
+      <Keywords>outer guard elf</Keywords>
+      <ShortDesc>an elf dressed in green and brown stands before you.</ShortDesc>
+      <PShortDesc>$t elves dressed in green and brown stand before you.</PShortDesc>
+      <Description>This elf is dressed in the greens and browns of the elite Outer Guardsmen. Under
+the camoflauged outer clothes, a flash of metal is visible, indicating some form
+of armor. Like all Outer Guard, this one carries a sword at his waist and a bow
+and quiver strapped to his back.</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>8</Level>
+      <Alignment>6</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>70</HitsMin>
+      <HitsMax>80</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>45</MovesMin>
+      <MovesMax>50</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>3</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>slash</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>6196027</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="MobilePopulation">
+      <Number>1</Number>
+      <RoomVRef>1638401</RoomVRef>
+      <MobileVRef>1638400</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>2</Number>
+      <RoomVRef>1638401</RoomVRef>
+      <MobileVRef>1638400</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+  </Populations>
+</Area>

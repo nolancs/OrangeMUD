@@ -1,0 +1,4978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>2</Anum>
+  <Name>Tolnedra City</Name>
+  <FileName>town.are</FileName>
+  <LowRange>16504</LowRange>
+  <HighRange>21317</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>1</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131072</VRef>
+      <Name>Tolnedra Square</Name>
+      <Description>Here you are in the middle of the city. The square is packed with merchants,
+nobles, beggers, and seemingly any sort of person you could imagine. The
+constant roar of conversation is almost too loud to talk over and merchants
+call out from all directions, hoping you'll buy their goods. Dominating the
+middle of this square is a thick-trunked oak tree that must be at least three
+or four stories high. The square branches off in all directions from here. To
+the north you see a palace far off in the distance, to the south you see many
+shops and armories, the east leads off to the more seedy part of town, and to
+the west rise the stately homes of the Tolnedrain nobles.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131078</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Northern Merchants Row</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131073</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>a busy street with many shops.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131077</ToVRef>
+        <Flags>43</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name>the massive oak tree</Name>
+        <Keywords>oak tree</Keywords>
+        <Description>You see a fairly good sized oak tree with a low limb... </Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the breathtaking palace</Name>
+          <Keywords>palace</Keywords>
+          <Description>This IS a palace, not a castle. Ivory-hued spires rocket skyward and as they
+reach their apex they're crowned with azure rooftops. The main body of the
+palace is hidden from this spot due to the rising hill and thirty foot walls
+that stand guard over the palace grounds.</Description>
+          <Flags>0</Flags>
+        </Spot>
+        <Spot ObjectClass="Spot">
+          <Name>the great oak tree</Name>
+          <Keywords>oak tree</Keywords>
+          <Description>A massive oak tree towers above the square. Grey stones have been placed around
+the base, forming a ring to keep the soil off the cobblestone street. This tree
+must be as old as the city itself.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131073</VRef>
+      <Name>Southern Merchants Row</Name>
+      <Description>Shops! Shops! and more shops! Everywhere. To the west you see a awkwardly built
+complex of sorts, the sign hanging over it emblazoned with a stalking gold lion
+and twin crossed swords. To the east you see a blocky structure rising several
+stories, the sign out front is off a white shield painted with a green cross.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131072</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You see the crowded Tolnedra Square.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131084</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131074</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the wooden door</Name>
+        <Keywords>door</Keywords>
+        <Description>The sign has no letters or runes, only a sword picture.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131074</VRef>
+      <Name>The Weaponry Complex</Name>
+      <Description>This is a very strange building indead. The style of architecture shifts as you
+scan in each direction. Elves, dwarves, humans, vyans, ogres, and even trolls
+inhabit this patchwork structure. Dominating the center of this smokey, wood
+paneled room is a broad grey rock with a bronze plaque fastened to it. </Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131075</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>You see a fat trollish weaponsmith and a smoker shop.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131073</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the wooden door</Name>
+        <Keywords>door</Keywords>
+        <Description>To the street.
+</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131076</ToVRef>
+        <Flags>27</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name>the grey rock</Name>
+        <Keywords>stone rock boulder</Keywords>
+        <Description>The big grey rock seems to have a curious number of footprints by it.</Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the plaque</Name>
+          <Keywords>plaque</Keywords>
+          <Description>The tarnished old bronze plaque reads...
+
+Built in the year 304 by the brotherhood of races council.
+
+Dedicated to:
+         ...C.M. Volkaran
+</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131075</VRef>
+      <Name>The Trollish Weaponshop</Name>
+      <Description>The walls here are lined with crude looking spears, axes, and swords. Some of
+the more intriguing weapons hang behind the counter, high on the wall. A rather
+wicked-looking scimitar with jagged edges and a spiked pommel rests at the side
+of the counter, the crusted blood is evidence that this shopkeeper does not take
+thievery lightly.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131074</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>It leads back to the central room.</Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the wicked green-hued scimitar</Name>
+          <Keywords>scimitar wicked</Keywords>
+          <Description>The giant scimitar must weigh at least forty-five pounds. It's forged of some
+strange greenish-hued metal that lacks absolutely any luster at all. Running
+along the upper half of the blade are inch deep serations and fanning outward
+from the pommel are curved, talon-like spikes. You shudder to think of what
+being the victim of this weapon might feel like, but then you realize they
+probably wouldn't feel much of anything for long...</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131076</VRef>
+      <Name>A Torchlit Cave</Name>
+      <Description>You are standing in a dank, torchlit cave. It's narrow and seems to run off to
+the west where it branches off in several other directions. The walls are smooth
+sandstone and the torches seem to be kept continuely lit, by who or what you are
+not sure. A crudely carved staircase seems to run into the bottom of a grey rock
+that inhabits the better part of the ceiling.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131074</ToVRef>
+        <Flags>27</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name>the grey rock</Name>
+        <Keywords>stone grey boulder rock</Keywords>
+        <Description>The big grey rock doesn't look THAT heavy...</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131077</VRef>
+      <Name>In a Treehouse!</Name>
+      <Description>Amazingly someone seems to have built a treehouse up here. It's very well
+concealed in the dense foliage. The single room treehouse is decorated with a
+few stools and a tiny telescope that you can use to look out over the city.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131072</ToVRef>
+        <Flags>43</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name>the massive oak tree</Name>
+        <Keywords>down</Keywords>
+        <Description>It's all LONG way down, maybe you could jump off a limb.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131078</VRef>
+      <Name>Northern Merchants Way</Name>
+      <Description>You are just north of Tolnedra Square. Merchants line the streets on the east
+and west, selling all sorts of things. The building to the west looks like an
+alchemy shop. To the east you see lush garden that leads off to the temple.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131080</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>More people, you're approaching the palace gates</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131081</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>The Temple Coutyard/Garden</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131072</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Tolnedra Square</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131079</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the greywood door</Name>
+        <Keywords>door</Keywords>
+        <Description>An Alchemists shop</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131079</VRef>
+      <Name>Zulfuugers' Shop</Name>
+      <Description>A crazy-looking old man sits behind the counter stroking his white beard. All
+about the shop are jars filled with multicolored powders and leaves, herbs, even
+a few bubbling potions litter the shelves here and there. Some of items are
+priced so high you'd have to wonder what exactly you can do with all this stuff
+except sell it to another fool.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>10</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131078</ToVRef>
+        <Flags>1</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the greywood door</Name>
+        <Keywords>door</Keywords>
+        <Description>To the street</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131080</VRef>
+      <Name>Crossroads of Merchants and Dipshit</Name>
+      <Description>You are standing at the crossroads of Volkaran street and Merchant street.
+Volkaran street runs east/west, parallel to the palace walls. Merchants street
+runs north/south. The palace gates are directly north and Tolnedra square is
+far off to the south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65536</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Off in the distance you see a huge grey house.</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131078</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131081</VRef>
+      <Name>The Temple Courtyard</Name>
+      <Description>The is a small walled in courtyard and garden constructed by the local monks
+and priestesses. A dirt path leads to a spot beside the temple to leave your
+horse or pets. Deep green grass fills the rest of this expanse, dotted with
+flowers and tiny animals. Sparrows and bluejays gather on the stone birdbath
+that sits on the left as you approach the small grey-stoned temple to the east.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131082</ToVRef>
+        <Flags>7</Flags>
+        <Key>131081</Key>
+        <Direction>2</Direction>
+        <Name>the redwood door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131078</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131082</VRef>
+      <Name>A Cozy Cottage</Name>
+      <Description>You are in a wooden log cottage. The cozy atmosphere is accentuated by the low
+eight foot ceiling. In the northern wall is a roaring fire contained within the
+earthern-stone fireplace. A plush bearskin rug lays out in the front of the
+fireplace.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131081</ToVRef>
+        <Flags>7</Flags>
+        <Key>131081</Key>
+        <Direction>0</Direction>
+        <Name>the redwood door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131083</ToVRef>
+        <Flags>7</Flags>
+        <Key>131081</Key>
+        <Direction>1</Direction>
+        <Name>the rosewood door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131086</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131083</VRef>
+      <Name>The Bedroom</Name>
+      <Description>This tiny bedroom is capped off by a sloping wood ceiling. A small reddish wood
+door leads into the main room. Another, smaller, dark-grey stone fireplace is
+set in the eastern wall and there is a circular frosted-glass window in the
+northern wall. A large down-feathered bed covered in woolen and cotten sheets
+dominates this tiny room, the headboard seems to be slightly cracked. Tiny
+rectangular bedtables lay on each side of the bed. Many clothes and intimate
+items are also strewn about this room, giving it a unkept appearance.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>262</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131085</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131082</ToVRef>
+        <Flags>263</Flags>
+        <Key>131081</Key>
+        <Direction>3</Direction>
+        <Name>the rosewood door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131084</VRef>
+      <Name>The Brand New Room</Name>
+      <Description>You are standing a bland, sterile-looking new room. The walls are painted a
+thoughtless and dull off white. It seems perfectly square on all sides. One
+thing does stand out about this room, so much so that you almost feel sick to
+your stomach, it's the total disregard for originality that must of gone into
+making this terrible place. You see a yellow post-it note on the wall. "MAKE ME
+ORIGINAL!' Extra helps: room and rset are the same command. Also type room desc
+=80 to format me to fit nicely in an 80 character screen." 70</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>2</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131073</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131085</VRef>
+      <Name>Steamroom</Name>
+      <Description>This room has all the necessary needs for cleansing with an extra comfort of
+an oversized bath. A dark wooden stand against the west wall holds a washbasin
+on top and below is a chamber pot. A short distance from the stand is a
+wickerwork case. The shelves of the case contain linens, soaps, and oils.
+Candles of various sizes and colors are spread across a hanging self on the
+east wall. On the floor rests a medium sized circular rug.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>258</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131083</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131086</VRef>
+      <Name>The Cottage</Name>
+      <Description>Thick darkly varnished pine logs form the walls of the cottage's sitting room.
+Two large glass windows look out from the southern wall into the yard and
+garden. The windows are framed by luxurious hunter green curtains, creating a
+warm cozy feeling along with the plush rugs and crackling fireplace. Some
+leafy plants accent the cushy wicker couch and chairs.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131082</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131087</ToVRef>
+        <Flags>33554435</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the oak double doors</Name>
+        <Keywords>oak double doors</Keywords>
+        <Description>Through the windowed doors you see a plush green yard with a garden.</Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>131087</VRef>
+      <Name>The Yard</Name>
+      <Description>Your feet set foot in a thick lawn of soft green grass. An extremely tall
+redwood fence lines the yard on the west, not a hint of sound comes from the
+other side. Bird chirps fill the air, looking up you see a family of blue jays
+have made a nesty home in one of the many oak trees scattered about here. A
+beautiful and colorful garden can be seen off to the east.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131086</ToVRef>
+        <Flags>33554435</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the oak double doors</Name>
+        <Keywords>oak double doors</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131072</VRef>
+      <Name>the white marble fountain</Name>
+      <PName>white marble fountains</PName>
+      <Keywords>white marble fountain elegant</Keywords>
+      <ShortDesc>An elegant white marble ^!fountain^x^&amp; is here, bubbling happily.</ShortDesc>
+      <PShortDesc>$t elegant white marble ^!fountains^x^&amp; are here, bubbling happily.</PShortDesc>
+      <Description>This is a magnificent fountain. Carved entirely of grey-streaked white marble
+and laden with multiple levels of circular pools. A small spout at the top
+bursts forth happily and collects in a half-moon shaped dish which then spills
+over into wider dish below it. This continues for five levels until water
+collects in the main pool which is about six feet in diameter.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>11</ItemType>
+      <Level>0</Level>
+      <Weight>1.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>38</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131073</VRef>
+      <Name>a gold trimmed, blue velvet tunic</Name>
+      <PName>gold trimmed, blue velvet tunics</PName>
+      <Keywords>gold trimmed embroidered deep blue velvet tunic flowing speed</Keywords>
+      <ShortDesc>a beautifully embroidered deep-blue velvet tunic lies here.</ShortDesc>
+      <PShortDesc>$t beautifully embroidered deep-blue velvet tunics lay here.</PShortDesc>
+      <Description>A plush and very comfortable blue velvet tunic. Its inner lining is extremely
+soft and warm. The deep blue dye used on the tunic looks almost like a deep
+blue lake on a sunny day. Gold embroidery dances around the edges and flares
+out around the neckline.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>90000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>17</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>9</WearFlags>
+      <Value0>39</Value0>
+      <Value1>4</Value1>
+      <Value2>4</Value2>
+      <Value3>0</Value3>
+      <Value4>2</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131074</VRef>
+      <Name>a red and green christmas bow</Name>
+      <PName>red and green christmas bows</PName>
+      <Keywords>red green christmas plaid bow</Keywords>
+      <ShortDesc>a big red and green plaid christmas bow lies here on its side.</ShortDesc>
+      <PShortDesc>$t big red and green plaid christmas bows lay in a bowy heap.</PShortDesc>
+      <Description>An intricate bow about the size of half a basketbal. Many loops and ribbons of
+wonderful red and green plaid stuff. On the small white tag it reads...</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>850</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>129</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>129</WearFlags>
+      <Value0>3</Value0>
+      <Value1>4</Value1>
+      <Value2>4</Value2>
+      <Value3>0</Value3>
+      <Value4>2</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131075</VRef>
+      <Name>an azure-runed, mithril double-bladed axe</Name>
+      <PName>azure runed, mithril axes</PName>
+      <Keywords>silver silver-hued azure drinking axe runed</Keywords>
+      <ShortDesc>a silver-hued axe has been left here, its azure runes twinkling.</ShortDesc>
+      <PShortDesc>$t silver-hued axes have been left here, their azure runes twinkling.</PShortDesc>
+      <Description>The shimmering axe is made from a combination of mithril and silver. It's wide,
+double-bladed head curves up into crescents on each side. All along the head of
+the axe are deeply inlaid runes, twinkling in their own blue-hued light. The
+axe head is attached to a stout ironwood axe-hilt. Strips of black suede are
+laced up and down the handle of this mighty axe. Despite the hefty size of this
+axe it seems to carry almost no weight when you wield it, it's extremely light
+and easy to swing.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>95000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>2.500000</Weight>
+      <Materials>2097680</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>3</Value0>
+      <Value1>30</Value1>
+      <Value2>90</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>STRING tchar, troom, tchar2, troom2, tnroom, thundr, normal;
+ROOM was_in_room;
+was_in_room = room;
+tchar = "You swing your axe and chant reverently towards the sky.";
+troom = "$n swings $s axe and chants reverently towards the sky.";
+act_to_char(tchar, ch, NULL, NULL);
+act_to_room(troom, ch, NULL, NULL);
+tchar2 = "^wYou raise the axe skyward and as a bolt of lightning strikes!^x";
+troom2 = "^!^w$n raises $s axe skyward as a lightning bolt strikes $m!^x";
+tnroom = "^b^!$n appears admist a crackling ball of blue lightning!^x";
+thundr = "Thunder rumbles as dark clouds roll in, blotting out the sky.";
+normal = "The storm clouds disperse and everything returns to normal.";
+wait(2);
+act_to_all(thundr, ch, NULL, NULL);
+wait(2);
+act_to_char(tchar2, ch, NULL, NULL);
+act_to_room(troom2, ch, NULL, NULL);
+transfer(ch, get_room("town.are/11"), TRUE);
+act_to_room(tnroom, ch, NULL, NULL);
+wait(1);
+send_room(normal, was_in_room);</Source>
+          <Commands>swing</Commands>
+          <Keywords>axe</Keywords>
+          <Type>1</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+        <Script ObjectClass="OrangeScript">
+          <Source>if(class(ch) == WARRIOR)
+   send_char("The axe feels just right hands.", ch);
+
+if(race(ch) == AVARIEL)
+   send_char("The Avariel worksmanship melds with your hand.", ch);
+
+wear(obj, TRUE);
+act_to_char("^b^!The azure runes pulse and ignite at your touch.^x", ch, obj, NULL);
+act_to_room("^bThe azure runes pulse and ignite at $n's touch.^x", ch, obj, NULL);
+add_oaffect(ch, affect(AF_GLACIAL_SKIN, 10, 0, -1), obj);
+add_oaffect(ch, affect(AF_GIGANTICISM, 10, 0, -1), obj);
+add_oaffect(ch, affect(AF_STR, 10, 10, -1), obj);
+add_oaffect(ch, affect(AF_DEX, 10, 10, -1), obj);
+add_oaffect(ch, affect(AF_INT, 10, 10, -1), obj);
+add_oaffect(ch, affect(AF_WIS, 10, 10, -1), obj);
+add_oaffect(ch, affect(AF_CON, 10, 10, -1), obj);
+add_oaffect(ch, affect(AF_HIT, 0, 500, -1), obj);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>2</ID>
+        </Script>
+        <Script ObjectClass="OrangeScript">
+          <Source>remove(obj, TRUE);
+send_room("^bThe azure runes flicker and grow dim.^x", room);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>3</Trigger>
+          <Flags>0</Flags>
+          <ID>3</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131076</VRef>
+      <Name>a black leather vest</Name>
+      <PName>black leather vests</PName>
+      <Keywords>black leather vest velvet-lined</Keywords>
+      <ShortDesc>a velvet-lined, black leather vest has been discarded here.</ShortDesc>
+      <PShortDesc>$t black leather vests lay here in a discarded pile.</PShortDesc>
+      <Description>A finely crafted leather vest. The leather was tanned and beaten until it was
+very soft and light. Then it seems to have been dyed with an extremely blackish
+pigment, so deep and dark that it's actually hard to discern this vest from
+intangable darkness. The inside of this vest is lined with a series of intricate
+runes and glyphs from some long since extinct tongue.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>20000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>12288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>17</WearFlags>
+      <Value0>100</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131077</VRef>
+      <Name>a pair of black velvet pants</Name>
+      <PName>pairs of black velvet pants</PName>
+      <Keywords>black velvet pants</Keywords>
+      <ShortDesc>a pair of black velvet pants are here.</ShortDesc>
+      <PShortDesc>$t pairs of black velvet pants are here.</PShortDesc>
+      <Description>A long and form fitting pair of velvet pants. The soft and supple black velvet
+material used for these pants is among the most expensive in the land, second
+only to silk and perhaps golden-lace.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>513</WearFlags>
+      <Value0>45</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131078</VRef>
+      <Name>a white silken shirt</Name>
+      <PName>white silken shirts</PName>
+      <Keywords>white silken shirt</Keywords>
+      <ShortDesc>a silky white shirt lays here in a pile.</ShortDesc>
+      <PShortDesc>$t silky white shirts lay here in a pile.</PShortDesc>
+      <Description>Soft and airy, this white silken shirt covers the body in style, not protection
+or warmth. The short sleeved design allows the wearer to show off their arms.
+Another stylish feature is the low cutting v-neck that reveals ample amounts of
+the wearers chest, but is still within the confines of acceptability for both
+men and women.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>9</WearFlags>
+      <Value0>20</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131079</VRef>
+      <Name>a blackish wood tankard</Name>
+      <PName>a blackish wood tankard</PName>
+      <Keywords>blackish wood tankard</Keywords>
+      <ShortDesc>a black-hued tankard rests here.</ShortDesc>
+      <PShortDesc>$t bug bug bug</PShortDesc>
+      <Description>This tall mug is cracked slightly with age and use. It is crafted from some
+strange blackish material that seems, for most purposes, to be a form of wood. A
+single, red-painted rune is laden on the cover piece, the norse symbol of
+eternity.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>11</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>1</Value0>
+      <Value1>1</Value1>
+      <Value2>12</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131080</VRef>
+      <Name>a pair of dwarven hiking boots</Name>
+      <PName>pairs of dwarven hiking boots</PName>
+      <Keywords>dwarven hiking boots thick hide</Keywords>
+      <ShortDesc>a pair of thick hide boots are here.</ShortDesc>
+      <PShortDesc>$t pairs of thick hide boots are here.</PShortDesc>
+      <Description>These boots are made by dwarves, for dwarves. One of most sturdy pairs of boots
+ever devised, they are a marvel of dwarven engineering. Extremely tough and warm
+sasquatch hide, tanned and coated in a secret resin, forms the outer casing. The
+soles of the boots are formed from the bark of the ironwood tree, the outer
+non-flamable side has been torched until nearly rock solid. The underside of the
+bark is still spongy and forgiving, giving some ease to the step of the wearer.
+Plush sable fur lines the inside of these boots, giving them form and
+functionality. They are quite a treasure.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>536576</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>2049</WearFlags>
+      <Value0>34</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131081</VRef>
+      <Name>a skull-headed key</Name>
+      <PName>skull-headed keys</PName>
+      <Keywords>key skull headed skull-heaed</Keywords>
+      <ShortDesc>a golden skull-headed key lays here.</ShortDesc>
+      <PShortDesc>$t golden skull-headed keys are lays here.</PShortDesc>
+      <Description>A small golden key with an intricate and jagged stem. The likeness of a skull is
+carved into the head of the key.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>1024</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131082</VRef>
+      <Name>a gold and silver, engraved chakram</Name>
+      <PName>gold and silver, engraved chakrams</PName>
+      <Keywords>gold silver engraved chakram</Keywords>
+      <ShortDesc>a circular gold and silver chakram is here, half stuck in the ground.</ShortDesc>
+      <PShortDesc>$t circular gold and silver chakrams are here in a heap.</PShortDesc>
+      <Description>This is a hoop of silver-mithril banded in a gold. About one foot in diameter
+this kind of weapon is called a chakram and may be thrown at incredible speeds.
+The one inch hollow hoop has been flatened and its outside edge has been ground
+into razor sharpness. The rest of chakram is decorated with alternating gold and
+silver triangles and laden with runes.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>1552</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>2</Value0>
+      <Value1>35</Value1>
+      <Value2>70</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131083</VRef>
+      <Name>a worn oakenwood table</Name>
+      <PName>worn oakenwood tables</PName>
+      <Keywords>worn oaken table wood</Keywords>
+      <ShortDesc>An old, yet sturdy, oakenwood table is here.</ShortDesc>
+      <PShortDesc>$t old, yet sturdy, oakenwood tables are here.</PShortDesc>
+      <Description>An old wooden table. The deeply stained oaken wood top is cracked and worn.
+There are few sturdy oaken chairs scattered about the table, perhaps you could
+sit here.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>100.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>6</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>18</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131084</VRef>
+      <Name>the bed</Name>
+      <PName>beds</PName>
+      <Keywords>plush downfeathered bed</Keywords>
+      <ShortDesc>A large and plush downfeathered bed is here.</ShortDesc>
+      <PShortDesc>$t large and plush downfeathered beds are here.</PShortDesc>
+      <Description>This is a large and very plush bed. Very thick and warm woolen and cotton
+sheets cover the bed. There is enough room for two or so people to use this
+bed at once, with space to spare. Numerous downfeathered pillows line the bed
+around the cracked headboard, covered in silken pillow cases.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>100.000000</Weight>
+      <Materials>548864</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>2</Value0>
+      <Value1>100</Value1>
+      <Value2>100</Value2>
+      <Value3>100</Value3>
+      <Value4>1170</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131085</VRef>
+      <Name>an old canvas hiking pack</Name>
+      <PName>old canvas hiking packs</PName>
+      <Keywords>old canvas hiking pack backpack</Keywords>
+      <ShortDesc>a canvas backpack has been discarded here.</ShortDesc>
+      <PShortDesc>$t canvas backpacks have been discarded here.</PShortDesc>
+      <Description>This old battered pack is made from a tan canvas-like material. Leather straps
+have been sewn into the left and right sides of the pack, providing a way to
+sling this pack over your shoulders.</Description>
+      <ContCapacity>200.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>131081</ContKey>
+      <ContFlags>3</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>33554433</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131086</VRef>
+      <Name>a purple ball of light</Name>
+      <PName>purple balls of light</PName>
+      <Keywords>ball light mist purple</Keywords>
+      <ShortDesc>a shimmering coalescense of mist and light hovers here.</ShortDesc>
+      <PShortDesc>$t shimmering coalescenses of mist and light hover here.</PShortDesc>
+      <Description>A shimmering ball of mist and light. It bathes the immediate area in a pale
+purple hue, bright enough to see everything clearly even if it is a bit eerie.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>0</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>2097152</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>8388609</WearFlags>
+      <Value0>10</Value0>
+      <Value1>20</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131087</VRef>
+      <Name>a red falcon feather</Name>
+      <PName>red falcon feathers</PName>
+      <Keywords>red falcon feather</Keywords>
+      <ShortDesc>a nice looking red feather rests softly on the ground here.</ShortDesc>
+      <PShortDesc>$t nice looking red feathers rest softly on the ground here.</PShortDesc>
+      <Description>A red and black striped feather about eight or nine inches long.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>65</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131088</VRef>
+      <Name>a greenish serpent ring</Name>
+      <PName>greenish serpent rings</PName>
+      <Keywords>serpent greenish ring</Keywords>
+      <ShortDesc>a greenish metal ring with entwined serpents lies here in the dust.</ShortDesc>
+      <PShortDesc>$t greenish metal rings with entwined serpents lay here in the dust.</PShortDesc>
+      <Description>Crafted from some strange greenish metal that seems warm to the touch, this
+ring depicts two intertwining serpents. Very tiny and extremely rare blue
+diamonds dot the eyes of each intricately detailed serpant.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>45000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.200000</Weight>
+      <Materials>65544</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>3</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>wear(obj, TRUE);
+add_oaffect(ch, affect(AF_FIRE_SHIELD, 10, 0, -1), obj);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131089</VRef>
+      <Name>a belted dark leather pouch</Name>
+      <PName>belted dark leather pouches</PName>
+      <Keywords>darkish belted leather pouch</Keywords>
+      <ShortDesc>a darkish leather pouch lays here.</ShortDesc>
+      <PShortDesc>$t darkish leather pouches lays here in a pile.</PShortDesc>
+      <Description>A soft leather pouch about the size of an apple. The pouch and its drawstring
+have been dyed blackish-brown. It has a length of thin leather attached so that
+this pouch may be worn about the waist.</Description>
+      <ContCapacity>150.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>0.200000</Weight>
+      <Materials>12288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>16777217</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131090</VRef>
+      <Name>a crude bronze ball</Name>
+      <PName>crude bronze balls</PName>
+      <Keywords>crude bronze ball</Keywords>
+      <ShortDesc>a oddly shaped, crude bronze ball is here.</ShortDesc>
+      <PShortDesc>$t oddly shaped, crude bronze balls are here.</PShortDesc>
+      <Description>It seems like a molten mass of bronze was tossed into some cool water. Most likely a quick attempt to form something of substance for the gods to craft with. It's quite boring to look at but its size, about that of a human skull, is good for lobbing at those annoying mortals.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131091</VRef>
+      <Name>a rabbit skin</Name>
+      <PName>rabbit skins</PName>
+      <Keywords>rabbit skin</Keywords>
+      <ShortDesc>a soft and furry rabbit skin is here.</ShortDesc>
+      <PShortDesc>$t soft and furry rabbit skins are here.</PShortDesc>
+      <Description>This is the soft and furry skin of a rabbit. Jagged knife marks and tears
+leave evidence of how crudely this skin was cut away from its previous, and
+hopefully dead, owner. The underside of the skin was left untanned and is now
+rather rough and unyielding.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>59</Cost>
+      <Durability>-1</Durability>
+      <ItemType>20</ItemType>
+      <Level>1</Level>
+      <Weight>0.200000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131092</VRef>
+      <Name>a black steel shortsword</Name>
+      <PName>black steel shortswords</PName>
+      <Keywords>crude ugly black steel sword shortsword</Keywords>
+      <ShortDesc>a crude-looking black steel shortsword has been discarded here.</ShortDesc>
+      <PShortDesc>$t ugly black steel shortswords have been discarded here.</PShortDesc>
+      <Description>A rather crude looking weapon forged from some blackish type of steel. The
+blade is about two feet long and dulled from use, or so it seems. This weapon
+seems quite heavy for a shortsword, suggesting that perhaps the steel was
+impure or defective. The misshapened hilt is wrapped in black leather to
+provide some grip and warmth.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>3.000000</Weight>
+      <Materials>4</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>2</Value0>
+      <Value1>8</Value1>
+      <Value2>16</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131093</VRef>
+      <Name>the soapy and steaming bath</Name>
+      <PName>soapy and steaming bathes</PName>
+      <Keywords>grey bath steaming soapy marble pool</Keywords>
+      <ShortDesc>a wide grey-marble bath is built into the southeast corner.</ShortDesc>
+      <PShortDesc>$t wide grey-marble bathes are here.</PShortDesc>
+      <Description>Massive slabs of grey-black streaked marble were carved into a small pool or
+bath, residing in the southeast corner of this room. It's continually filled
+with steaming water and soapy bubbles.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>5000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>400.000000</Weight>
+      <Materials>131072</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>4</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>2340</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131094</VRef>
+      <Name>a delicate crystal champagne glass</Name>
+      <PName>delicate crystal champagne glasses</PName>
+      <Keywords>delicate crystal champage glass fluted</Keywords>
+      <ShortDesc>an elegantly fluted crystal glass sits here.</ShortDesc>
+      <PShortDesc>$t elegantly fluted crystal glasses sit here.</PShortDesc>
+      <Description>This beautifully crafted crystal glass is about six inches long. The stem is
+thin and cylindrical, flaring at the bottom for support. A narrow bulb-like
+top rests on the stem, making this glass seem almost like a rose.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>11</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1048576</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>1</Value0>
+      <Value1>1</Value1>
+      <Value2>8</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131095</VRef>
+      <Name>a hooded velvet cape lined in satin</Name>
+      <PName>crumpled heaps of velvet and satin</PName>
+      <Keywords>velvet cape satin hooded</Keywords>
+      <ShortDesc>a hooded, velvet cape lies here in a heap with bits of satin peeking out.</ShortDesc>
+      <PShortDesc>$t crumpled heaps of velvet and satin lie strewn here.</PShortDesc>
+      <Description>A quite inviting piece of outerwear, this soft cape is lined with satin for
+fluid movement about the body, with a velvet hood for style, and warmth in the
+cool breezes of autumn, though not quite warm enough for the chilly winters.
+Braided silk ropes dangle from the collar, useful for tying it up around the
+neck.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131096</VRef>
+      <Name>a Kenny Loggins record</Name>
+      <PName>Kenny Loggins records</PName>
+      <Keywords>kenny loggins record dusty</Keywords>
+      <ShortDesc>a dusty record lays here, unheard.</ShortDesc>
+      <PShortDesc>$t dusty records lay here in a heap, unheard.</PShortDesc>
+      <Description>A large circular piece of plastic.  Doubtful anyone will ever listen to it,
+considering the words 'Kenny Loggins Greatest Hits' is printed in large, scary
+font on the label. You know one thing - you wouldn't want to meet the person
+who left this here in a dark alley.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131097</VRef>
+      <Name>a toy figure</Name>
+      <PName>toy figures</PName>
+      <Keywords>doll toy </Keywords>
+      <ShortDesc>a twelve inch toy doll lays here.</ShortDesc>
+      <PShortDesc>$t dolls, about twelve inches long, have been left here.</PShortDesc>
+      <Description>A toy figure nearly 12 inches in length stares at you from its painted violet
+eyes. Synthetic dark hair graces the masculine face. Velvet clothing, boots,
+and serpent rings decorate the figure. As you study the features, you notice
+the toy resembles the god Volkaran.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131098</VRef>
+      <Name>The beater stick</Name>
+      <PName>beater sticks</PName>
+      <Keywords>steel rod stick beater</Keywords>
+      <ShortDesc>a large steel rod lays here.</ShortDesc>
+      <PShortDesc>$t large steel rods lay here.</PShortDesc>
+      <Description>You hold in your hand a long, hard, and smelly phallus shaped object. Engraved around the shaft are the words, "My name is Dan". This powerful weapon is the phallus of choice.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>7</Value0>
+      <Value1>500</Value1>
+      <Value2>1000</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131099</VRef>
+      <Name>valentine</Name>
+      <PName>valentines</PName>
+      <Keywords>valentine</Keywords>
+      <ShortDesc>a red valentine lays here.</ShortDesc>
+      <PShortDesc>$t red valentines lay here.</PShortDesc>
+      <Description>It's a red heart shaped valentine the size of your hand. On the front in white
+lettering are the words, "Kiss Me". When you open it up, a pair of paper lips
+come springing out.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131100</VRef>
+      <Name>a crude bronze ball</Name>
+      <PName>crude bronze balls</PName>
+      <Keywords>crude bronze ball</Keywords>
+      <ShortDesc>a oddly shaped, crude bronze ball is here.</ShortDesc>
+      <PShortDesc>$t oddly shaped, crude bronze balls are here.</PShortDesc>
+      <Description>It seems like a molten mass of bronze was tossed into some cool water. Most likely a quick attempt to form something of substance for the gods to craft with. It's quite boring to look at but its size, about that of a human skull, is good for lobbing at those annoying mortals.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131101</VRef>
+      <Name>a clear bottle of Bottled-People</Name>
+      <PName>clear bottles of Bottled-People</PName>
+      <Keywords>bottle</Keywords>
+      <ShortDesc>a clear bottle lays here.</ShortDesc>
+      <PShortDesc>$t clear bottles lay here.</PShortDesc>
+      <Description>Peering through the clear glass of the bottle, little people are visible. They seem to be franticly swimming in circles. No matter how hard they try to escape, they can't and will soon be consumed to give pleasure to a twisted individual.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>10</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1048576</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>500</Value0>
+      <Value1>500</Value1>
+      <Value2>6</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131102</VRef>
+      <Name>a fresh baked roll</Name>
+      <PName>fresh baked rolls</PName>
+      <Keywords>roll fresh</Keywords>
+      <ShortDesc>a fresh baked roll lays here.</ShortDesc>
+      <PShortDesc>$t fresh baked rolls lay here.</PShortDesc>
+      <Description>This small white baked good steams with delight. The aroma takes over and you
+just have to have it. The question remains, 'With jam or butter?'.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.200000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131103</VRef>
+      <Name>a serving of grape jam</Name>
+      <PName>servings of grape jam</PName>
+      <Keywords>grape jam</Keywords>
+      <ShortDesc>a serving of grape jam lays here.</ShortDesc>
+      <PShortDesc>$t servings of grape jam lay here.</PShortDesc>
+      <Description>This sweet smelling spread jiggles slightly when it's moved. The dark purple color stares back at you and says, "eat me". Now the only question is what to put it on.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131104</VRef>
+      <Name>a serving of cherry jam</Name>
+      <PName>servings of cherry jam</PName>
+      <Keywords>serving cherry jam</Keywords>
+      <ShortDesc>a serving of cherry jam lays here.</ShortDesc>
+      <PShortDesc>$t servings of cherry jam lay here.</PShortDesc>
+      <Description>This sweet smelling spread jiggles slightly when you handle the jar. The bright
+red color stares back at you and says, "eat me". Now the only question is what
+to put it on.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>17</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>1</Value1>
+      <Value2>1</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131105</VRef>
+      <Name>a case of Bottled-People</Name>
+      <PName>cases of Bottled-People</PName>
+      <Keywords>case Bottled-People</Keywords>
+      <ShortDesc>a case of Bottled-People lays here.</ShortDesc>
+      <PShortDesc>$t cases of Bottled-People lay here.</PShortDesc>
+      <Description>This purple and white case is made out of durable cardboard with a fancy logo on the side. A small handle is cut out on top making it easily carried. The case can hold 24 medium sized bottles. The logo reads, "Millions of People inside".</Description>
+      <ContCapacity>240.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>1</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131106</VRef>
+      <Name>a small jelly jar</Name>
+      <PName>small jelly jars</PName>
+      <Keywords>jar </Keywords>
+      <ShortDesc>a small jelly jar lays here.</ShortDesc>
+      <PShortDesc>$t small jelly jars lay here.</PShortDesc>
+      <Description>This small jar looks like it would make a good container for jelly or jam. The clear glass allows you to peer at what is inside. The jar is topped off with a gold lid.</Description>
+      <ContCapacity>12.000000</ContCapacity>
+      <ContMultiplier>100</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>1</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>0.300000</Weight>
+      <Materials>1048576</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131107</VRef>
+      <Name>a sharp icepick</Name>
+      <PName>sharp icepicks</PName>
+      <Keywords>icepick ice pick</Keywords>
+      <ShortDesc>a silver icepick lays here</ShortDesc>
+      <PShortDesc>$t silver icepicks lay here</PShortDesc>
+      <Description>Long and slender this icepick glimmers in the light. The tip is dangerously sharp. As you examine the icepick you notice what appears to be dried blood staining the point. Whatever this was used for, it wasn't for chipping ice.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>512</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>1</Value0>
+      <Value1>6</Value1>
+      <Value2>24</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131108</VRef>
+      <Name>a walking stick</Name>
+      <PName>walking sticks</PName>
+      <Keywords>walking stick</Keywords>
+      <ShortDesc>a wooden walking stick lays here.</ShortDesc>
+      <PShortDesc>$t wooden walking sticks lay here.</PShortDesc>
+      <Description>This very plain looking walking stick has been carved and shaped out of wood.
+It appear to have been used several times. Places along the stick have begun to
+splinter. There isn't really much use for this other than a walking stick.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131109</VRef>
+      <Name>a carved Nighten Wolf walking stick</Name>
+      <PName>carved Nighten Wolf walking sticks</PName>
+      <Keywords>carved stick walking</Keywords>
+      <ShortDesc>a carved walking stick lays here.</ShortDesc>
+      <PShortDesc>$t carved walking sticks lay here.</PShortDesc>
+      <Description>This walking stick has been well crafted. Carved at the very top is the head of
+the Nighten Wolf. It's the size of a fist, and in the eye sockets two glass
+blown eyes have been placed. The glass eyes are tinted red. The mouth of the
+wolf is slightly open showing two minature fangs. The entire stick has been
+dyed a brilliant white to match the coat of the wolf.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>1064960</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131110</VRef>
+      <Name>a sad clown doll</Name>
+      <PName>sad clown dolls</PName>
+      <Keywords>sad clown doll</Keywords>
+      <ShortDesc>A cloth clown is slumped over.</ShortDesc>
+      <PShortDesc>$t Cloth clowns are slumped over.</PShortDesc>
+      <Description>This poor doll looks like a sorry mess. His once colorful outfit has been
+smeared with dirt and torn in several places. There is a rip on along the seam
+that holds the cloth at his head. Bits of stuffing poke out through the hole
+making his head seem flat. His stitched on frown is unraveling making him look
+even more pathetic.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>0.800000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131111</VRef>
+      <Name>a brand new clown doll</Name>
+      <PName>brand new clown dolls</PName>
+      <Keywords>smiling clown doll</Keywords>
+      <ShortDesc>A smiling clown doll is slumped over.</ShortDesc>
+      <PShortDesc>$t Smiling clown dolls are slumped over.</PShortDesc>
+      <Description>Large red stitching smiles at you from the face of this doll. Black buttons
+have been sewn on for the eyes. Wool dyed orange has been looped and attached
+for the hair. It wears a one piece jump suit made of bright colorful patches.
+This happy clown has been stuffed full and is ready for fun.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>0.800000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131112</VRef>
+      <Name>a handful of feathers</Name>
+      <PName>handfuls of feather</PName>
+      <Keywords>pile feather chicken</Keywords>
+      <ShortDesc>A pile of chicken feathers lays here.</ShortDesc>
+      <PShortDesc>$t Piles of chicken feathers lay here.</PShortDesc>
+      <Description>The feathers are yellow in color and rather fluffy. They would make for
+stuffing or for decorative wear.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>20</ItemType>
+      <Level>1</Level>
+      <Weight>0.300000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131113</VRef>
+      <Name>razor blade</Name>
+      <PName>razor blades</PName>
+      <Keywords>metal razor blade</Keywords>
+      <ShortDesc>a sharp piece of metal is here.</ShortDesc>
+      <PShortDesc>$t sharp pieces of metal are here.</PShortDesc>
+      <Description>Umm...this sharp piece of metal appears to be a razor blade. You can tell by
+looking at the edge that the blade has never been used. What could you do with
+just the blade? You better be careful. You wouldn't want to cut yourself now
+would you...</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>0.200000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>5242881</WearFlags>
+      <Value0>2</Value0>
+      <Value1>6</Value1>
+      <Value2>12</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131114</VRef>
+      <Name>a silver ring</Name>
+      <PName>silver rings</PName>
+      <Keywords>ring sliver</Keywords>
+      <ShortDesc>A small silver ring is here.</ShortDesc>
+      <PShortDesc>$t Small sliver rings are here.</PShortDesc>
+      <Description>This silver ring looks like it will barely slide on the smallest of fingers.
+Perhaps with your luck you might just be able to slip it on your pinky.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>512</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>3</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131115</VRef>
+      <Name>a totally insane birthday cake</Name>
+      <PName>totally insane birthday cakes</PName>
+      <Keywords>birthday cake </Keywords>
+      <ShortDesc>a large crazy looking cake is here.</ShortDesc>
+      <PShortDesc>$t large crazy looking cakes are here.</PShortDesc>
+      <Description>Whoever baked this cake must have been out of their mind. It's composed of
+three circular lumpy layers heavily frosted. The bottom and top layers are
+frosted in pink, and the middle is frosted in purple. Candles that strangely
+resemble small firecrackers have been randomly stuck into the top layer. Even
+more strange, a mechanical monkey with flippers dances and chirps in the
+center of the cake.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>5.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131116</VRef>
+      <Name>bottle of lilac bath oil</Name>
+      <PName>bottles of lilac bath oil</PName>
+      <Keywords>bottle oil bath</Keywords>
+      <ShortDesc>an odd shaped bottle is here.</ShortDesc>
+      <PShortDesc>$t odd shaped bottles are here.</PShortDesc>
+      <Description>This odd shaped bottle has a rounded stout bottom, and a long slender neck.
+It's been blown and shaped from glass, and tainted lavender. A cream colored
+lable with the words 'Lilac Bathing Oil' has been attached around the fat part
+of the bottle. A cork of wood keeps the oil from spilling free.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>0.500000</Weight>
+      <Materials>1064960</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131117</VRef>
+      <Name>a condom</Name>
+      <PName>condoms</PName>
+      <Keywords>package condom</Keywords>
+      <ShortDesc>a small individually wrapped package is here</ShortDesc>
+      <PShortDesc>$t small individually wrapped packages are here</PShortDesc>
+      <Description>This small individually wrapped package contains one condom for one time use.
+It's designed for pleasure and protection. Easy on easy off makes it a
+scientific miracle in love making.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>131073</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131118</VRef>
+      <Name>a rocking horse</Name>
+      <PName>rocking horses</PName>
+      <Keywords>rocking horse</Keywords>
+      <ShortDesc>a rather large looking rocking horse stands here</ShortDesc>
+      <PShortDesc>$t large looking rocking horses stand here</PShortDesc>
+      <Description>Skillfully carved from a dark wood this rocking horse has been made to
+resemble a child's toy. A thin saddle and bridle made of leather adorn the
+horse. Wool spun and dyed a golden yellow has been used for the tail and mane,
+while the eyes have been painted on. The size of the rocking horse has been
+built to accomodate adults.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>100.000000</Weight>
+      <Materials>20480</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>2</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>1040</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131119</VRef>
+      <Name>a wooden spoon</Name>
+      <PName>wooden spoons</PName>
+      <Keywords>spoon </Keywords>
+      <ShortDesc>a wooden spoon is here</ShortDesc>
+      <PShortDesc>$t wooden spoons are here</PShortDesc>
+      <Description>A small simple spoon used for consuming soups and stews.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131120</VRef>
+      <Name>a 'Happy Birthday' banner</Name>
+      <PName>'Happy Birthday' banners</PName>
+      <Keywords>banner happy birthday</Keywords>
+      <ShortDesc>a '^rHappy ^bBirthday^x' banner is hung on the wall</ShortDesc>
+      <PShortDesc>$t '^rHappy ^bBirthday^x' banners are hung on the walls</PShortDesc>
+      <Description>The banner shouts "^rHAPPY ^bBIRTHDAY^x" in bold colorful writing.
+The cloth is rather long as it can be stretched and hung from corner to corner.
+It's an accessory to any birthday party.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194337</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131121</VRef>
+      <Name>a bundle of balloons</Name>
+      <PName>$t bundles of balloons</PName>
+      <Keywords>balloons bundle</Keywords>
+      <ShortDesc>a bundle of ^rc^go^yl^bo^mr^cf^gu^rl^x balloons floats here</ShortDesc>
+      <PShortDesc>$t bundles of ^rc^go^yl^bo^mr^cf^gu^rl^x balloons float here</PShortDesc>
+      <Description>Several bright colored balloons have been inflated and tied together with
+pieces of string.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131122</VRef>
+      <Name>a birthday cake</Name>
+      <PName>birthday cakes</PName>
+      <Keywords>icecream cake</Keywords>
+      <ShortDesc>a large icecream cake is starting to slowly melt</ShortDesc>
+      <PShortDesc>$t large icecream cakes are starting to slowly melt</PShortDesc>
+      <Description>This large delicious cake is made from varies flavors of icecream. The icing is
+swirled around making dizzy patterns in rainbow color. The icecream is slowly
+starting to melt along the edges.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131123</VRef>
+      <Name>a box</Name>
+      <PName>boxes</PName>
+      <Keywords>box</Keywords>
+      <ShortDesc>a box is sitting here.</ShortDesc>
+      <PShortDesc>$t boxes are sitting here.</PShortDesc>
+      <Description>It's a box. It's square. It has a lid.</Description>
+      <ContCapacity>30.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>1</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131124</VRef>
+      <Name>a glass vase</Name>
+      <PName>glass vase</PName>
+      <Keywords>vase</Keywords>
+      <ShortDesc>a glass vase is here.</ShortDesc>
+      <PShortDesc>$t glass vase are here.</PShortDesc>
+      <Description>This wonderful glass blow vase is tinted purple with an hourglass shape. With
+fresh flowers added it would make a lovely decoration to be shown off.</Description>
+      <ContCapacity>10.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>0.600000</Weight>
+      <Materials>1048576</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131125</VRef>
+      <Name>a pair of thong underwear</Name>
+      <PName>pairs of thong underwear</PName>
+      <Keywords>thong underwear</Keywords>
+      <ShortDesc>a pair of men's thong underwear lays here.</ShortDesc>
+      <PShortDesc>$t pairs of men's thong underwear lay here.</PShortDesc>
+      <Description>This sexy pair of underwear is nothing but string in the back. The front
+however has much more material to it designed with tiger stripes. This pair of
+underwear definitely needs to be filled out.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.300000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>131073</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131126</VRef>
+      <Name>a painting</Name>
+      <PName>paintings</PName>
+      <Keywords>painting</Keywords>
+      <ShortDesc>a painting rests on its side.</ShortDesc>
+      <PShortDesc>$t paintings rest on their side.</PShortDesc>
+      <Description></Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>24577</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131127</VRef>
+      <Name>a bundle of flowers</Name>
+      <PName>bundles of flowers</PName>
+      <Keywords>flowers</Keywords>
+      <ShortDesc>a bundle of flowers lays here.</ShortDesc>
+      <PShortDesc>$t bundles of flowers lay here.</PShortDesc>
+      <Description>This bundle is made up a varity of colorful and fresh smelling flowers.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.200000</Weight>
+      <Materials>524289</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131128</VRef>
+      <Name>a pair of panties</Name>
+      <PName>pairs of panties</PName>
+      <Keywords>panties</Keywords>
+      <ShortDesc>a pair of discarded panties have been tossed into a corner.</ShortDesc>
+      <PShortDesc>$t pairs of discarded panties have been tossed into a corner.</PShortDesc>
+      <Description>The panties are rather skimpy as you can hold them to the light and see
+through the red cloth. The smell of pussy filtrates your nostrils as you press
+them to your face.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>131073</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131129</VRef>
+      <Name>a pair of chicken slippers</Name>
+      <PName>pairs of chicken slippers</PName>
+      <Keywords>chicken slippers</Keywords>
+      <ShortDesc>a pair of chicken slippers stare back at you with their beady eyes.</ShortDesc>
+      <PShortDesc>$t pairs of chicken slippers stare back at you with their beady eyes.</PShortDesc>
+      <Description>A pair of funky looking chicken slippers complete with feathers and two heads
+attached. The eyes and beaks look strangely real, but don't worry no chickens
+were harmed in the making of the slippers. They are quite comfortable looking
+with soft padding lining the inside.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.300000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>2049</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131130</VRef>
+      <Name>voltron</Name>
+      <PName>voltrons</PName>
+      <Keywords>Voltron</Keywords>
+      <ShortDesc>a tall Voltron toy stands here.</ShortDesc>
+      <PShortDesc>$t tall Voltron toys stand here.</PShortDesc>
+      <Description>It's Voltron in his biggest most powerful form!!! He walks. He talks. He can
+kick anyone's ass!!! GO VOLTRON!!</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>3.000000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131131</VRef>
+      <Name>party hat</Name>
+      <PName>party hats</PName>
+      <Keywords>party hat</Keywords>
+      <ShortDesc>a party hat is here.</ShortDesc>
+      <PShortDesc>$t party hats are here.</PShortDesc>
+      <Description>It's a cone shaped hat covered in glitter with multi colored streamers hanging
+from the tip. An elastic string is attached to the sides in order to keep it
+placed on your head.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>65</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131132</VRef>
+      <Name>a teddy bear</Name>
+      <PName>teddy bears</PName>
+      <Keywords>teddy bear</Keywords>
+      <ShortDesc>a stuffed bear is here.</ShortDesc>
+      <PShortDesc>$t stuffed bears are here.</PShortDesc>
+      <Description>This light brown teddy bear has been carefully stuffed with tender hands.
+Around its neck is small red bow. This bear looks quite huggable.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131133</VRef>
+      <Name>a bladder pipe</Name>
+      <PName>bladder pipes</PName>
+      <Keywords>bladder pipe</Keywords>
+      <ShortDesc>A bladder pipe is here.</ShortDesc>
+      <PShortDesc>$t bladder pipes are here.</PShortDesc>
+      <Description>This instrument is made of a reed which is enclosed by a pig's bladder. The
+bladder is used lke a wind reservoir, and a wooden pipe serves as the
+mouthpiece. Small fingering holes are located on the reed. When played this
+instrument gives off a loud sound.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>3.000000</Weight>
+      <Materials>540672</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131134</VRef>
+      <Name>a rubber duck</Name>
+      <PName>rubber ducks</PName>
+      <Keywords>rubber duck</Keywords>
+      <ShortDesc>a yellow rubber duck is here.</ShortDesc>
+      <PShortDesc>$t yellow rubber ducks are here.</PShortDesc>
+      <Description>It's a yellow rubber duck. Small and floatable, it's best used in the bath.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.300000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131135</VRef>
+      <Name>a fake moustache</Name>
+      <PName>fake moustaches</PName>
+      <Keywords>fake moustache</Keywords>
+      <ShortDesc>A fake moustache is here.</ShortDesc>
+      <PShortDesc>$t fake moustaches are here.</PShortDesc>
+      <Description>The dark hair of this moustache curls on the ends. It's recently been worn as
+the glue on one side is still sticky with residue.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>4194304</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>67108865</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_char("You affix $p just above your upper lip.", ch, obj, NULL);
+act_to_room("$n affixes $p just above $s upper lip.", ch, obj, NULL);
+wear(obj, FALSE);</Source>
+          <Commands></Commands>
+          <Keywords></Keywords>
+          <Type>1</Type>
+          <Trigger>2</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131136</VRef>
+      <Name>a simple gown</Name>
+      <PName>simple gowns</PName>
+      <Keywords>simple gown</Keywords>
+      <ShortDesc>A simple gown lays in a heap.</ShortDesc>
+      <PShortDesc>$t simple gowns lay in a heap.</PShortDesc>
+      <Description>This gown has been made from off white cloth. The sleeves are long and fall
+past the hands in a bell shape. The neckline has been cut low to expose the
+bosom. The cloth draws tight just under the breasts before flowing loosely to
+the floor.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131137</VRef>
+      <Name>a small harp</Name>
+      <PName>small harps</PName>
+      <Keywords>small harp</Keywords>
+      <ShortDesc>A small harp is here.</ShortDesc>
+      <PShortDesc>$t small harps are here.</PShortDesc>
+      <Description>This harp is nearly thirty inches tall. It's just the right size to be carried
+easily. Twenty strings made of silk are attached to wooden pins. When struck
+these strings give off a melodic sound.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>6.000000</Weight>
+      <Materials>540672</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131138</VRef>
+      <Name>a finger cymbal</Name>
+      <PName>finger cymbals</PName>
+      <Keywords>finger cymbal</Keywords>
+      <ShortDesc>A finger cymbal is here.</ShortDesc>
+      <PShortDesc>$t finger cymbals are here.</PShortDesc>
+      <Description>It's a tiny cymbal reaching only three inches in diameter. A leather strap on
+the outside allows you to slip it over you thumb or middle finger. It needs a
+matching twin in order to be played.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.300000</Weight>
+      <Materials>4224</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>3</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131139</VRef>
+      <Name>a frosty glass</Name>
+      <PName>frosty glasses</PName>
+      <Keywords>tall frosty glass</Keywords>
+      <ShortDesc>a tall, frosty glass has been set here.</ShortDesc>
+      <PShortDesc>smelling of chocolate milk, ^!$t^x^&amp; frosty glasses are here.</PShortDesc>
+      <Description>This glass is about nine inches tall and made of elegantly frosted glass. It
+tapers from about the size of a tennis ball at the top down to a golf ball at
+the bottom, where a small saucer flares out to steady the glass when it's set
+down. The luscious scent of chocolate milk, perhaps from the infamous chocolate
+cow itself, wafts up from the glass, maybe there's still some left! Drink It!</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>5000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>10</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>1048576</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>40</Value0>
+      <Value1>25</Value1>
+      <Value2>9</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131140</VRef>
+      <Name>a gemshorn</Name>
+      <PName>gemshorns</PName>
+      <Keywords>gemshorn</Keywords>
+      <ShortDesc>A gemshorn is here.</ShortDesc>
+      <PShortDesc>$t gemshorns are here.</PShortDesc>
+      <Description>This ox's horn as been made into a wind instrument. On the fat round part of
+the horn is an open slit about an inch long. The slit it used to blow air
+through. Tapering down the horn are seven drilled holes for fingering.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>262144</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131141</VRef>
+      <Name>a pipe and tabor</Name>
+      <PName>pipes and tabors</PName>
+      <Keywords>pipe tabor</Keywords>
+      <ShortDesc>A pipe and tabor lie here.</ShortDesc>
+      <PShortDesc>$t pipes and tabors lay here.</PShortDesc>
+      <Description>These two instruments are meant to be played together. The pipe has only three
+holes for your index finger, middle finger, and thumb. A ridge around the
+bottom of the pipe makes it easier for you to hold while also playing the
+tabor. The tabor is a small drum with a leather strap that wraps around the arm
+holding the pipe. This leaves your other arm free to strike the tabor.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>5.000000</Weight>
+      <Materials>20480</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>STRING startchar, startroom, playchar, playroom;
+INT good;
+
+startchar = "You sling the tabor around your arm and bring the pipe to your lips.";
+startroom = "$n slings a tabor drum around $s arm and brings a pipe to $s lips.";
+
+act_to_char(startchar, ch, obj, NULL);
+act_to_room(startroom, ch, obj, NULL);
+wait(1);
+
+good = random(1, 5);
+if(good == 1){
+playchar = "You play a nice melody but hit some sour notes.";
+playroom = "$n plays an ok song but ruins it with some sour notes.";
+}
+if(good == 2 || good == 3 || good == 4){
+playchar = "You play a delightful song with a catchy tune.";
+playroom = "$n plays a delightful song with a catchy tune.";
+}
+if(good == 5){
+playchar = "^!You play an harmonious tune with masterful skill!^x";
+playroom = "^!$n plays a brilliant tune with masterful skill!^x";
+}
+
+act_to_char(playchar, ch, obj, NULL);
+act_to_room(playroom, ch, obj, NULL);
+if(good == 5)
+send_room("Everyone taps their feet to the wonderful music.", room);</Source>
+          <Commands>play</Commands>
+          <Keywords>pipe tabor</Keywords>
+          <Type>1</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131142</VRef>
+      <Name>an orange pumpkin</Name>
+      <PName>orange pumpkins</PName>
+      <Keywords>pumpkin</Keywords>
+      <ShortDesc>a plump little pumpkin rests here.</ShortDesc>
+      <PShortDesc>$t plump little pumpkin rest here.</PShortDesc>
+      <Description>You see a small brightly colored orange pumpkin.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>12</ItemType>
+      <Level>1</Level>
+      <Weight>2.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>5</Value0>
+      <Value1>5</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131143</VRef>
+      <Name>a pikachu costume</Name>
+      <PName>pikachu costumes</PName>
+      <Keywords>pokemon pikachu yellow costume</Keywords>
+      <ShortDesc>a large, yellowy pokemon costume has been left here.</ShortDesc>
+      <PShortDesc>Large and yellowy, $t pokemon costumes have been left here.</PShortDesc>
+      <Description>This is an adult-sized costume resembling the lovable electrical pokemon known
+as pikachu. You feel the sudden urge to shout "Pika! Pika! Pi!" PIKACHU!
+POKEMON, Gotta catch em' all!</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>20</Cost>
+      <Durability>-1</Durability>
+      <ItemType>7</ItemType>
+      <Level>1</Level>
+      <Weight>1.500000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33</WearFlags>
+      <Value0>25</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131144</VRef>
+      <Name>fluffy white towel</Name>
+      <PName>fluffy white towels</PName>
+      <Keywords>fluffly white towel</Keywords>
+      <ShortDesc>A fluffy white towel is here.</ShortDesc>
+      <PShortDesc>$t fluffy white towels are here.</PShortDesc>
+      <Description>Someone has neatly folded a towel and left it here. The towel is of rich cloth,
+and has been dyed white. It's touch is soft and inviting. It sure would feel
+real nice against your naked flesh.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>0.300000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4325409</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>131145</VRef>
+      <Name>a bar of soap</Name>
+      <PName>bars of soap</PName>
+      <Keywords>bar soap</Keywords>
+      <ShortDesc>A bar of homemade soap is here.</ShortDesc>
+      <PShortDesc>$t bars of homemade soap are here.</PShortDesc>
+      <Description>Human hands have clearly tried to shape this homemade bar of soap into an oval.
+Whoever it was, they didn't come close. It's more a lump than any shape at all.
+But who cares? It will clean you just the same.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>12582913</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131072</VRef>
+      <Name>a rabbit</Name>
+      <PName>rabbits</PName>
+      <Keywords>rabbit</Keywords>
+      <ShortDesc>A white-furred rabbit is here, its nose twitching curiously.</ShortDesc>
+      <PShortDesc>$t white-furred rabbits hop around here.</PShortDesc>
+      <Description>You see a small white-furred rabbit. It has long floppy ears on its head and
+twinkling little eyes. The rabbit sniffs the air curiously as its eyes dart
+around the area with lightning quickness. It seems to notice you, but innocently
+ignores your potential threat.</Description>
+      <Movement>hops</Movement>
+      <Sex>3</Sex>
+      <Level>1</Level>
+      <Alignment>3</Alignment>
+      <Size>rodent</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>20</HitsMin>
+      <HitsMax>20</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>tiny claw</Message>
+          <Chance>50</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>needle-toothed bite</Message>
+          <Chance>45</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>tooth and claw fury</Message>
+          <Chance>5</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>floppy ear</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>pink nose</Name>
+          <ACMod>100</ACMod>
+          <Size>1</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>white-furred body</Name>
+          <ACMod>100</ACMod>
+          <Size>9</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>foot</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+        <Skin ObjectClass="Skin">
+          <Chance>80</Chance>
+          <Number>1</Number>
+          <VRef>131091</VRef>
+        </Skin>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131073</VRef>
+      <Name>a vyan merchant</Name>
+      <PName>vyan merchants</PName>
+      <Keywords>sickly vyan merchant</Keywords>
+      <ShortDesc>A sickly vyan stumbles around, clutching at his stomach.</ShortDesc>
+      <PShortDesc>$t sickly vyans stumbles around, clutching at their stomaches.</PShortDesc>
+      <Description>This small and thin vyan seems to be in the brink of death. He is clutching at
+his stomach as he stumbles around. Perhaps a victim of a disgruntled customer,
+he seems to be mortally poisoned. That sick, evil, cowardly part of your mind
+is screaming at you to drag this sucker into the alley and relieve him of his
+extremely heavy purse.</Description>
+      <Movement>clutches his stomach and stumbles</Movement>
+      <Sex>1</Sex>
+      <Level>25</Level>
+      <Alignment>0</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>505</HitsMin>
+      <HitsMax>550</HitsMax>
+      <EnergyMin>100</EnergyMin>
+      <EnergyMax>100</EnergyMax>
+      <MovesMin>233</MovesMin>
+      <MovesMax>233</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>2621443</ActFlags>
+      <AttacksPerRound>3</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>sickly cough</Message>
+          <Chance>40</Chance>
+          <Type>1</Type>
+          <Flags>4</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>weak swat</Message>
+          <Chance>40</Chance>
+          <Type>2</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>elemental ice-crystalline dagger</Message>
+          <Chance>5</Chance>
+          <Type>1</Type>
+          <Flags>6</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>1</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>mind blade</Message>
+          <Chance>10</Chance>
+          <Type>1</Type>
+          <Flags>4</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>5</Number>
+          <Message>wicked alchemy</Message>
+          <Chance>5</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>2</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>leg</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>foot</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>hand</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>neck</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>body</Name>
+          <ACMod>100</ACMod>
+          <Size>8</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arm</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+        <Skin ObjectClass="Skin">
+          <Chance>50</Chance>
+          <Number>1</Number>
+          <VRef>131074</VRef>
+        </Skin>
+        <Skin ObjectClass="Skin">
+          <Chance>100</Chance>
+          <Number>2</Number>
+          <VRef>131073</VRef>
+        </Skin>
+        <Skin ObjectClass="Skin">
+          <Chance>2</Chance>
+          <Number>3</Number>
+          <VRef>131072</VRef>
+        </Skin>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131074</VRef>
+      <Name>the cyclops chief</Name>
+      <PName>cyclops chiefs</PName>
+      <Keywords>cyclops chief</Keywords>
+      <ShortDesc>The gigantic cyclops clan-chief is here, his eye twitching.</ShortDesc>
+      <PShortDesc>$t massive cyclops chiefs are here, their eyes twitching.</PShortDesc>
+      <Description></Description>
+      <Movement>thunderously tromps</Movement>
+      <Sex>1</Sex>
+      <Level>40</Level>
+      <Alignment>2</Alignment>
+      <Size>titan</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>2005</HitsMin>
+      <HitsMax>2250</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>500</MovesMin>
+      <MovesMax>500</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>5</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>thunderous punch</Message>
+          <Chance>90</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>2</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>brutal kick</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>stone-fisted smash</Message>
+          <Chance>60</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>swung redwood trunk</Message>
+          <Chance>25</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>5</Number>
+          <Message>The fury of kicks and punches</Message>
+          <Chance>30</Chance>
+          <Type>1</Type>
+          <Flags>6</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>huge arm</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>vunerable eye</Name>
+          <ACMod>100</ACMod>
+          <Size>1</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>trunk-sized leg</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>massive head</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>thickly muscled body</Name>
+          <ACMod>100</ACMod>
+          <Size>15</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131075</VRef>
+      <Name>a townsman</Name>
+      <PName>townsmen</PName>
+      <Keywords>townsman man</Keywords>
+      <ShortDesc>A busy townsman is here, pushing his way through the streets.</ShortDesc>
+      <PShortDesc>$t busy townsmen push their way through the streets.</PShortDesc>
+      <Description>This human is local to the city, he pushes through the streets with a
+confident familiarity. As far as humans go this one is pretty average. About
+5"10' with short sandy-brown hair and dull green eyes. He seems like an
+honorable fellow who is just trying to get a days work done.</Description>
+      <Movement>pushes past you and walks</Movement>
+      <Sex>1</Sex>
+      <Level>10</Level>
+      <Alignment>3</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>115</HitsMin>
+      <HitsMax>130</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>180</MovesMin>
+      <MovesMax>210</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>shin kick</Message>
+          <Chance>50</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>stab</Message>
+          <Chance>10</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>hand</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>foot</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>chest</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arm</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>stomach</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>leg</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131076</VRef>
+      <Name>a townswoman</Name>
+      <PName>townswomen</PName>
+      <Keywords>townswoman woman</Keywords>
+      <ShortDesc>A golden tressed townswoman rushes through the streets.</ShortDesc>
+      <PShortDesc>$t golden tressed townswomen rush through the streets.</PShortDesc>
+      <Description>This human is local to the city, she pushes through the streets with a
+confident familiarity. As far as human women go this one is quite pretty. About
+5"7' with long golden-blonde hair and bright blue eyes. Her gentle and calm
+demeanor does not conceal the fact that she is quite capable of defending
+herself if need be.</Description>
+      <Movement>brushes past you as she walks</Movement>
+      <Sex>2</Sex>
+      <Level>11</Level>
+      <Alignment>3</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>105</HitsMin>
+      <HitsMax>110</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>102</MovesMin>
+      <MovesMax>180</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>kick</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>!The brutal eye clawing</Message>
+          <Chance>5</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>head</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>neck</Name>
+          <ACMod>100</ACMod>
+          <Size>1</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>chest</Name>
+          <ACMod>100</ACMod>
+          <Size>8</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>stomach</Name>
+          <ACMod>100</ACMod>
+          <Size>4</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>arm</Name>
+          <ACMod>100</ACMod>
+          <Size>6</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>hand</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>leg</Name>
+          <ACMod>100</ACMod>
+          <Size>6</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>foot</Name>
+          <ACMod>100</ACMod>
+          <Size>3</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131077</VRef>
+      <Name>Bill Clinton</Name>
+      <PName>Bill Clintons</PName>
+      <Keywords>bill clinton president</Keywords>
+      <ShortDesc>Bill Clinton stands here, wielding the 'presidential staff'.</ShortDesc>
+      <PShortDesc>$t Bill Clintons stand here, wielding their 'presidential staves'.</PShortDesc>
+      <Description>Bill Clinton. The name strikes laughter in men, resentment in women. Easily the
+most bungling president in history, he is now resigned to strutting his stuff
+around town, occasionally 'whipping it out'.  Be careful or you might be his
+next victim.  This ain't no Havana, baby.</Description>
+      <Movement>struts</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>0</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>generic part</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>1950720</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131078</VRef>
+      <Name>Tiny Tim</Name>
+      <PName>Tiny Tims</PName>
+      <Keywords>tiny tim boy</Keywords>
+      <ShortDesc>A poor little lad with a crutch searches for scraps on the ground here.</ShortDesc>
+      <PShortDesc>$t poor lads with crutches search for scraps around here.</PShortDesc>
+      <Description>This small fragile boy looks at you with beggars eyes. He's slouched on a crutch that supports his right wooden leg. His clothes are torn and dirty. He plays a desperate smile on you and asks, 'Please...could you spare a poor boy some food?'.</Description>
+      <Movement>Tiny Tim hobbles</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>0</Alignment>
+      <Size>small</Size>
+      <DefaultPos>resting</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>crutch</Name>
+          <ACMod>100</ACMod>
+          <Size>2</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131079</VRef>
+      <Name>Chicken</Name>
+      <PName>Chickens</PName>
+      <Keywords>crazy chicken</Keywords>
+      <ShortDesc>A crazy chicken flaps its wings and runs around.</ShortDesc>
+      <PShortDesc>$t crazy chickens flaps their wings and run around.</PShortDesc>
+      <Description>Fluffy sunshine yellow feathers cover this walking poultry. As it jerks its
+head from side to side, you catch a glimpse at the pointy beak. It flaps its
+chicken wings causing tuffs of feather to fly. One scrawny leg is missing a
+digit. The chicken gives you the evil eye.</Description>
+      <Movement>runs</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>0</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>5</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>peck</Message>
+          <Chance>50</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>beak</Name>
+          <ACMod>100</ACMod>
+          <Size>1</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131080</VRef>
+      <Name>fat cat</Name>
+      <PName>fat cats</PName>
+      <Keywords>fat cat</Keywords>
+      <ShortDesc>a fat cat is sleeping near the window.</ShortDesc>
+      <PShortDesc>$t fat cats are sleeping by the window.</PShortDesc>
+      <Description>Pitch black fur covers the plump body of this feline. He extends his paws and
+extracts the claws as he stretches to a more comfortable position. His eyes
+open to a slit and peer at you for just a second before he rolls over and
+returns to slumber.</Description>
+      <Movement>sleeps</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>animal</Size>
+      <DefaultPos>sleeping</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>3</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>generic part</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131081</VRef>
+      <Name>the chocolate cow</Name>
+      <PName>the chocolate cows</PName>
+      <Keywords>brown chocolate cow</Keywords>
+      <ShortDesc>Mooing contently, the chocolate cow grazes here.</ShortDesc>
+      <PShortDesc>Mooing contently, $t chocolate cows graze here.</PShortDesc>
+      <Description>This is the one and only ^ychocolate cow^x! It looks like any normal cow but it's
+completely brown and spotted with patches of darker brown, am almost fudgy
+color. This legendary cow produces the tastiest chocolate milk in the land.
+You have a sudden urge to lean down and take a long lick of its brown body,
+convinced it would most certainly taste like a hersey bar.</Description>
+      <Movement>walks</Movement>
+      <Sex>0</Sex>
+      <Level>1</Level>
+      <Alignment>3</Alignment>
+      <Size>normal</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>1000</HitsMin>
+      <HitsMax>1000</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>3</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>MOO</Message>
+          <Chance>100</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>chocoliscious body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131082</VRef>
+      <Name>bitch</Name>
+      <PName>bitches</PName>
+      <Keywords>bitch</Keywords>
+      <ShortDesc>a bitch stands here glaring at you.</ShortDesc>
+      <PShortDesc>$t bitches stand here with their backs to you.</PShortDesc>
+      <Description>This bitch turns to you and looks you over. Her eyes seem to bleed hate and
+disgust at your being. She crosses her arms and smirks.</Description>
+      <Movement>walks</Movement>
+      <Sex>2</Sex>
+      <Level>100</Level>
+      <Alignment>0</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>33</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>generic part</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131083</VRef>
+      <Name>a one eyed one horned purple people eater</Name>
+      <PName>one eyed one horned purple people eaters</PName>
+      <Keywords>purple people eater</Keywords>
+      <ShortDesc>A one eyed one horned purple people eater stands here blinking.</ShortDesc>
+      <PShortDesc>$t one eyed one horned purple people eaters stand here blinking.</PShortDesc>
+      <Description>It's huge body is covered with purple scales that gleam in the light. One
+massive green eye stares back at you. A sharp shiny white horn protrudes
+directly above the eye. It blinks an eyelid as drool falls from its parted
+mouth.</Description>
+      <Movement>stumbles off on its four stumpy legs.</Movement>
+      <Sex>1</Sex>
+      <Level>10</Level>
+      <Alignment>6</Alignment>
+      <Size>titan</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>33</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>3</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>generic part</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>13691</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>131084</VRef>
+      <Name>a evil demon</Name>
+      <PName>evil demons</PName>
+      <Keywords>demon evil</Keywords>
+      <ShortDesc>A evil demon giggles at your feet.</ShortDesc>
+      <PShortDesc>&amp;t evil demons giggle at your feet.</PShortDesc>
+      <Description>It's your favorite thing! The evil demon has once again leaked out from your
+head and followed you around. He giggle with glee. His sharp teeth bites into
+your flesh.</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>1</Level>
+      <Alignment>1</Alignment>
+      <Size>titan</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>289</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>punch</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>generic part</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>1</Number>
+      <Message>Steamy vapors slowly rise up from the surface of the bath.</Message>
+      <VNum>13</VNum>
+    </RAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+    <MAmbience ObjectClass="Ambience">
+      <Number>1</Number>
+      <Message>The chocolate cow lets out a moo then continues grazing.</Message>
+      <VNum>9</VNum>
+    </MAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="MobilePopulation">
+      <Number>1</Number>
+      <RoomVRef>131072</RoomVRef>
+      <MobileVRef>131074</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+        <InvPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131076</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>2</Liquid>
+          <ToWearLoc>9</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </InvPop>
+        <InvPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131085</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>20</Chance>
+          <Liquid>8</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+            <ObjPop ObjectClass="ObjectPopulation">
+              <Number>0</Number>
+              <RoomVRef>0</RoomVRef>
+              <ObjectVRef>131088</ObjectVRef>
+              <ObjectFlags>0</ObjectFlags>
+              <ContFlags>0</ContFlags>
+              <LoadMin>1</LoadMin>
+              <LoadMax>1</LoadMax>
+              <Chance>100</Chance>
+              <Liquid>0</Liquid>
+              <ToWearLoc>-1</ToWearLoc>
+              <ObjectsInside>
+              </ObjectsInside>
+            </ObjPop>
+          </ObjectsInside>
+        </InvPop>
+        <InvPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131075</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>5</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>24</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </InvPop>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>17</Number>
+      <RoomVRef>131072</RoomVRef>
+      <Direction>4</Direction>
+      <Flags>2</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>18</Number>
+      <RoomVRef>131073</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>2</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>19</Number>
+      <RoomVRef>131074</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>2</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>20</Number>
+      <RoomVRef>131074</RoomVRef>
+      <Direction>5</Direction>
+      <Flags>2</Flags>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131083</RoomVRef>
+      <ObjectVRef>131084</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131082</RoomVRef>
+      <ObjectVRef>131083</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131072</RoomVRef>
+      <ObjectVRef>131072</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>21</Number>
+      <RoomVRef>131076</RoomVRef>
+      <Direction>4</Direction>
+      <Flags>2</Flags>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>2</Number>
+      <RoomVRef>131072</RoomVRef>
+      <MobileVRef>131072</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>22</Number>
+      <RoomVRef>131077</RoomVRef>
+      <Direction>5</Direction>
+      <Flags>2</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>23</Number>
+      <RoomVRef>131081</RoomVRef>
+      <Direction>2</Direction>
+      <Flags>7</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>24</Number>
+      <RoomVRef>131082</RoomVRef>
+      <Direction>0</Direction>
+      <Flags>7</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>25</Number>
+      <RoomVRef>131082</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>7</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>26</Number>
+      <RoomVRef>131083</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>7</Flags>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>3</Number>
+      <RoomVRef>131073</RoomVRef>
+      <MobileVRef>131073</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>4</Number>
+      <RoomVRef>131078</RoomVRef>
+      <MobileVRef>131075</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>5</Number>
+      <RoomVRef>131080</RoomVRef>
+      <MobileVRef>131075</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>6</Number>
+      <RoomVRef>131072</RoomVRef>
+      <MobileVRef>131075</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>7</Number>
+      <RoomVRef>131078</RoomVRef>
+      <MobileVRef>131076</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>8</Number>
+      <RoomVRef>131072</RoomVRef>
+      <MobileVRef>131076</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>9</Number>
+      <RoomVRef>131073</RoomVRef>
+      <MobileVRef>131076</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131085</RoomVRef>
+      <ObjectVRef>131093</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131072</RoomVRef>
+      <ObjectVRef>131085</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131086</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131076</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131092</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131077</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131080</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+        <ObjPop ObjectClass="ObjectPopulation">
+          <Number>0</Number>
+          <RoomVRef>0</RoomVRef>
+          <ObjectVRef>131078</ObjectVRef>
+          <ObjectFlags>0</ObjectFlags>
+          <ContFlags>0</ContFlags>
+          <LoadMin>1</LoadMin>
+          <LoadMax>1</LoadMax>
+          <Chance>100</Chance>
+          <Liquid>0</Liquid>
+          <ToWearLoc>-1</ToWearLoc>
+          <ObjectsInside>
+          </ObjectsInside>
+        </ObjPop>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>10</Number>
+      <RoomVRef>131086</RoomVRef>
+      <MobileVRef>131080</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>11</Number>
+      <RoomVRef>131087</RoomVRef>
+      <MobileVRef>131081</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>27</Number>
+      <RoomVRef>131087</RoomVRef>
+      <Direction>0</Direction>
+      <Flags>33554435</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>28</Number>
+      <RoomVRef>131086</RoomVRef>
+      <Direction>2</Direction>
+      <Flags>33554435</Flags>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131087</RoomVRef>
+      <ObjectVRef>131139</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131087</RoomVRef>
+      <ObjectVRef>131139</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>131072</RoomVRef>
+      <ObjectVRef>327697</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+  </Populations>
+</Area>

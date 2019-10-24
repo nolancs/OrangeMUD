@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>17</Anum>
+  <Name>Draoidh Dubh</Name>
+  <FileName>dubh.are</FileName>
+  <LowRange>2596</LowRange>
+  <HighRange>9311</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>4</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1114112</VRef>
+      <Name>Strathaven Square</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>40</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>10</HitBonus>
+      <EnergyBonus>10</EnergyBonus>
+      <MoveBonus>10</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1114113</VRef>
+      <Name>a Translucent Parlour</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114112</VRef>
+      <Name>a star sapphire set in platinum</Name>
+      <PName>platinum rings set with star sapphires</PName>
+      <Keywords>platinum sapphire star ring band</Keywords>
+      <ShortDesc>a band of metal lies here, gems catching the light.</ShortDesc>
+      <PShortDesc>rings lies here, their gems catching the light.</PShortDesc>
+      <Description>A simple circle of the finest platinum, set in the center with a large, blue
+star sapphire.  On each side of the stone, are two channel set diamonds,
+glimmering in the light.  A beautiful, yet simplistic design of a ring which
+could be shared between friends, or lovers equally.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>500000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>103</Level>
+      <Weight>0.100000</Weight>
+      <Materials>2048</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>3</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114113</VRef>
+      <Name>a large mahogany and crystal table</Name>
+      <PName>large mahogany and crystal tables</PName>
+      <Keywords>large mahogany crystal table</Keywords>
+      <ShortDesc>a large mahogany and crystal table dominates this portion of the room.</ShortDesc>
+      <PShortDesc>large mahogany and crystal tables dominate this portion of the room.</PShortDesc>
+      <Description>This large table looks as if it'd seat about 10 people comfortably.  The deep,
+rich mahogany wood is carved with esoteric graphics representing the history of
+this world.  Interlayed with the wood are shapes of crystal, accenting the
+carvings, and adding dimension.  The entire piece is a beautiful work of art;
+almost too nice to use for anything but decoration.</Description>
+      <ContCapacity>100000.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>9</ItemType>
+      <Level>1</Level>
+      <Weight>1000.000000</Weight>
+      <Materials>49152</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>1</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114114</VRef>
+      <Name>a sturdy mahogany chair</Name>
+      <PName>sturdy mahogany chairs</PName>
+      <Keywords>sturdy mahogany chair</Keywords>
+      <ShortDesc>a sturdy mahogany chair invites you to sit in it.</ShortDesc>
+      <PShortDesc>sturdy mahogany chairs circle the table, waiting for you to sit in them.</PShortDesc>
+      <Description>This chair matches the large table in the room, completing the set.  They have
+velvet, cushioned seatcovers and backs with a design that matches the carvings
+in the table.  Comfortable, and good for your posture.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>5.000000</Weight>
+      <Materials>16384</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>1</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>16</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114115</VRef>
+      <Name>a large feather pillow</Name>
+      <PName>large feather pillows</PName>
+      <Keywords>feather pillow large fluffy white</Keywords>
+      <ShortDesc>a large feather pillow looks tempting here.</ShortDesc>
+      <PShortDesc>large feather pillows lie in a heap here.</PShortDesc>
+      <Description>A large mass of goose down and feathers held together in a silk pillowcase.
+Good for sleeping on, or hitting people with. Not that you'd ever *think* of
+doing that. Right? Riiight??!?! Oh fudge.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>6</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>532480</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1048577</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114116</VRef>
+      <Name>a book entitled, 'You might be a MUD addict if...'</Name>
+      <PName>books entitled, 'You might be a MUD addict if...'</PName>
+      <Keywords>book mud addict</Keywords>
+      <ShortDesc>A book lays here with a dark cover.</ShortDesc>
+      <PShortDesc>books lay here, each with a dark cover.</PShortDesc>
+      <Description>You might be a MUD addict if you...
+
+
+...go to the supermarket every week to buy seventeen loaves of bread.
+
+...use the phone line so much that you get a second line installed so you can
+connect directly to two muds at the same time.
+
+...lie down in the street for a few hours whenever you get tired of walking.
+
+...realize that you haven't slept or eaten in the past twenty-four hours
+because you haven't seen any notices that you are hungry or tired.
+
+...like to pick up dirty shoes and gloves and try to sell them at KMart.
+
+...aren't in any gangs, but ARE a member of a guild and two clans.
+
+...pray to God, and when he doesn't answer you figure he's not logged on.
+
+...realize that your mother has to log on to tell you that dinner is ready.
+
+...lock yourself in the school computer lab with a bottle of Vivarin and a
+rifle and declare that "nobody's going to keep me off the #@$*)! MUD!"
+
+...fail college just so you can get free Internet access for another year.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>19</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>4096</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114117</VRef>
+      <Name>a buttered cat array</Name>
+      <PName>buttered cat arrays</PName>
+      <Keywords>buttered cat array toast</Keywords>
+      <ShortDesc>a cat is here with a slice of buttered toast strapped to its back.</ShortDesc>
+      <PShortDesc>cats are here with buttered toast strapped to their backs.</PShortDesc>
+      <Description>This cat looks marginally less bored than the toast strapped to its back, and
+even less aware of what exactly is going to happen to it.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114118</VRef>
+      <Name>a silver ankh</Name>
+      <PName>silver ankhs</PName>
+      <Keywords>silver chain ankh necklace</Keywords>
+      <ShortDesc>A long silver chain lies here with an ankh attached to it.</ShortDesc>
+      <PShortDesc>long silver chains lie here with ankhs attached to them.</PShortDesc>
+      <Description>A long, silver, serpentine chain with a rather large, pendant in the shape of
+an ankh dangling from it.  Rather pretty in a paganistic way.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>512</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>5</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114119</VRef>
+      <Name>a long-stemmed black rose</Name>
+      <PName>long-stemmed black roses</PName>
+      <Keywords>long stemmed black rose</Keywords>
+      <ShortDesc>A lone black rose is here.</ShortDesc>
+      <PShortDesc>a bouquet of $t black roses</PShortDesc>
+      <Description>A single long stem black rose. Elegant, delicate, rare.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1114120</VRef>
+      <Name>a diamond engagement ring</Name>
+      <PName>diamond engagement rings</PName>
+      <Keywords>diamond engagement ring band</Keywords>
+      <ShortDesc>a diamond engagement ring lies here, glinting in the light.</ShortDesc>
+      <PShortDesc>diamond engagement rings lie here, glinting in the light.</PShortDesc>
+      <Description>A simple band of platinum set with a good sized princess cut diamond.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>1000000</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>2048</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>3</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+  </Populations>
+</Area>

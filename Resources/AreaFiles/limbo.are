@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>0</Anum>
+  <Name>Limbo</Name>
+  <FileName>limbo.are</FileName>
+  <LowRange>12849</LowRange>
+  <HighRange>12810</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>0</VRef>
+      <Name>The Orange Room</Name>
+      <Description>The bright orange surrounding you instantly makes you feel sick. Having no
+exits this room has to be either a torture or a punishment for someone. Since
+you're in it maybe it's you who should consider what you've done wrong.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>50331950</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>1</VRef>
+      <Name>The Void</Name>
+      <Description>You are floating in nothing.
+</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>44</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>2</VRef>
+      <Name>Limbo</Name>
+      <Description>You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>8</Flags>
+      <Terrain>1</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131072</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>3</VRef>
+      <Name>Purgatory</Name>
+      <Description>The flames of hell lick up at your face here, massive amounts of heat
+radiating from every direction theatening to suffocate you in blinding pain.
+Surely you must be dead or a god.
+
+A sign reads, ^!^y'Do Not Feed The Hellhounds!'^x</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>4</VRef>
+      <Name>Mobile Lounge</Name>
+      <Description>The mobiles of Age of Wonder have secretly made their own little lounge to
+relax in while they wait for the sun to set or rise. Players heads are stuffed
+and mounted on the walls. Drinks are served all around, some of the drunker
+mobs dance around and make fools of themselves.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>0</VRef>
+      <Name>a null object</Name>
+      <PName>null objects</PName>
+      <Keywords>null object non existant shimmer</Keywords>
+      <ShortDesc>a no longer existant object shimmers here, alert an immortal.</ShortDesc>
+      <PShortDesc>$t non existant objects shimmer here, alert an immortal.</PShortDesc>
+      <Description>This was once an object but when it loaded the object index for it could no
+longer be found. This null object is the result. These things should be deleted
+automatically so if you see this it's either a bug or a special case.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>200.000000</Weight>
+      <Materials>2097152</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>1</VRef>
+      <Name>a copper coin</Name>
+      <PName>copper coins</PName>
+      <Keywords>cp copper coin</Keywords>
+      <ShortDesc>a single copper coin is here.</ShortDesc>
+      <PShortDesc>$t copper coins rest here.</PShortDesc>
+      <Description>A copper coin, how unamazing.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>13</ItemType>
+      <Level>1</Level>
+      <Weight>0.010000</Weight>
+      <Materials>256</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>2</VRef>
+      <Name>a silver coin</Name>
+      <PName>silver coins</PName>
+      <Keywords>sp silver coin</Keywords>
+      <ShortDesc>a solitary silver coin has been left here.</ShortDesc>
+      <PShortDesc>$t shiny silver coins have been left here.</PShortDesc>
+      <Description>A brightly polished silver coin. One side depicts an eagle in mid-flight. The
+other side is the imperial crest of Tolnedra.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>13</ItemType>
+      <Level>1</Level>
+      <Weight>0.020000</Weight>
+      <Materials>512</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>3</VRef>
+      <Name>a gold coin</Name>
+      <PName>gold coins</PName>
+      <Keywords>gp gold coin</Keywords>
+      <ShortDesc>a valuable gold coin has been discarded here.</ShortDesc>
+      <PShortDesc>$t gold coins rest here, shining valuably.</PShortDesc>
+      <Description>The is a finely crafted coin of pure gold. It's about one or one and a half
+inches in diameter and just thick enough to avoid bending. Tiny grooves run all
+around the circumference of this coin. A simple pine tree adorns one side
+while on the other lays a sword and an olive branch.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>13</ItemType>
+      <Level>1</Level>
+      <Weight>0.050000</Weight>
+      <Materials>1024</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>4</VRef>
+      <Name>a platinum coin</Name>
+      <PName>platinum coins</PName>
+      <Keywords>pp platinum coin</Keywords>
+      <ShortDesc>a brilliant silvery platinum coin rests here.</ShortDesc>
+      <PShortDesc>$t platinum coins have been left here.</PShortDesc>
+      <Description>An extremely valuable coin crafted from rare, and heavy, platinum. The
+silvery-hued coin sparkles brilliantly in the light, its highly polished
+surface refracting light at all angles. This coin is about an inch in diameter
+and about twice as thick as its gold brother. The bulk is due partially to the
+fact that platinum is quite malleable. The other reason being a coin of this
+incredible worth should weigh enough so its owner can notice if it's missing.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>13</ItemType>
+      <Level>1</Level>
+      <Weight>0.200000</Weight>
+      <Materials>2048</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>10</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse</Keywords>
+      <ShortDesc>The corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t corpses of %s are rotting here.</PShortDesc>
+      <Description>The corpse of %s is lies here in a mangled mess. 
+The result of such brutality that most people would rather avert their eyes to
+this horror, why are you staring right at it?
+</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>0</Level>
+      <Weight>50.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>1</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>1</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>11</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse</Keywords>
+      <ShortDesc>The corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t corpses of %s are rotting here.</PShortDesc>
+      <Description>The corpse of %s is lies here in a mangled mess. The result of such brutality
+that most people would rather avert their eyes to this horror, why are you
+staring right at it?
+</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>16</ItemType>
+      <Level>0</Level>
+      <Weight>150.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>1</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>12</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The tiny corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t tiny corpses of %s are rotting here.</PShortDesc>
+      <Description>The very tiny corpse of %s is lies here in a mangled mess. The result of such
+brutality that most people would rather avert their eyes to this horror, why are
+you staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>15</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>13</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The small corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t small corpses of %s are rotting here.</PShortDesc>
+      <Description>The small corpse of %s is lies here in a mangled mess. The result of such
+brutality that most people would rather avert their eyes to this horror, why are
+you staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>30</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>13.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>14</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The midsized corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t midsized corpses of %s are rotting here.</PShortDesc>
+      <Description>The medium-sized corpse of %s is lies here in a mangled mess. The result of such
+brutality that most people would rather avert their eyes to this horror, why are
+you staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>45</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>60.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>15</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t corpses of %s are rotting here.</PShortDesc>
+      <Description>The corpse of %s is lies here in a mangled mess. It's slightly smaller than a
+human. This is the result of such brutality that most people would rather avert
+their eyes to this horror, why are you staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>60</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>110.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>16</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t corpses of %s are rotting here.</PShortDesc>
+      <Description>The corpse of %s is lies here in a mangled mess. It's about the same size as a
+human. This is the result of such brutality that most people would rather avert
+their eyes to this horror, why are you staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>75</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>165.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>17</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t corpses of %s are rotting here.</PShortDesc>
+      <Description>The corpse of %s is lies here in a mangled mess. It's a fairly large corpse,
+about troll-sized. This is the result of such brutality that most people would
+rather avert their eyes to this horror, why are you staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>90</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>250.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>18</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The ^!huge^x^&amp; corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t ^!huge^x^&amp; corpses of %s are rotting here.</PShortDesc>
+      <Description>The corpse of %s is lies here in a mangled mess. The corpse is extremely large,
+the size of a hill-giant or there abouts. This is the result of such brutality
+that most people would rather avert their eyes to this horror, why are you
+staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>150</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>500.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>19</VRef>
+      <Name>the corpse of %s</Name>
+      <PName>corpses of %s</PName>
+      <Keywords>corpse %s</Keywords>
+      <ShortDesc>The ^!gargantuan^x^&amp; corpse of %s is rotting here.</ShortDesc>
+      <PShortDesc>$t ^!gargantuan^x^&amp; corpses of %s are rotting here.</PShortDesc>
+      <Description>The corpse of %s is lies here in a mangled mess. The corpse is unbelievably
+huge! The size of a mythic titan or some dragon. This is the result of such
+brutality that most people would rather avert their eyes to this horror, why
+are you staring right at it?</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>300</Cost>
+      <Durability>-1</Durability>
+      <ItemType>15</ItemType>
+      <Level>1</Level>
+      <Weight>1000.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>25</VRef>
+      <Name>a privacy shield</Name>
+      <PName>privacy shields</PName>
+      <Keywords>privacy shield metallic capsule blue</Keywords>
+      <ShortDesc>^ba metallic capsule hovers here, ^!cloaking^x^b the area in a blue shield.^x</ShortDesc>
+      <PShortDesc>^b^!$t^x^b metallic capsules hover here, ^!cloaking^x^b the area in a blue shield.^x</PShortDesc>
+      <Description>This fist-sized capsule is shaped like a cylinder with a half-sphere on each
+end. It emits a faint bluish glow from three inlaid circles that run around the
+body of this silvery metallic capsule, leaning close you can hear it humming
+slightly. Dropping it in any room will create a bluish shield of privacy around
+the area, barring anyone or anything from entering or snooping, giving you
+complete privacy.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>6291460</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>1</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>INT rand;
+act_to_char("You push at the $o capsule.", ch,  obj, NULL);
+act_to_room("$n pushes at the $o capsule.", ch, obj, NULL);
+wait(random(1, 2));
+if((rand = random(1, 3)) == 1)
+{
+   act_to_char("The $o humms angrily at you and ZAPS you!", ch, obj, NULL);
+   act_to_room("The $o humms angrily at $n and ZAPS $m!", ch, obj, NULL);
+   interpret(ch, "say OUCHIE !!!", NULL);
+}</Source>
+          <Commands>hit push swat kick smack</Commands>
+          <Keywords>*</Keywords>
+          <Type>1</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>50</VRef>
+      <Name>^!^rstriped ^wcandy ^rcane ^woutfit^x</Name>
+      <PName>giant red and white striped candy cane outfits</PName>
+      <Keywords>giant red white candycane candy cane outfit</Keywords>
+      <ShortDesc>a red and white striped candy cane outfit lies here.</ShortDesc>
+      <PShortDesc>$t red and white striped candy cane outfits are here.</PShortDesc>
+      <Description>You'd look like a huge candycane if you wore this.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>12.200000</Weight>
+      <Materials>8192</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>33</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+  </MobileIndexes>
+  <RoomAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+  </MobAmbience>
+  <Populations>
+  </Populations>
+</Area>

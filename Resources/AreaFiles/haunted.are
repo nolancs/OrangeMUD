@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Area ObjectClass="Area">
+  <Anum>1</Anum>
+  <Name>Eerie Haunted House</Name>
+  <FileName>haunted.are</FileName>
+  <LowRange>10</LowRange>
+  <HighRange>40</HighRange>
+  <RespawnRate>9</RespawnRate>
+  <Version>1</Version>
+  <Builders ObjectClass="UIDHolder">
+    <UID>1</UID>
+  </Builders>
+  <RoomIndexes>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65536</VRef>
+      <Name>Under A Crumbling Archway</Name>
+      <Description>You stand beneath a decaying archway. The dilapidated grey-stone structure
+looks centuries old. The mortar has long since rotted away leaving deep
+crevices in the rock where various shiny black bugs have made their homes.
+Twisting around the archway are thorned, evil-looking dark green vines that
+seem to have overun this place decades ago.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65537</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>131080</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65537</VRef>
+      <Name>A Decrepit Courtyard</Name>
+      <Description>The darkness of this place previals upon your senses. Every noise, an owl
+hooting, a rat scurrying, the hollow wind blowing, seems to set your hair on
+end. The chill of eternal evening pervades this eerie courtyard. To the north
+a weather-worn old house creaks and groans under the howling winds. Off to
+the east there is a small trampled path.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>0</Flags>
+      <Terrain>2</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65538</ToVRef>
+        <Flags>33554435</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the wooden double doors</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>655459</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description>Trampled Path</Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65536</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65538</VRef>
+      <Name>The Haunted Foyer</Name>
+      <Description>You stand in a large wood paneled foyer. Everything in this room is covered in
+a thick layer of dust, giving it an undisturbed look. Curiously, a small
+lantern hanging from the ceiling above you is still burning with a pale green
+light. There is a small door set in the western wall and an elegantly carved
+wooden archway leads north into the house.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65540</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65537</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the wooden double doors</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65539</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the closet door</Name>
+        <Keywords>closet door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65539</VRef>
+      <Name>The Spider Infested Closet</Name>
+      <Description>This small room looks to have once been a closet, it has enough room for two
+people at most. Cobwebs and silken spider strands hang from every part of this
+closet. Tiny spiders scurry around the floor and walls, it's enough to make
+your skin crawl until you notice the larger, slower, and fuzzier black spiders.
+All the compound spider eyes seem to shimmer in the dim flickering light,
+creating a pretty, if not revolting, light show.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>2</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65538</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the closet door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65540</VRef>
+      <Name>The Vaulted Entryway</Name>
+      <Description>This room has a great vaulted ceiling reaching up two stories. As seems normal
+for this house, a thick layer of dust and cobwebs coats everything in site.
+Stout dark-stained wooden beams brace the square exitways on the eastern and
+western sides of this room. A broad and somewhat rickety staircase dominates
+the northeastern wall before it turns abruptly left halfway up and leading
+into the second story. To the south an elegant mahogony archway leads into the
+foyer.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65542</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65538</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65541</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65543</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>4</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65541</VRef>
+      <Name>The Dining Room</Name>
+      <Description>Big room. Window to the south. Table w/ chairs. Hallway north.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>20</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>1</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65554</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65540</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65542</VRef>
+      <Name>The Great Room, Among The Trophies</Name>
+      <Description>This is the southwest section of an enormous wood-paneled room. All along the
+southern wall are stuffed and mounted heads from various creatures. From left
+to right you see a stag, a rhino, a lion, and a huge boar-like head. A massive
+stuffed brown bear dominates the western corner by the wood-framed exitway.
+Oddly enough the bear is free of the thick layer of dust and cobwebs that coat
+the rest of the area.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65546</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65544</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65540</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the stuffed bear</Name>
+          <Keywords>stuffed bear</Keywords>
+          <Description>The bear has soft brown fur, which is oddly free of dust and cobwebs. His claws
+and sharp teeth could easily rend flesh and bone with a good swipe. The eyes
+seem to glisten in the light, extremely disconcerting to your sense of
+safety... this bear couldn't be alive, could it? Touching it might not be the
+smartest move.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+        <Script ObjectClass="OrangeScript">
+          <Source>act_to_char("You reach out and touch the stuffed bear.", ch, NULL, NULL);
+act_to_room("$n reaches out and touches the stuffed bear.", ch, NULL, NULL);
+wait(1);
+act_to_all("^!$n roars to life!^x", create_mob(102, room), NULL, NULL);</Source>
+          <Commands>touch push move</Commands>
+          <Keywords>bear</Keywords>
+          <Type>0</Type>
+          <Trigger>1</Trigger>
+          <Flags>0</Flags>
+          <ID>1</ID>
+        </Script>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65543</VRef>
+      <Name>Upstairs</Name>
+      <Description>second story</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65540</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>5</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65544</VRef>
+      <Name>The Great Room, By A Picture Window</Name>
+      <Description>A huge shattered window dominates this southeastern section of the great room.
+The wooden framework of the window is still in tact, though the glass seems to
+have been shattered long ago. Pale moonlight seeps in through the window and
+casts shadows across the floor and walls.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65545</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65542</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65545</VRef>
+      <Name>The Great Room, By A Fireplace</Name>
+      <Description>A massive grey-stone fireplace has been built into the eastern wall. The sudden
+wave of heat and warm light alerts you to the fact that there is still a huge
+fire crackling in the fireplace. Strangely enough, this room seems cozy and
+almost comforting. It also lacks the dust and cobwebs so common in this house.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>14</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65544</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65546</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the massive grey-stone fireplace</Name>
+          <Keywords>pit fireplace grey stone</Keywords>
+          <Description>This fireplace must be six or seven feet high and built entirely of finely
+masoned grey stones. Its rectangular design ecompasses most of the east wall.
+The actual firepit is only about four feet tall and wide.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65546</VRef>
+      <Name>The Great Room, By A Hallway</Name>
+      <Description>A chill silence permeates this northwestern section of the vaulted great room.
+Barely noticable under the thick layer of dust, a reddish and gold rug spans
+the floor. Just to the north a square-braced exitway leads into a wide hallway
+of sorts. A faint flicker of yellow light comes from the east.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65547</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65545</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65542</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65547</VRef>
+      <Name>A Wood-Paneled Hallway</Name>
+      <Description>This wide and creepy hallway is lit by evenly placed tarnished brass wall
+sconces. The wax candles seem to be lit with a pale green light but no heat
+eminates from them. There is a dusty painting on the left wall and the nearby
+sconce appears to be slightly off kilter. The hallway continues to the north
+and seems to open up into a room to the south.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>6</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65548</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65546</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65565</ToVRef>
+        <Flags>27</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>wall</Name>
+        <Keywords>torch sconce candle</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+        <Spot ObjectClass="Spot">
+          <Name>the creepy painting</Name>
+          <Keywords>painting</Keywords>
+          <Description>The painting is covered in a layer of thick dust. It seems to be a portrait of
+some old man and his evil-looking dog. It's tough to see in this light but the
+eyes almost appear to follow you.</Description>
+          <Flags>0</Flags>
+        </Spot>
+        <Spot ObjectClass="Spot">
+          <Name>the brass wall sconce</Name>
+          <Keywords>candle brass wall sconce west</Keywords>
+          <Description>A white wax candle burns away with its ethereal light in this tarnished brass
+wall sconce. It's slightly off kilter, almost as though someone has been
+pulling on it.</Description>
+          <Flags>0</Flags>
+        </Spot>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65548</VRef>
+      <Name>A Wood-Paneled Hallway</Name>
+      <Description>A foul stench assaults your nostrils the moment you set foot in this part of
+the hallway. The gruesomely dismembered corpse of someone lays scatted about.
+Deep scarlet blood is splattered all over the nutty brown wall panels and a
+coagulating pool spills across the floor. Frenzied claw marks extend in from
+the north, whatever tore this person's legs off drove them so insane with fear
+that they clawed for ten more feet before bleeding to death.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65549</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65547</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65549</VRef>
+      <Name>The Back Entrance</Name>
+      <Description>Door to backyard to the north. Cloaks on the wall east. West to
+towards kitchen.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65548</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65550</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65550</VRef>
+      <Name>The Blasted Room</Name>
+      <Description>Some in-between room. South is door to basement. Tiny window north.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65549</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65551</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65551</VRef>
+      <Name>The Ghastly Kitchen</Name>
+      <Description>Freaky kitchen. South to pantry. West to servants Alcove</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65550</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65555</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name>the rotting pantry door</Name>
+        <Keywords>pantry door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65552</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65552</VRef>
+      <Name>The Servant's Alcove</Name>
+      <Description>Trays and stuff. West door to servants wings. South hallway to dining room.
+East to kitchen.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65551</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65553</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65556</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65553</VRef>
+      <Name>A Narrow Hallway</Name>
+      <Description>Narrow Hallway. Used by servants for bringing food from the Alcove/Kitchen to
+the dining room.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>8</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>1</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65552</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65554</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65554</VRef>
+      <Name>A Narrow Hallway</Name>
+      <Description>Hallway</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>10</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>1</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65553</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65541</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65555</VRef>
+      <Name>The Pantry</Name>
+      <Description>Tiny room. Food, ghostly servant maybe. Secret door east, under some bags of
+rotting flower or something.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65551</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name>the rotting pantry door</Name>
+        <Keywords>pantry door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65556</VRef>
+      <Name>The Servant's Wing</Name>
+      <Description>the wing</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65552</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the eastern door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65558</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65557</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the western door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65557</VRef>
+      <Name>A Servant's Quarters</Name>
+      <Description>a room for a servant
+Room One</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65556</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65558</VRef>
+      <Name>The Servant's Hallway</Name>
+      <Description>Hallway</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65556</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65562</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65559</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65561</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65559</VRef>
+      <Name>The Servant's Hallway</Name>
+      <Description>more hallway</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65558</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65564</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65560</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>2</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65563</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65560</VRef>
+      <Name>The Servant Hallway</Name>
+      <Description>hallway end</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65559</ToVRef>
+        <Flags>0</Flags>
+        <Key>0</Key>
+        <Direction>0</Direction>
+        <Name></Name>
+        <Keywords></Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65561</VRef>
+      <Name>A Servant's Quarters</Name>
+      <Description>Room 2</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65558</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65562</VRef>
+      <Name>A Servant's Quarters</Name>
+      <Description>Room 3</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65558</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65563</VRef>
+      <Name>A Servant's Quarters</Name>
+      <Description>Room 4</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65559</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65564</VRef>
+      <Name>A Servant's Quarters</Name>
+      <Description>Room 5</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65559</ToVRef>
+        <Flags>3</Flags>
+        <Key>0</Key>
+        <Direction>3</Direction>
+        <Name>the door</Name>
+        <Keywords>door</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65565</VRef>
+      <Name>Crypt</Name>
+      <Description>Blackness surrounds you as you walk into this room. The walls are painted in
+pure black making it hard to tell if you just stepped into the abyss or a
+coffin. The floor crunches under your feet making you wonder what you are
+walking on. There seems to be no exit from this room but the way you came in.,</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>4</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>1</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <Exit ObjectClass="Exit">
+        <ToVRef>65547</ToVRef>
+        <Flags>27</Flags>
+        <Key>0</Key>
+        <Direction>1</Direction>
+        <Name>wall</Name>
+        <Keywords>wall</Keywords>
+        <Description></Description>
+      </Exit>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+    <RIndex ObjectClass="RoomIndex">
+      <VRef>65566</VRef>
+      <Name>Creation</Name>
+      <Description>Soft melodic voices hover just beyond your perceptions. The joyous anthems
+of primeval life soar in the vaults of your mind as you exist in this place.
+Boundless and black, this echoing void begins to dissipate as its merging
+into the corporeal world nears completion.</Description>
+      <Owner>0</Owner>
+      <Clan>0</Clan>
+      <Flags>32</Flags>
+      <Terrain>0</Terrain>
+      <Capacity>0</Capacity>
+      <AmbFreq>60</AmbFreq>
+      <HitBonus>0</HitBonus>
+      <EnergyBonus>0</EnergyBonus>
+      <MoveBonus>0</MoveBonus>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </RIndex>
+  </RoomIndexes>
+  <ObjectIndexes>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>65536</VRef>
+      <Name>the decaying fountain</Name>
+      <PName>decaying fountains</PName>
+      <Keywords>crumbling decaying stone fountain</Keywords>
+      <ShortDesc>a crumbling, wide stone fountain inhabits the courtyard.</ShortDesc>
+      <PShortDesc>$t crumbling, wide stone fountains inhabit the courtyard.</PShortDesc>
+      <Description>A rotting stone fountain, murky and stagnant water still fills the base.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>0</Cost>
+      <Durability>-1</Durability>
+      <ItemType>11</ItemType>
+      <Level>1</Level>
+      <Weight>150.000000</Weight>
+      <Materials>131072</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>1</Value0>
+      <Value1>1</Value1>
+      <Value2>38</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>65537</VRef>
+      <Name>a rat whisker</Name>
+      <PName>rat whiskers</PName>
+      <Keywords>black whisker rat</Keywords>
+      <ShortDesc>a short black whisker rests here.</ShortDesc>
+      <PShortDesc>$t black whiskers lay here in a pile.</PShortDesc>
+      <Description>This vile black whisker probably came off a rat. It's about two inches long,
+black, shiny, and probably disease ridden. A small chunk of the original rat is
+still bloodily attached to one end of this whisker.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>10</Cost>
+      <Durability>-1</Durability>
+      <ItemType>17</ItemType>
+      <Level>1</Level>
+      <Weight>0.100000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>4194305</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>65538</VRef>
+      <Name>the roaring fire</Name>
+      <PName>roaring fires</PName>
+      <Keywords>fireplace roaring</Keywords>
+      <ShortDesc>a ^!^yroaring ^rfire^x^&amp; blazes forth in the fireplace.</ShortDesc>
+      <PShortDesc>$t ^!^yroaring ^rfires^x^&amp; blaze forth from their fireplaces.</PShortDesc>
+      <Description>Warm</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>8</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>0</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>6</Value0>
+      <Value1>110</Value1>
+      <Value2>100</Value2>
+      <Value3>110</Value3>
+      <Value4>585</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+    <OIndex ObjectClass="ObjectIndex">
+      <VRef>65539</VRef>
+      <Name>the brutally dismembered corpse</Name>
+      <PName>brutally dismembered corpses</PName>
+      <Keywords>gruesomely dismembered corpse</Keywords>
+      <ShortDesc>The corpse of some unfortunate soul rests here, in pieces.</ShortDesc>
+      <PShortDesc>$t corpses of some unfortunate souls rest here, in pieces.</PShortDesc>
+      <Description>A face gone rigid from rigor mortis screams back at you with buldging eyes and
+a look of fear beyond any description. His fingers are bruised and torn with
+splinters from the floor, the index finger on his left hand seems to be broken
+as the bone is jutting out where a knuckle should be. You have no doubt this
+adventurer would have kept clawing all the way to the front door had he stayed
+conscious. Perhaps what killed him pursues him still, in the afterlife.</Description>
+      <ContCapacity>0.000000</ContCapacity>
+      <ContMultiplier>0</ContMultiplier>
+      <ContKey>0</ContKey>
+      <ContFlags>0</ContFlags>
+      <Cost>100</Cost>
+      <Durability>-1</Durability>
+      <ItemType>22</ItemType>
+      <Level>1</Level>
+      <Weight>1.000000</Weight>
+      <Materials>524288</Materials>
+      <AntiFlags>0</AntiFlags>
+      <ObjectFlags>0</ObjectFlags>
+      <WearFlags>0</WearFlags>
+      <Value0>0</Value0>
+      <Value1>0</Value1>
+      <Value2>0</Value2>
+      <Value3>0</Value3>
+      <Value4>0</Value4>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </OIndex>
+  </ObjectIndexes>
+  <MobileIndexes>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>65536</VRef>
+      <Name>a fat rat</Name>
+      <PName>fat rats</PName>
+      <Keywords>rat furry brown</Keywords>
+      <ShortDesc>A brown-furred rat squeaks in the darkness.</ShortDesc>
+      <PShortDesc>$t brown-furred rats squeak in the darkness.</PShortDesc>
+      <Description>A big smelly yellow-toothed rat. Its beady eyes seem to follow you around the
+room.</Description>
+      <Movement>skitters</Movement>
+      <Sex>0</Sex>
+      <Level>1</Level>
+      <Alignment>3</Alignment>
+      <Size>rodent</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>15</HitsMin>
+      <HitsMax>15</HitsMax>
+      <EnergyMin>30</EnergyMin>
+      <EnergyMax>30</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>1</ActFlags>
+      <AttacksPerRound>1</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>bite</Message>
+          <Chance>20</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>tail whip</Message>
+          <Chance>20</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>tiny claws</Message>
+          <Chance>20</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>clawed feet</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>chubby tail</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>furry body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>tiny head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+        <Skin ObjectClass="Skin">
+          <Chance>50</Chance>
+          <Number>1</Number>
+          <VRef>65537</VRef>
+        </Skin>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>65537</VRef>
+      <Name>a headless apparition</Name>
+      <PName>headless apparitions</PName>
+      <Keywords>apparition headless woman</Keywords>
+      <ShortDesc>A headless woman hovers here, holding her head aloft.</ShortDesc>
+      <PShortDesc>$t headless women hover here, holding their heads aloft.</PShortDesc>
+      <Description>This beautiful young woman floats around the room with a tormented look on her
+face. In a sickening display, ethereal blood dribbles and spurts from the
+gaping stump on the top of her neck. Her rotting body is scantily clothed in
+shredded and blood-soaked white rags. She lets out a mournful cry as her eyes
+drift around aimlessly.</Description>
+      <Movement>floats</Movement>
+      <Sex>2</Sex>
+      <Level>15</Level>
+      <Alignment>0</Alignment>
+      <Size>small</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>103</HitsMin>
+      <HitsMax>130</HitsMax>
+      <EnergyMin>22</EnergyMin>
+      <EnergyMax>220</EnergyMax>
+      <MovesMin>60</MovesMin>
+      <MovesMax>60</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>65569</ActFlags>
+      <AttacksPerRound>2</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>icy touch</Message>
+          <Chance>40</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>1</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>2</Number>
+          <Message>wail</Message>
+          <Chance>10</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>3</Number>
+          <Message>ghastly bite</Message>
+          <Chance>35</Chance>
+          <Type>0</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+        <Attack ObjectClass="Attack">
+          <Number>4</Number>
+          <Message>tormented gaze</Message>
+          <Chance>15</Chance>
+          <Type>1</Type>
+          <Flags>0</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>5</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>bloody stump</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>translucent body</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>whispy fingertips</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>disembodied head</Name>
+          <ACMod>100</ACMod>
+          <Size>5</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+    <MIndex ObjectClass="MobileIndex">
+      <VRef>65538</VRef>
+      <Name>the animated bear</Name>
+      <PName>animated bears</PName>
+      <Keywords>animated bear brown</Keywords>
+      <ShortDesc>The massive stuffed bear has come to life, bloodthirsty as ever.</ShortDesc>
+      <PShortDesc>$t huge stuffed bears have come to life, bloodthirsty as ever.</PShortDesc>
+      <Description>The statue has somehow come to life. The bear towers over you, poised to strike
+with it's razor sharp four inch claws. ^!RUN!!^x Unless you want your own head
+stuffed and mounted on the trophy wall.</Description>
+      <Movement>walks</Movement>
+      <Sex>1</Sex>
+      <Level>15</Level>
+      <Alignment>0</Alignment>
+      <Size>large</Size>
+      <DefaultPos>standing</DefaultPos>
+      <Ridable>0</Ridable>
+      <ResColdMod>0</ResColdMod>
+      <ResFireMod>0</ResFireMod>
+      <ResAcidMod>0</ResAcidMod>
+      <ResElecMod>0</ResElecMod>
+      <ResPoisMod>0</ResPoisMod>
+      <ResMindMod>0</ResMindMod>
+      <ResSleeMod>0</ResSleeMod>
+      <ResCharMod>0</ResCharMod>
+      <StatStrMod>0</StatStrMod>
+      <StatDexMod>0</StatDexMod>
+      <StatIntMod>0</StatIntMod>
+      <StatWisMod>0</StatWisMod>
+      <StatConMod>0</StatConMod>
+      <ExpMod>100</ExpMod>
+      <HitsMod>100</HitsMod>
+      <EnergyMod>100</EnergyMod>
+      <MovesMod>100</MovesMod>
+      <HitsMin>150</HitsMin>
+      <HitsMax>210</HitsMax>
+      <EnergyMin>0</EnergyMin>
+      <EnergyMax>0</EnergyMax>
+      <MovesMin>200</MovesMin>
+      <MovesMax>250</MovesMax>
+      <VulnerableFlags>0</VulnerableFlags>
+      <DefensiveFlags>0</DefensiveFlags>
+      <ActFlags>35</ActFlags>
+      <AttacksPerRound>3</AttacksPerRound>
+      <Attacks>
+        <Attack ObjectClass="Attack">
+          <Number>1</Number>
+          <Message>claws</Message>
+          <Chance>100</Chance>
+          <Type>0</Type>
+          <Flags>1</Flags>
+          <HitMod>100</HitMod>
+          <DamMod>100</DamMod>
+          <DamType>0</DamType>
+        </Attack>
+      </Attacks>
+      <Parts>
+        <Part ObjectClass="Part">
+          <Name>furry nose</Name>
+          <ACMod>100</ACMod>
+          <Size>10</Size>
+          <WearBits>1950720</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>swiping arm</Name>
+          <ACMod>100</ACMod>
+          <Size>20</Size>
+          <WearBits>0</WearBits>
+        </Part>
+        <Part ObjectClass="Part">
+          <Name>furry body</Name>
+          <ACMod>100</ACMod>
+          <Size>70</Size>
+          <WearBits>0</WearBits>
+        </Part>
+      </Parts>
+      <Skins>
+      </Skins>
+      <SpotList>
+      </SpotList>
+      <ScriptList>
+      </ScriptList>
+    </MIndex>
+  </MobileIndexes>
+  <RoomAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>5</Number>
+      <Message>A loud thunderclap shatters the silence as a far off storm brews.</Message>
+      <VNum>0</VNum>
+      <VNum>1</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>4</Number>
+      <Message>You shiver as the feeling of being watched passes over you.</Message>
+      <VNum>0</VNum>
+      <VNum>1</VNum>
+      <VNum>10</VNum>
+      <VNum>6</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>3</Number>
+      <Message>The trees rustle as a chill wind blows through the area.</Message>
+      <VNum>0</VNum>
+      <VNum>1</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>2</Number>
+      <Message>A ^rblood curdling^x scream echos from below.</Message>
+      <VNum>2</VNum>
+      <VNum>4</VNum>
+      <VNum>5</VNum>
+      <VNum>6</VNum>
+      <VNum>7</VNum>
+      <VNum>10</VNum>
+      <VNum>12</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>1</Number>
+      <Message>A nearbly owl hoots at you.</Message>
+      <VNum>0</VNum>
+      <VNum>1</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>6</Number>
+      <Message>A small spider repells on a silken strand, right into your hair.</Message>
+      <VNum>3</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>7</Number>
+      <Message>A furry black spider begins its slow ascent up the wall.</Message>
+      <VNum>3</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>8</Number>
+      <Message>The shadows seem to be moving on their own...</Message>
+      <VNum>2</VNum>
+      <VNum>4</VNum>
+      <VNum>5</VNum>
+      <VNum>6</VNum>
+      <VNum>7</VNum>
+      <VNum>8</VNum>
+      <VNum>11</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>9</Number>
+      <Message>A chilling wind whistles through the shattered window.</Message>
+      <VNum>8</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>10</Number>
+      <Message>The fire pops and hisses, sending up a tiny shower of sparks.</Message>
+      <VNum>9</VNum>
+    </RAmbience>
+    <RAmbience ObjectClass="Ambience">
+      <Number>11</Number>
+      <Message>A wave of warmth engulfs the area as the fire burns brightly.</Message>
+      <VNum>9</VNum>
+    </RAmbience>
+  </RoomAmbience>
+  <MobAmbience>
+    <MAmbience ObjectClass="Ambience">
+      <Number>1</Number>
+      <Message>$n pauses briefly to sniff the air.</Message>
+      <VNum>0</VNum>
+    </MAmbience>
+  </MobAmbience>
+  <Populations>
+    <Population ObjectClass="ExitPopulation">
+      <Number>4</Number>
+      <RoomVRef>65537</RoomVRef>
+      <Direction>0</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>5</Number>
+      <RoomVRef>65538</RoomVRef>
+      <Direction>2</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>65537</RoomVRef>
+      <ObjectVRef>65536</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="MobilePopulation">
+      <Number>1</Number>
+      <RoomVRef>65538</RoomVRef>
+      <MobileVRef>65536</MobileVRef>
+      <InPosition>9</InPosition>
+      <Chance>100</Chance>
+      <InvObjs>
+      </InvObjs>
+      <ShopObjs>
+      </ShopObjs>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>6</Number>
+      <RoomVRef>65539</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>7</Number>
+      <RoomVRef>65538</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>8</Number>
+      <RoomVRef>65551</RoomVRef>
+      <Direction>2</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>9</Number>
+      <RoomVRef>65555</RoomVRef>
+      <Direction>0</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>10</Number>
+      <RoomVRef>65552</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>11</Number>
+      <RoomVRef>65556</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>12</Number>
+      <RoomVRef>65556</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>13</Number>
+      <RoomVRef>65557</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>14</Number>
+      <RoomVRef>65558</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>15</Number>
+      <RoomVRef>65561</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>16</Number>
+      <RoomVRef>65558</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>17</Number>
+      <RoomVRef>65562</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>18</Number>
+      <RoomVRef>65559</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>19</Number>
+      <RoomVRef>65563</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>20</Number>
+      <RoomVRef>65559</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>21</Number>
+      <RoomVRef>65564</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>3</Flags>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>65545</RoomVRef>
+      <ObjectVRef>65538</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>22</Number>
+      <RoomVRef>65547</RoomVRef>
+      <Direction>3</Direction>
+      <Flags>4099</Flags>
+    </Population>
+    <Population ObjectClass="ExitPopulation">
+      <Number>23</Number>
+      <RoomVRef>65565</RoomVRef>
+      <Direction>1</Direction>
+      <Flags>4099</Flags>
+    </Population>
+    <Population ObjectClass="ObjectPopulation">
+      <Number>0</Number>
+      <RoomVRef>65548</RoomVRef>
+      <ObjectVRef>65539</ObjectVRef>
+      <ObjectFlags>0</ObjectFlags>
+      <ContFlags>0</ContFlags>
+      <LoadMin>1</LoadMin>
+      <LoadMax>1</LoadMax>
+      <Chance>100</Chance>
+      <Liquid>0</Liquid>
+      <ToWearLoc>-1</ToWearLoc>
+      <ObjectsInside>
+      </ObjectsInside>
+    </Population>
+  </Populations>
+</Area>
