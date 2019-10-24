@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SocialFile ObjectClass="SocialFile">
+  <Name>Andie's Bad Assed Socials</Name>
+  <FileName>andies.scl</FileName>
+  <Socials>
+    <Social ObjectClass="Social">
+      <Name>shrug</Name>
+      <CharNoArg>You shrug.</CharNoArg>
+      <OthersNoArg>$n shrugs.</OthersNoArg>
+      <CharFound></CharFound>
+      <OthersFound></OthersFound>
+      <VictFound></VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+  </Socials>
+</SocialFile>

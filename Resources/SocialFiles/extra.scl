@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SocialFile ObjectClass="SocialFile">
+  <Name>Extra Socials</Name>
+  <FileName>extra.scl</FileName>
+  <Socials>
+    <Social ObjectClass="Social">
+      <Name>french</Name>
+      <CharNoArg>French kiss who?</CharNoArg>
+      <OthersNoArg></OthersNoArg>
+      <CharFound>You give $N a long passionate kiss.</CharFound>
+      <OthersFound>$n gives $N a long passionate kiss. Should you be watching this?</OthersFound>
+      <VictFound>$n gives you a long passionate kiss.</VictFound>
+      <CharAuto>You are very lonely aren't you?</CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>finger</Name>
+      <CharNoArg>You raise your middle finger at no one.</CharNoArg>
+      <OthersNoArg>$n gives the middle finger to no one.</OthersNoArg>
+      <CharFound>You raise your middle finger at $M.</CharFound>
+      <OthersFound>$n gives $N the middle finger.</OthersFound>
+      <VictFound>$n flips you off.</VictFound>
+      <CharAuto>You raise your middle finger at yourself. You're odd.</CharAuto>
+      <OthersAuto>$n flips $Mself off.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>dreamer</Name>
+      <CharNoArg>You day dream.</CharNoArg>
+      <OthersNoArg>$n day dreams.</OthersNoArg>
+      <CharFound>You day dream about $M.</CharFound>
+      <OthersFound>$n day dreams about $N.</OthersFound>
+      <VictFound>$n day dreams about you. How thoughtful!</VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>dream</Name>
+      <CharNoArg>You day dream.</CharNoArg>
+      <OthersNoArg>$n day dreams.</OthersNoArg>
+      <CharFound>You day dream about $M.</CharFound>
+      <OthersFound>$n day dreams about $N.</OthersFound>
+      <VictFound>$n day dreams about you. How thoughtful!</VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+  </Socials>
+</SocialFile>

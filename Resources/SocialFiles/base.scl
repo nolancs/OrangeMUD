@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SocialFile ObjectClass="SocialFile">
+  <Name>The Base Socials</Name>
+  <FileName>base.scl</FileName>
+  <Socials>
+    <Social ObjectClass="Social">
+      <Name>scream</Name>
+      <CharNoArg>You scream.</CharNoArg>
+      <OthersNoArg>$n screams.</OthersNoArg>
+      <CharFound>You scream at $M.</CharFound>
+      <OthersFound>$n screams at $N.</OthersFound>
+      <VictFound>$n screams at you.</VictFound>
+      <CharAuto>You scream.</CharAuto>
+      <OthersAuto>$n screams.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>groan</Name>
+      <CharNoArg>You groan.</CharNoArg>
+      <OthersNoArg>$n groans.</OthersNoArg>
+      <CharFound>You groan.</CharFound>
+      <OthersFound>$n groans.</OthersFound>
+      <VictFound>$n groans.</VictFound>
+      <CharAuto>You groan.</CharAuto>
+      <OthersAuto>$n groans.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>ponder</Name>
+      <CharNoArg>You ponder over matters.</CharNoArg>
+      <OthersNoArg>$n gets a thoughtful look on $s face.</OthersNoArg>
+      <CharFound>You ponder over matters.</CharFound>
+      <OthersFound>$n gets a thoughtful look on $s face.</OthersFound>
+      <VictFound>$n gets a thoughtful look on $s face.</VictFound>
+      <CharAuto>You ponder over matters.</CharAuto>
+      <OthersAuto>$n gets a thoughtful look on $s face.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>point</Name>
+      <CharNoArg>You point at the invisible dragon standing by your side.</CharNoArg>
+      <OthersNoArg>$n points at something you can't seem to find.</OthersNoArg>
+      <CharFound>You point at $M.</CharFound>
+      <OthersFound>$n points at $N.</OthersFound>
+      <VictFound>$n points at you.</VictFound>
+      <CharAuto>You point at yourself.</CharAuto>
+      <OthersAuto>$n points at $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>snicker</Name>
+      <CharNoArg>You snicker.</CharNoArg>
+      <OthersNoArg>$n snickers.</OthersNoArg>
+      <CharFound>$n snickers at you.</CharFound>
+      <OthersFound>$n snickers at $N.</OthersFound>
+      <VictFound></VictFound>
+      <CharAuto>You snicker.</CharAuto>
+      <OthersAuto>$n snickers.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>smirk</Name>
+      <CharNoArg>You smirk.</CharNoArg>
+      <OthersNoArg>$n smirks.</OthersNoArg>
+      <CharFound>You smirk.</CharFound>
+      <OthersFound>$n smirks.</OthersFound>
+      <VictFound>$n smirks.</VictFound>
+      <CharAuto>You smirk.</CharAuto>
+      <OthersAuto>$n smirks.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>gasp</Name>
+      <CharNoArg>You gasp.</CharNoArg>
+      <OthersNoArg>$n gasps.</OthersNoArg>
+      <CharFound>You gasp at $M.</CharFound>
+      <OthersFound>$n gasps at $N.</OthersFound>
+      <VictFound>$n gasps at you.</VictFound>
+      <CharAuto>You gasp at something you did.</CharAuto>
+      <OthersAuto>$n gasps.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>yawn</Name>
+      <CharNoArg>You yawn.</CharNoArg>
+      <OthersNoArg>$n yawns.</OthersNoArg>
+      <CharFound>You yawn from boredom. Doesn't $E ever shut up?</CharFound>
+      <OthersFound>You find yourself stiffling a yawn as you watch $n yawn boredly because of $N.</OthersFound>
+      <VictFound>$n yawns, $e must be bored with you.</VictFound>
+      <CharAuto>You rub your sleepy eyes and yawn.</CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>bounce</Name>
+      <CharNoArg>You bounce around. BOING!!!!</CharNoArg>
+      <OthersNoArg>$n bounces around.</OthersNoArg>
+      <CharFound>You grab $S hand and force $M to bounce with you.</CharFound>
+      <OthersFound>$n grabs $N by the hand and bounces around with $M.</OthersFound>
+      <VictFound>$n grabs your by the hand and forces you to bounce with $m.</VictFound>
+      <CharAuto>You merrily bounce to a tune in your head.</CharAuto>
+      <OthersAuto>$n bounces around.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>nod</Name>
+      <CharNoArg>You nod.</CharNoArg>
+      <OthersNoArg>$n nods.</OthersNoArg>
+      <CharFound>You nod to $M.</CharFound>
+      <OthersFound>$n nods to $N.</OthersFound>
+      <VictFound>$n nods to you.</VictFound>
+      <CharAuto>You nod as if to reassure yourself.</CharAuto>
+      <OthersAuto>$n nods $S head as if to reassure $Mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>pat</Name>
+      <CharNoArg>You pat the small invisible dragon standing beside you on the head.</CharNoArg>
+      <OthersNoArg></OthersNoArg>
+      <CharFound>You pat $M.</CharFound>
+      <OthersFound>$n pats $N.</OthersFound>
+      <VictFound>$n pats you.</VictFound>
+      <CharAuto>You pat yourself on the back for a job well done.</CharAuto>
+      <OthersAuto>$n pats $Mself on the back.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>nudge</Name>
+      <CharNoArg>To whom do you want this action preformed?</CharNoArg>
+      <OthersNoArg></OthersNoArg>
+      <CharFound>You nudge $M.</CharFound>
+      <OthersFound>$n nudges $N.</OthersFound>
+      <VictFound>$n nudges you.</VictFound>
+      <CharAuto>You attempt to nudge yourself unsucessfully.</CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>cry</Name>
+      <CharNoArg>You burst into tears.</CharNoArg>
+      <OthersNoArg>$n burst into tears.</OthersNoArg>
+      <CharFound>You cry out to $M.</CharFound>
+      <OthersFound>$n cries out to $N.</OthersFound>
+      <VictFound>$n cries out to you.</VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>sob</Name>
+      <CharNoArg>You sob quietly.</CharNoArg>
+      <OthersNoArg>$n sobs quietly.</OthersNoArg>
+      <CharFound>You lay your head on $S shoulder and sob quietly.</CharFound>
+      <OthersFound>$n lays $s head on $N sholder and sobs quietly.</OthersFound>
+      <VictFound>$n lays $s head on your sholder and sobs quietly. </VictFound>
+      <CharAuto>You sob quietly to yourself.</CharAuto>
+      <OthersAuto>$n sobs quietly to $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>cackle</Name>
+      <CharNoArg>You throw your head back and cackle.</CharNoArg>
+      <OthersNoArg>$n throws $s head back and cackles.</OthersNoArg>
+      <CharFound></CharFound>
+      <OthersFound></OthersFound>
+      <VictFound></VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>cough</Name>
+      <CharNoArg>You cough.</CharNoArg>
+      <OthersNoArg>$n coughs.</OthersNoArg>
+      <CharFound></CharFound>
+      <OthersFound></OthersFound>
+      <VictFound></VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>poke</Name>
+      <CharNoArg>You poke at the air in front of you.</CharNoArg>
+      <OthersNoArg></OthersNoArg>
+      <CharFound>You poke $M.</CharFound>
+      <OthersFound>$n pokes $N.</OthersFound>
+      <VictFound>$n pokes you.</VictFound>
+      <CharAuto>You poke yourself. </CharAuto>
+      <OthersAuto>$n pokes $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>lick</Name>
+      <CharNoArg>You lick your lips.</CharNoArg>
+      <OthersNoArg>$n licks $s lips.</OthersNoArg>
+      <CharFound>You lick $M.</CharFound>
+      <OthersFound>$n licks $N.</OthersFound>
+      <VictFound>$n licks you.</VictFound>
+      <CharAuto>You lick yourself.</CharAuto>
+      <OthersAuto>$n licks $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>tap</Name>
+      <CharNoArg>You tap your foot impatiently.</CharNoArg>
+      <OthersNoArg>$n taps $s foot impatiently.</OthersNoArg>
+      <CharFound>You tap $M on $S shoulder.</CharFound>
+      <OthersFound>$n taps $N on $S shoulder.</OthersFound>
+      <VictFound>$n taps you on your shoulder.</VictFound>
+      <CharAuto>Deep in thought, you tap yourself on the forehead.</CharAuto>
+      <OthersAuto>Deep in thought, $n taps $mself on the forehead.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>hug</Name>
+      <CharNoArg>You look around for someone to hug.</CharNoArg>
+      <OthersNoArg>$n looks around for someone to hug.</OthersNoArg>
+      <CharFound>You hug $M.</CharFound>
+      <OthersFound>$n hugs $N.</OthersFound>
+      <VictFound>$n hugs you.</VictFound>
+      <CharAuto>You hug yourself out of lonliness.</CharAuto>
+      <OthersAuto>$n hugs $mself. Must be lonely.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>smile</Name>
+      <CharNoArg>You smile.</CharNoArg>
+      <OthersNoArg>$n smiles.</OthersNoArg>
+      <CharFound>You smile at $M.</CharFound>
+      <OthersFound>$n smiles at $N.</OthersFound>
+      <VictFound>$n smiles at you.</VictFound>
+      <CharAuto>You smile at yourself. Hehe.</CharAuto>
+      <OthersAuto>$n smiles at $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>grin</Name>
+      <CharNoArg>You flash a wicked grin.</CharNoArg>
+      <OthersNoArg>$n flashes a wicked grin.</OthersNoArg>
+      <CharFound>You grin at $M.</CharFound>
+      <OthersFound>$n grins at $N.</OthersFound>
+      <VictFound>$n grins at you.</VictFound>
+      <CharAuto>You grin at yourself.</CharAuto>
+      <OthersAuto>$n grins at $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>laugh</Name>
+      <CharNoArg>You laugh.</CharNoArg>
+      <OthersNoArg>$n laughs.</OthersNoArg>
+      <CharFound>You laugh at $M.</CharFound>
+      <OthersFound>$n laughs at $N.</OthersFound>
+      <VictFound>$n laughs at you.</VictFound>
+      <CharAuto>You laugh at what you did.</CharAuto>
+      <OthersAuto>$n laughs at what $e did.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>frown</Name>
+      <CharNoArg>You frown.</CharNoArg>
+      <OthersNoArg>$n frowns.</OthersNoArg>
+      <CharFound>You frown at $M.</CharFound>
+      <OthersFound>$n frowns at $N.</OthersFound>
+      <VictFound>$n frowns at you.</VictFound>
+      <CharAuto>You frown at yourself.</CharAuto>
+      <OthersAuto>$n frowns at $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>giggle</Name>
+      <CharNoArg>You giggle.</CharNoArg>
+      <OthersNoArg>$n giggles.</OthersNoArg>
+      <CharFound>You giggle at $M.</CharFound>
+      <OthersFound>$n giggles at $N.</OthersFound>
+      <VictFound>$n giggles at you.</VictFound>
+      <CharAuto>You giggle at yourself.</CharAuto>
+      <OthersAuto>$n giggles at $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>agree</Name>
+      <CharNoArg>You nod your head in agreement.</CharNoArg>
+      <OthersNoArg>$n nods $s head in agreement.</OthersNoArg>
+      <CharFound>You nod your head in agreement with $M.</CharFound>
+      <OthersFound>$n nods $s head in agreement with $N.</OthersFound>
+      <VictFound>$n nods $s head in agreement with you.</VictFound>
+      <CharAuto>You nod your head in agreement with yourself.</CharAuto>
+      <OthersAuto>$n nods $s head in agreement with $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>disagree</Name>
+      <CharNoArg>You shake your head in disagreement.</CharNoArg>
+      <OthersNoArg>$n shakes $s head in disagreement.</OthersNoArg>
+      <CharFound>You shake your head in disagreement with $M.</CharFound>
+      <OthersFound>$n shakes $s head in disagreement with $N.</OthersFound>
+      <VictFound>$n shakes $s head in disagreement with you.</VictFound>
+      <CharAuto>You shake your head in disagreement with yourself.</CharAuto>
+      <OthersAuto>$n shakes $s head in dissagreement with $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>blush</Name>
+      <CharNoArg>You blush.</CharNoArg>
+      <OthersNoArg>$n blushes.</OthersNoArg>
+      <CharFound></CharFound>
+      <OthersFound></OthersFound>
+      <VictFound></VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>chuckle</Name>
+      <CharNoArg>You chuckle.</CharNoArg>
+      <OthersNoArg>$n chuckles.</OthersNoArg>
+      <CharFound>You chuckle at $M.</CharFound>
+      <OthersFound>$n chuckles at $N.</OthersFound>
+      <VictFound>$n chuckles at you.</VictFound>
+      <CharAuto>You chuckle at yourself.</CharAuto>
+      <OthersAuto>$n chuckles at $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>comfort</Name>
+      <CharNoArg>Who do you wish to comfort?</CharNoArg>
+      <OthersNoArg></OthersNoArg>
+      <CharFound>You comfort $M.</CharFound>
+      <OthersFound>$n comforts $N.</OthersFound>
+      <VictFound>$n comforts you.</VictFound>
+      <CharAuto>You attempt to comfort yourself.</CharAuto>
+      <OthersAuto>$n attempts to comfort $mself.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>sigh</Name>
+      <CharNoArg>You sigh.</CharNoArg>
+      <OthersNoArg>$n sighs.</OthersNoArg>
+      <CharFound>You look at $M and sigh.</CharFound>
+      <OthersFound>$n looks at $N and sighs.</OthersFound>
+      <VictFound>$n looks at you and sighs.</VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>think</Name>
+      <CharNoArg>You begin to think.</CharNoArg>
+      <OthersNoArg>$n begins to think.</OthersNoArg>
+      <CharFound>You think of $M.</CharFound>
+      <OthersFound></OthersFound>
+      <VictFound>A strange feeling creeps over you, $n is thinking of you.</VictFound>
+      <CharAuto>You think of yourself.  How vain!</CharAuto>
+      <OthersAuto>$n thinks of $mself for once.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>gulp</Name>
+      <CharNoArg>You gulp nervously.</CharNoArg>
+      <OthersNoArg>$n gulps nervously.</OthersNoArg>
+      <CharFound>You look at $M and gulp nervously.</CharFound>
+      <OthersFound>$n looks at $N and gulps nervously.</OthersFound>
+      <VictFound>$n looks at you and gulps nervously.</VictFound>
+      <CharAuto>You force yourself to make a loud gulping noise.</CharAuto>
+      <OthersAuto>$n gulps loudly.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>kiss</Name>
+      <CharNoArg>You make kissing noises.</CharNoArg>
+      <OthersNoArg>$n makes kissing noises.</OthersNoArg>
+      <CharFound>You kiss $M.</CharFound>
+      <OthersFound>$n kisses $N.</OthersFound>
+      <VictFound>$n kisses you.</VictFound>
+      <CharAuto>I'm sorry, you are unable to perform that action.</CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>glare</Name>
+      <CharNoArg>You glare about angerly.</CharNoArg>
+      <OthersNoArg>$n glares about angerly.</OthersNoArg>
+      <CharFound>You glare at $M.</CharFound>
+      <OthersFound>$n glares at $N.</OthersFound>
+      <VictFound>$n glares at you.</VictFound>
+      <CharAuto>You glare inwardly.</CharAuto>
+      <OthersAuto>$n glares inwardly.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>bow</Name>
+      <CharNoArg>You bow.</CharNoArg>
+      <OthersNoArg>$n bows.</OthersNoArg>
+      <CharFound>You bow before $M.</CharFound>
+      <OthersFound>$n bows before $N.</OthersFound>
+      <VictFound>$n bows before you.</VictFound>
+      <CharAuto>You attempt to bow to yourself and do a summersault.</CharAuto>
+      <OthersAuto>$n trys bowing to $mself and does a summersault.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>blink</Name>
+      <CharNoArg>You blink.</CharNoArg>
+      <OthersNoArg>$n blinks.</OthersNoArg>
+      <CharFound>You blink innocently at $M.</CharFound>
+      <OthersFound>$n blinks innocently at $N.</OthersFound>
+      <VictFound>$n blinks innocently at you.</VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>growl</Name>
+      <CharNoArg>You growl.</CharNoArg>
+      <OthersNoArg>$n growls.</OthersNoArg>
+      <CharFound>You growl at $M.</CharFound>
+      <OthersFound>$n growls at $N.</OthersFound>
+      <VictFound>$n growls at you.</VictFound>
+      <CharAuto>You growl at something you've done. Stupid you.</CharAuto>
+      <OthersAuto>$n growls.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>cringe</Name>
+      <CharNoArg>You cringe.</CharNoArg>
+      <OthersNoArg>$n cringes.</OthersNoArg>
+      <CharFound>You cringe away from $M.</CharFound>
+      <OthersFound>$n cringes away from $N.</OthersFound>
+      <VictFound>$n cringes away from you. Meanie!</VictFound>
+      <CharAuto>You cringe.</CharAuto>
+      <OthersAuto>$n cringes.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>thank</Name>
+      <CharNoArg>You thank the gods heartily.</CharNoArg>
+      <OthersNoArg>$n thanks the gods.</OthersNoArg>
+      <CharFound>You thank $M.</CharFound>
+      <OthersFound>$n thanks $N.</OthersFound>
+      <VictFound>$n thanks you.</VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>tickle</Name>
+      <CharNoArg>Whom do you wish to tickle?</CharNoArg>
+      <OthersNoArg></OthersNoArg>
+      <CharFound>You tickle $M.</CharFound>
+      <OthersFound>$n tickles $N.</OthersFound>
+      <VictFound>$n tickles you.</VictFound>
+      <CharAuto>You make a failed attempt at trying to make yourself laugh by tickling.</CharAuto>
+      <OthersAuto>$n trys to tickle $mself. What a wierdo.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>wave</Name>
+      <CharNoArg>You wave.</CharNoArg>
+      <OthersNoArg>$n waves.</OthersNoArg>
+      <CharFound>You wave at $M.</CharFound>
+      <OthersFound>$n waves at $N.</OthersFound>
+      <VictFound>$n waves at you.</VictFound>
+      <CharAuto>You fan yourself with your hand.</CharAuto>
+      <OthersAuto>$n fans themselves with their hand.</OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>clap</Name>
+      <CharNoArg>You begin to clap.</CharNoArg>
+      <OthersNoArg>$n begins to clap.</OthersNoArg>
+      <CharFound></CharFound>
+      <OthersFound></OthersFound>
+      <VictFound></VictFound>
+      <CharAuto></CharAuto>
+      <OthersAuto></OthersAuto>
+    </Social>
+    <Social ObjectClass="Social">
+      <Name>wink</Name>
+      <CharNoArg>You wink.</CharNoArg>
+      <OthersNoArg>$n winks.</OthersNoArg>
+      <CharFound>You wink at $N.</CharFound>
+      <OthersFound>$n winks at $N.</OthersFound>
+      <VictFound>$n winks at you.</VictFound>
+      <CharAuto>You wink knowingly.</CharAuto>
+      <OthersAuto>$n winks knowingly.</OthersAuto>
+    </Social>
+  </Socials>
+</SocialFile>
