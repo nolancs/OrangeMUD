@@ -1,0 +1,14 @@
+# Binary
+OrangeMUD
+
+# Compiled source
+*.o
+
+# Dependency file 
+*.dep 
+
+# OS-specific hidden files
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
