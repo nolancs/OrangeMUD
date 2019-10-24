@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Player ObjectClass="Player">
+  <Name>Matrix</Name>
+  <PName></PName>
+  <ShortDesc></ShortDesc>
+  <PShortDesc></PShortDesc>
+  <Description></Description>
+  <Sex>male</Sex>
+  <Level>50</Level>
+  <Race>2</Race>
+  <Class>1</Class>
+  <Alignment>0</Alignment>
+  <Size>0</Size>
+  <Position>9</Position>
+  <WimpyFlee>-2147483648</WimpyFlee>
+  <WimpyBlink>-2147483648</WimpyBlink>
+  <WimpyRecall>-2147483648</WimpyRecall>
+  <WimpyPray>-2147483648</WimpyPray>
+  <ResCold>0</ResCold>
+  <ResFire>0</ResFire>
+  <ResAcid>0</ResAcid>
+  <ResElec>0</ResElec>
+  <ResPois>0</ResPois>
+  <ResMind>0</ResMind>
+  <ResSleep>0</ResSleep>
+  <ResCharm>0</ResCharm>
+  <Strength>15</Strength>
+  <Dexterity>13</Dexterity>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Constitution>18</Constitution>
+  <HitPoints>1380</HitPoints>
+  <HitPointsMax>1380</HitPointsMax>
+  <Energy>915</Energy>
+  <EnergyMax>915</EnergyMax>
+  <Moves>1128</Moves>
+  <MovesMax>1128</MovesMax>
+  <ExpTNL>1159068</ExpTNL>
+  <LevelLast>0</LevelLast>
+  <LevelHitT>1</LevelHitT>
+  <LevelEnergyT>0</LevelEnergyT>
+  <LevelMoveT>0</LevelMoveT>
+  <InRoom>327680</InRoom>
+  <Carrying ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="327689">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="327689">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="327702">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572882">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1376260">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="4">
+      <WearLoc>-1</WearLoc>
+    </Object>
+  </Carrying>
+  <Wearing ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="1572870">
+      <WearLoc>24</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1179654">
+      <WearLoc>9</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572867">
+      <WearLoc>13</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572868">
+      <WearLoc>6</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572866">
+      <WearLoc>21</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572866">
+      <WearLoc>23</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572871">
+      <WearLoc>11</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572865">
+      <WearLoc>26</WearLoc>
+    </Object>
+  </Wearing>
+  <UID>6</UID>
+  <Passwd>b3JhbmdlbXVk</Passwd>
+  <Prompt>[^r%hhp^x ^g%ee^x ^b%mmv^x] ^w%x^x&gt;&gt;</Prompt>
+  <Title></Title>
+  <TitleAFK></TitleAFK>
+  <Email></Email>
+  <Homepage></Homepage>
+  <LastLogin>979451857</LastLogin>
+  <TimePlayed>2465</TimePlayed>
+  <Trust>50</Trust>
+  <Scroll>20</Scroll>
+  <InvisLevel>0</InvisLevel>
+  <FlagsOptions>131695</FlagsOptions>
+  <FlagsInfo>1664</FlagsInfo>
+  <CondDrunk>0</CondDrunk>
+  <CondFull>0</CondFull>
+  <CondThirst>-1</CondThirst>
+  <CondHunger>-1</CondHunger>
+  <CondHigh>0</CondHigh>
+  <CondWithdrawl>0</CondWithdrawl>
+  <ColorPref Index="0">516</ColorPref>
+  <ColorPref Index="1">128</ColorPref>
+  <ColorPref Index="2">1</ColorPref>
+  <ColorPref Index="3">1</ColorPref>
+  <ColorPref Index="4">2048</ColorPref>
+  <ColorPref Index="5">256</ColorPref>
+  <ColorPref Index="6">130</ColorPref>
+  <ColorPref Index="7">130</ColorPref>
+  <ColorPref Index="8">6</ColorPref>
+  <ColorPref Index="9">2048</ColorPref>
+  <ColorPref Index="10">262</ColorPref>
+  <ColorPref Index="11">520</ColorPref>
+  <ColorPref Index="12">514</ColorPref>
+  <ColorPref Index="13">1024</ColorPref>
+  <ColorPref Index="14">4096</ColorPref>
+  <ColorPref Index="15">72</ColorPref>
+  <ColorPref Index="16">66</ColorPref>
+  <ColorPref Index="17">131072</ColorPref>
+  <ColorPref Index="18">512</ColorPref>
+  <ColorPref Index="19">128</ColorPref>
+  <ColorPref Index="20">2050</ColorPref>
+  <ColorPref Index="21">128</ColorPref>
+  <ColorPref Index="22">1</ColorPref>
+  <ColorPref Index="23">1</ColorPref>
+  <ColorPref Index="24">2052</ColorPref>
+  <ColorPref Index="25">2</ColorPref>
+  <ColorPref Index="26">128</ColorPref>
+</Player>

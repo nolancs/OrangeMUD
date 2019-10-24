@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Player ObjectClass="Immortal">
+  <Name>Morb</Name>
+  <PName></PName>
+  <ShortDesc></ShortDesc>
+  <PShortDesc></PShortDesc>
+  <Description>I am Morb.</Description>
+  <Sex>male</Sex>
+  <Level>106</Level>
+  <Race>0</Race>
+  <Class>7</Class>
+  <Alignment>0</Alignment>
+  <Size>0</Size>
+  <Position>9</Position>
+  <WimpyFlee>-2147483648</WimpyFlee>
+  <WimpyBlink>-2147483648</WimpyBlink>
+  <WimpyRecall>-2147483648</WimpyRecall>
+  <WimpyPray>-2147483648</WimpyPray>
+  <ResCold>0</ResCold>
+  <ResFire>0</ResFire>
+  <ResAcid>0</ResAcid>
+  <ResElec>0</ResElec>
+  <ResPois>0</ResPois>
+  <ResMind>0</ResMind>
+  <ResSleep>0</ResSleep>
+  <ResCharm>0</ResCharm>
+  <Strength>18</Strength>
+  <Dexterity>7</Dexterity>
+  <Intelligence>18</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Constitution>17</Constitution>
+  <HitPoints>1898</HitPoints>
+  <HitPointsMax>1898</HitPointsMax>
+  <Energy>3892</Energy>
+  <EnergyMax>3892</EnergyMax>
+  <Moves>2214</Moves>
+  <MovesMax>2214</MovesMax>
+  <ExpTNL>168246114</ExpTNL>
+  <LevelLast>0</LevelLast>
+  <LevelHitT>4</LevelHitT>
+  <LevelEnergyT>8</LevelEnergyT>
+  <LevelMoveT>1</LevelMoveT>
+  <InRoom>1376258</InRoom>
+  <Carrying ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="1638401">
+      <WearLoc>-1</WearLoc>
+    </Object>
+  </Carrying>
+  <Wearing ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="1900627">
+      <WearLoc>26</WearLoc>
+    </Object>
+  </Wearing>
+  <UID>2</UID>
+  <Passwd>b3JhbmdlbXVk</Passwd>
+  <Prompt>[^r%hhp^x ^g%ee^x ^b%mmv^x] ^w%x^x&gt;&gt;</Prompt>
+  <Title></Title>
+  <TitleAFK></TitleAFK>
+  <Email></Email>
+  <Homepage></Homepage>
+  <LastLogin>981551554</LastLogin>
+  <TimePlayed>3125076</TimePlayed>
+  <Trust>106</Trust>
+  <Scroll>20</Scroll>
+  <InvisLevel>0</InvisLevel>
+  <FlagsOptions>131136</FlagsOptions>
+  <FlagsInfo>1664</FlagsInfo>
+  <CondDrunk>0</CondDrunk>
+  <CondFull>15</CondFull>
+  <CondThirst>-1</CondThirst>
+  <CondHunger>-1</CondHunger>
+  <CondHigh>0</CondHigh>
+  <CondWithdrawl>0</CondWithdrawl>
+  <ColorPref Index="0">0</ColorPref>
+  <ColorPref Index="1">0</ColorPref>
+  <ColorPref Index="2">0</ColorPref>
+  <ColorPref Index="3">0</ColorPref>
+  <ColorPref Index="4">0</ColorPref>
+  <ColorPref Index="5">0</ColorPref>
+  <ColorPref Index="6">0</ColorPref>
+  <ColorPref Index="7">0</ColorPref>
+  <ColorPref Index="8">0</ColorPref>
+  <ColorPref Index="9">0</ColorPref>
+  <ColorPref Index="10">0</ColorPref>
+  <ColorPref Index="11">0</ColorPref>
+  <ColorPref Index="12">0</ColorPref>
+  <ColorPref Index="13">0</ColorPref>
+  <ColorPref Index="14">0</ColorPref>
+  <ColorPref Index="15">0</ColorPref>
+  <ColorPref Index="16">0</ColorPref>
+  <ColorPref Index="17">0</ColorPref>
+  <ColorPref Index="18">0</ColorPref>
+  <ColorPref Index="19">0</ColorPref>
+  <ColorPref Index="20">0</ColorPref>
+  <ColorPref Index="21">0</ColorPref>
+  <ColorPref Index="22">0</ColorPref>
+  <ColorPref Index="23">0</ColorPref>
+  <ColorPref Index="24">0</ColorPref>
+  <ColorPref Index="25">0</ColorPref>
+  <ColorPref Index="26">0</ColorPref>
+  <InvisLevel>0</InvisLevel>
+  <PoofIn></PoofIn>
+  <PoofOut></PoofOut>
+  <GoInvisSelf></GoInvisSelf>
+  <GoInvisRoom></GoInvisRoom>
+  <GoVisSelf></GoVisSelf>
+  <GoVisRoom></GoVisRoom>
+  <MakeObjOneSelf></MakeObjOneSelf>
+  <MakeObjOneRoom></MakeObjOneRoom>
+  <MakeObjMultiSelf></MakeObjMultiSelf>
+  <MakeObjMultiRoom></MakeObjMultiRoom>
+  <MakeMobOneSelf></MakeMobOneSelf>
+  <MakeMobOneRoom></MakeMobOneRoom>
+  <MakeMobMultiSelf></MakeMobMultiSelf>
+  <MakeMobMultiRoom></MakeMobMultiRoom>
+</Player>

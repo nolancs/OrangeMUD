@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Player ObjectClass="Player">
+  <Name>Shiki</Name>
+  <PName></PName>
+  <ShortDesc></ShortDesc>
+  <PShortDesc></PShortDesc>
+  <Description></Description>
+  <Sex>female</Sex>
+  <Level>1</Level>
+  <Race>5</Race>
+  <Class>6</Class>
+  <Alignment>0</Alignment>
+  <Size>0</Size>
+  <Position>4</Position>
+  <WimpyFlee>-2147483648</WimpyFlee>
+  <WimpyBlink>-2147483648</WimpyBlink>
+  <WimpyRecall>-2147483648</WimpyRecall>
+  <WimpyPray>-2147483648</WimpyPray>
+  <ResCold>0</ResCold>
+  <ResFire>0</ResFire>
+  <ResAcid>0</ResAcid>
+  <ResElec>0</ResElec>
+  <ResPois>0</ResPois>
+  <ResMind>0</ResMind>
+  <ResSleep>0</ResSleep>
+  <ResCharm>0</ResCharm>
+  <Strength>9</Strength>
+  <Dexterity>17</Dexterity>
+  <Intelligence>13</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Constitution>19</Constitution>
+  <HitPoints>27</HitPoints>
+  <HitPointsMax>27</HitPointsMax>
+  <Energy>11</Energy>
+  <EnergyMax>11</EnergyMax>
+  <Moves>30</Moves>
+  <MovesMax>30</MovesMax>
+  <ExpTNL>100</ExpTNL>
+  <LevelLast>0</LevelLast>
+  <LevelHitT>0</LevelHitT>
+  <LevelEnergyT>5</LevelEnergyT>
+  <LevelMoveT>8</LevelMoveT>
+  <InRoom>196608</InRoom>
+  <Carrying ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="327706">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="851977">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="851976">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="786449">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="917513">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="917504">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="131094">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1114112">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1900592">
+      <WearLoc>-1</WearLoc>
+    </Object>
+  </Carrying>
+  <Wearing ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="851977">
+      <WearLoc>3</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="851968">
+      <WearLoc>11</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="851969">
+      <WearLoc>8</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="851974">
+      <WearLoc>9</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="0">
+      <WearLoc>4</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="851985">
+      <WearLoc>13</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="655370">
+      <WearLoc>29</WearLoc>
+    </Object>
+  </Wearing>
+  <UID>11</UID>
+  <Passwd>b3JhbmdlbXVk</Passwd>
+  <Prompt>[^r%hhp^x ^g%ee^x ^b%mmv^x] ^w%x^x&gt;&gt;</Prompt>
+  <Title></Title>
+  <TitleAFK></TitleAFK>
+  <Email></Email>
+  <Homepage></Homepage>
+  <LastLogin>977189126</LastLogin>
+  <TimePlayed>41300</TimePlayed>
+  <Trust>1</Trust>
+  <Scroll>20</Scroll>
+  <InvisLevel>0</InvisLevel>
+  <FlagsOptions>131695</FlagsOptions>
+  <FlagsInfo>1664</FlagsInfo>
+  <CondDrunk>0</CondDrunk>
+  <CondFull>3</CondFull>
+  <CondThirst>100</CondThirst>
+  <CondHunger>100</CondHunger>
+  <CondHigh>0</CondHigh>
+  <CondWithdrawl>0</CondWithdrawl>
+  <ColorPref Index="0">516</ColorPref>
+  <ColorPref Index="1">128</ColorPref>
+  <ColorPref Index="2">1</ColorPref>
+  <ColorPref Index="3">1</ColorPref>
+  <ColorPref Index="4">2048</ColorPref>
+  <ColorPref Index="5">256</ColorPref>
+  <ColorPref Index="6">130</ColorPref>
+  <ColorPref Index="7">130</ColorPref>
+  <ColorPref Index="8">6</ColorPref>
+  <ColorPref Index="9">2048</ColorPref>
+  <ColorPref Index="10">262</ColorPref>
+  <ColorPref Index="11">520</ColorPref>
+  <ColorPref Index="12">514</ColorPref>
+  <ColorPref Index="13">1024</ColorPref>
+  <ColorPref Index="14">4096</ColorPref>
+  <ColorPref Index="15">72</ColorPref>
+  <ColorPref Index="16">66</ColorPref>
+  <ColorPref Index="17">131072</ColorPref>
+  <ColorPref Index="18">512</ColorPref>
+  <ColorPref Index="19">128</ColorPref>
+  <ColorPref Index="20">2050</ColorPref>
+  <ColorPref Index="21">128</ColorPref>
+  <ColorPref Index="22">1</ColorPref>
+  <ColorPref Index="23">1</ColorPref>
+  <ColorPref Index="24">2052</ColorPref>
+  <ColorPref Index="25">2</ColorPref>
+  <ColorPref Index="26">128</ColorPref>
+</Player>

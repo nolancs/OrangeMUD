@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Player ObjectClass="Immortal">
+  <Name>Medina</Name>
+  <PName></PName>
+  <ShortDesc></ShortDesc>
+  <PShortDesc></PShortDesc>
+  <Description>A small woman stands before you; ancient blue eyes offset the timeless youth of
+the perfect features of her face. Silver lights somewhat like the event horizon
+of a star, swirl deep in the depths of those unearthly eyes. Long silver hair
+cascades down her back like a galaxy of tiny blue and white stars. Her lips
+purse into a slight mysterious smile, her silvery blue lips turning up at the
+corners ever so. Her skin is so pale as to be almost translucent. Gently
+tapered fingernails grace her sinuous fingers. Her entire body glows with
+ethereal light, tiny flecks of silver stardust dance across her skin.</Description>
+  <Sex>female</Sex>
+  <Level>104</Level>
+  <Race>5</Race>
+  <Class>12</Class>
+  <Alignment>0</Alignment>
+  <Size>0</Size>
+  <Position>5</Position>
+  <WimpyFlee>-2147483648</WimpyFlee>
+  <WimpyBlink>-2147483648</WimpyBlink>
+  <WimpyRecall>-2147483648</WimpyRecall>
+  <WimpyPray>-2147483648</WimpyPray>
+  <ResCold>0</ResCold>
+  <ResFire>0</ResFire>
+  <ResAcid>0</ResAcid>
+  <ResElec>0</ResElec>
+  <ResPois>0</ResPois>
+  <ResMind>0</ResMind>
+  <ResSleep>0</ResSleep>
+  <ResCharm>0</ResCharm>
+  <Strength>16</Strength>
+  <Dexterity>12</Dexterity>
+  <Intelligence>14</Intelligence>
+  <Wisdom>6</Wisdom>
+  <Constitution>15</Constitution>
+  <HitPoints>99999</HitPoints>
+  <HitPointsMax>99999</HitPointsMax>
+  <Energy>3588</Energy>
+  <EnergyMax>3588</EnergyMax>
+  <Moves>2118</Moves>
+  <MovesMax>2118</MovesMax>
+  <ExpTNL>142058920</ExpTNL>
+  <LevelLast>0</LevelLast>
+  <LevelHitT>6</LevelHitT>
+  <LevelEnergyT>0</LevelEnergyT>
+  <LevelMoveT>1</LevelMoveT>
+  <InRoom>0</InRoom>
+  <Carrying ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="131132">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="131129">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="458761">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="131088">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="393229">
+      <WearLoc>-1</WearLoc>
+    </Object>
+  </Carrying>
+  <Wearing ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="131074">
+      <WearLoc>6</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="851988">
+      <WearLoc>30</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="655380">
+      <WearLoc>11</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="655381">
+      <WearLoc>9</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="327683">
+      <WearLoc>14</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="131138">
+      <WearLoc>1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="655363">
+      <WearLoc>21</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1114112">
+      <WearLoc>2</WearLoc>
+    </Object>
+  </Wearing>
+  <UID>7</UID>
+  <Passwd>b3JhbmdlbXVk</Passwd>
+  <Prompt>[^r%hhp^x ^g%ee^x ^b%mmv^x] ^w%x^x&gt;&gt;</Prompt>
+  <Title></Title>
+  <TitleAFK></TitleAFK>
+  <Email></Email>
+  <Homepage></Homepage>
+  <LastLogin>978740269</LastLogin>
+  <TimePlayed>2330177</TimePlayed>
+  <Trust>104</Trust>
+  <Scroll>20</Scroll>
+  <InvisLevel>0</InvisLevel>
+  <FlagsOptions>537002607</FlagsOptions>
+  <FlagsInfo>1728</FlagsInfo>
+  <CondDrunk>0</CondDrunk>
+  <CondFull>4</CondFull>
+  <CondThirst>-1</CondThirst>
+  <CondHunger>-1</CondHunger>
+  <CondHigh>0</CondHigh>
+  <CondWithdrawl>0</CondWithdrawl>
+  <ColorPref Index="0">516</ColorPref>
+  <ColorPref Index="1">128</ColorPref>
+  <ColorPref Index="2">1</ColorPref>
+  <ColorPref Index="3">1</ColorPref>
+  <ColorPref Index="4">2048</ColorPref>
+  <ColorPref Index="5">256</ColorPref>
+  <ColorPref Index="6">130</ColorPref>
+  <ColorPref Index="7">130</ColorPref>
+  <ColorPref Index="8">6</ColorPref>
+  <ColorPref Index="9">2048</ColorPref>
+  <ColorPref Index="10">262</ColorPref>
+  <ColorPref Index="11">520</ColorPref>
+  <ColorPref Index="12">514</ColorPref>
+  <ColorPref Index="13">1024</ColorPref>
+  <ColorPref Index="14">4096</ColorPref>
+  <ColorPref Index="15">72</ColorPref>
+  <ColorPref Index="16">66</ColorPref>
+  <ColorPref Index="17">131072</ColorPref>
+  <ColorPref Index="18">512</ColorPref>
+  <ColorPref Index="19">128</ColorPref>
+  <ColorPref Index="20">2050</ColorPref>
+  <ColorPref Index="21">128</ColorPref>
+  <ColorPref Index="22">1</ColorPref>
+  <ColorPref Index="23">1</ColorPref>
+  <ColorPref Index="24">2052</ColorPref>
+  <ColorPref Index="25">2</ColorPref>
+  <ColorPref Index="26">128</ColorPref>
+  <InvisLevel>0</InvisLevel>
+  <PoofIn></PoofIn>
+  <PoofOut></PoofOut>
+  <GoInvisSelf></GoInvisSelf>
+  <GoInvisRoom></GoInvisRoom>
+  <GoVisSelf></GoVisSelf>
+  <GoVisRoom></GoVisRoom>
+  <MakeObjOneSelf></MakeObjOneSelf>
+  <MakeObjOneRoom></MakeObjOneRoom>
+  <MakeObjMultiSelf></MakeObjMultiSelf>
+  <MakeObjMultiRoom></MakeObjMultiRoom>
+  <MakeMobOneSelf></MakeMobOneSelf>
+  <MakeMobOneRoom></MakeMobOneRoom>
+  <MakeMobMultiSelf></MakeMobMultiSelf>
+  <MakeMobMultiRoom></MakeMobMultiRoom>
+</Player>

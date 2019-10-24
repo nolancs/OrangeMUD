@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Player ObjectClass="Immortal">
+  <Name>Liriel</Name>
+  <PName></PName>
+  <ShortDesc></ShortDesc>
+  <PShortDesc></PShortDesc>
+  <Description>Slanted greyish-green eyes smoulder in the dark halo about her face.
+Raven hair, cropped at the ears save for the two long tendrils hanging
+at her jawline, counters the sharp angles of her features. The tiny
+pinnacles of her ears are decorated with loops of platinum. Her lithe
+frame is draped with loose, silky clothing. Stunning black wings
+fold inwards from her shoulders completing the effect, and leaving no
+doubt as to her origins. Obviously her pride and joy, the sleek ebony
+feathers are radiant, hanging loosely about her torso, accenting the
+delicate, round curves of her breasts. Languid movements of her hips
+complimented by the arch of her smile betray the easygoing nature
+of her attitude. Though she may seem unapproachable on first impression,
+the rich, lusty nature of her voice brings warmth to the conversation,
+and her smile entreats you into her world.</Description>
+  <Sex>female</Sex>
+  <Level>104</Level>
+  <Race>1</Race>
+  <Class>13</Class>
+  <Alignment>0</Alignment>
+  <Size>0</Size>
+  <Position>6</Position>
+  <WimpyFlee>-2147483648</WimpyFlee>
+  <WimpyBlink>-2147483648</WimpyBlink>
+  <WimpyRecall>-2147483648</WimpyRecall>
+  <WimpyPray>-2147483648</WimpyPray>
+  <ResCold>0</ResCold>
+  <ResFire>0</ResFire>
+  <ResAcid>0</ResAcid>
+  <ResElec>0</ResElec>
+  <ResPois>0</ResPois>
+  <ResMind>0</ResMind>
+  <ResSleep>0</ResSleep>
+  <ResCharm>0</ResCharm>
+  <Strength>14</Strength>
+  <Dexterity>21</Dexterity>
+  <Intelligence>17</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Constitution>8</Constitution>
+  <HitPoints>1788</HitPoints>
+  <HitPointsMax>1788</HitPointsMax>
+  <Energy>3834</Energy>
+  <EnergyMax>3834</EnergyMax>
+  <Moves>2267</Moves>
+  <MovesMax>2267</MovesMax>
+  <ExpTNL>142058920</ExpTNL>
+  <LevelLast>0</LevelLast>
+  <LevelHitT>8</LevelHitT>
+  <LevelEnergyT>0</LevelEnergyT>
+  <LevelMoveT>2</LevelMoveT>
+  <InRoom>1376260</InRoom>
+  <Carrying ObjectClass="ObjectHolder">
+    <Object ObjectClass="Object" VRef="524294">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="524291">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="3">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="524295">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="524298">
+      <WearLoc>-1</WearLoc>
+      <Contents ObjectClass="ObjectHolder">
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+        <Object ObjectClass="Object" VRef="524299">
+          <WearLoc>-1</WearLoc>
+        </Object>
+      </Contents>
+    </Object>
+    <Object ObjectClass="Object" VRef="524297">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="524299">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="524299">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="524299">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="524299">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="327689">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="327689">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1900630">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="458772">
+      <WearLoc>-1</WearLoc>
+    </Object>
+    <Object ObjectClass="Object" VRef="1572870">
+      <WearLoc>-1</WearLoc>
+    </Object>
+  </Carrying>
+  <UID>4</UID>
+  <Passwd>b3JhbmdlbXVk</Passwd>
+  <Prompt>[^r%hhp^x ^g%ee^x ^b%mmv^x] ^w%x^x&gt;&gt;</Prompt>
+  <Title></Title>
+  <TitleAFK></TitleAFK>
+  <Email></Email>
+  <Homepage></Homepage>
+  <LastLogin>980836182</LastLogin>
+  <TimePlayed>262363</TimePlayed>
+  <Trust>104</Trust>
+  <Scroll>20</Scroll>
+  <InvisLevel>0</InvisLevel>
+  <FlagsOptions>131695</FlagsOptions>
+  <FlagsInfo>1664</FlagsInfo>
+  <CondDrunk>0</CondDrunk>
+  <CondFull>10</CondFull>
+  <CondThirst>-1</CondThirst>
+  <CondHunger>-1</CondHunger>
+  <CondHigh>0</CondHigh>
+  <CondWithdrawl>0</CondWithdrawl>
+  <ColorPref Index="0">516</ColorPref>
+  <ColorPref Index="1">128</ColorPref>
+  <ColorPref Index="2">1</ColorPref>
+  <ColorPref Index="3">1</ColorPref>
+  <ColorPref Index="4">2048</ColorPref>
+  <ColorPref Index="5">256</ColorPref>
+  <ColorPref Index="6">130</ColorPref>
+  <ColorPref Index="7">130</ColorPref>
+  <ColorPref Index="8">6</ColorPref>
+  <ColorPref Index="9">2048</ColorPref>
+  <ColorPref Index="10">262</ColorPref>
+  <ColorPref Index="11">520</ColorPref>
+  <ColorPref Index="12">514</ColorPref>
+  <ColorPref Index="13">1024</ColorPref>
+  <ColorPref Index="14">4096</ColorPref>
+  <ColorPref Index="15">72</ColorPref>
+  <ColorPref Index="16">66</ColorPref>
+  <ColorPref Index="17">131072</ColorPref>
+  <ColorPref Index="18">512</ColorPref>
+  <ColorPref Index="19">128</ColorPref>
+  <ColorPref Index="20">2050</ColorPref>
+  <ColorPref Index="21">128</ColorPref>
+  <ColorPref Index="22">1</ColorPref>
+  <ColorPref Index="23">1</ColorPref>
+  <ColorPref Index="24">2052</ColorPref>
+  <ColorPref Index="25">2</ColorPref>
+  <ColorPref Index="26">128</ColorPref>
+  <InvisLevel>0</InvisLevel>
+  <PoofIn></PoofIn>
+  <PoofOut></PoofOut>
+  <GoInvisSelf></GoInvisSelf>
+  <GoInvisRoom></GoInvisRoom>
+  <GoVisSelf></GoVisSelf>
+  <GoVisRoom></GoVisRoom>
+  <MakeObjOneSelf></MakeObjOneSelf>
+  <MakeObjOneRoom></MakeObjOneRoom>
+  <MakeObjMultiSelf></MakeObjMultiSelf>
+  <MakeObjMultiRoom></MakeObjMultiRoom>
+  <MakeMobOneSelf></MakeMobOneSelf>
+  <MakeMobOneRoom></MakeMobOneRoom>
+  <MakeMobMultiSelf></MakeMobMultiSelf>
+  <MakeMobMultiRoom></MakeMobMultiRoom>
+</Player>
