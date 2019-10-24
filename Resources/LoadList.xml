@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LoadList>
+  <AreaFiles>
+    <File>lum.are</File>
+    <File>oferry.are</File>
+    <File>caeryn2.are</File>
+    <File>ash.are</File>
+    <File>wb.are</File>
+    <File>stcu.are</File>
+    <File>ganesh.are</File>
+    <File>mine.are</File>
+    <File>page.are</File>
+    <File>mesa.are</File>
+    <File>manetheren.are</File>
+    <File>newbie.are</File>
+    <File>snow.are</File>
+    <File>mnt.are</File>
+    <File>thekeep.are</File>
+    <File>deshera.are</File>
+    <File>gatz.are</File>
+    <File>sergod.are</File>
+    <File>academy.are</File>
+    <File>graveyrd.are</File>
+    <File>walnut.are</File>
+    <File>morb.are</File>
+    <File>dark.are</File>
+    <File>dubh.are</File>
+    <File>test.are</File>
+    <File>del.are</File>
+    <File>caeryn.are</File>
+    <File>imm.are</File>
+    <File>haunted.are</File>
+    <File>town.are</File>
+    <File>limbo.are</File>
+  </AreaFiles>
+  <HelpFiles>
+    <File>skill.hlp</File>
+    <File>olc.hlp</File>
+    <File>main.hlp</File>
+    <File>imm.hlp</File>
+  </HelpFiles>
+  <SocialFiles>
+    <File>andies.scl</File>
+    <File>extra.scl</File>
+    <File>base.scl</File>
+  </SocialFiles>
+</LoadList>
