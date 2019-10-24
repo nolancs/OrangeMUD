@@ -5,8 +5,7 @@ Advanced multi-user dungeon (MUD) codebase built in C++. Features an extensible 
 
 * Powerful and easy to use OLC (**O**n**L**ine **C**reation) tookit.
 * Scripting through OLC using pure C syntax.
-* Dynamic flat-text XML file system.
-* Polymorphic Object-Oriented data I/O.
+* Polymorphic object-oriented XML file system.
 * Complete built-in ANSI color code and formatting support.
 * Plural object and mobile system for condensed output.
 * Quest system through scripting.
