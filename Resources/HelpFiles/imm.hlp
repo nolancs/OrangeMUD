@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HelpFile ObjectClass="HelpFile">
+  <Name>Immortal Helps</Name>
+  <FileName>imm.hlp</FileName>
+  <Helps>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Goto</Title>
+      <Keywords>goto</Keywords>
+      <Summary>This will allow you to move throughout the world instantly. Specify a player,
+mobile, object, or room and you will be transported there. The target is
+found in that order.</Summary>
+      <Syntax>goto &lt;player|mob|object|room&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso>transfer</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Force</Title>
+      <Keywords>force</Keywords>
+      <Summary>This will force the people specified to do the given command as if they had
+typed it themselves. You are not able to force people with trust higher than
+your own, though you can force people of equal power. Such a silly little
+world isn't it?</Summary>
+      <Syntax>force &lt;people&gt; &lt;command&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso>trust</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Trust</Title>
+      <Keywords>trust</Keywords>
+      <Summary>Trust is a representation of how powerful you are in our little world. Your
+level is your trust for most people, although the implementor may entrust you
+with more powers than your shown level.</Summary>
+      <Syntax></Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Transfer</Title>
+      <Keywords>transfer</Keywords>
+      <Summary>Transfer will allow you to transfer a person, or people to you. You may also
+specify an optional location to transfer the people, if you want them to
+arrive somewhere other than where you are.</Summary>
+      <Syntax>transfer &lt;people&gt; (location)</Syntax>
+      <Text></Text>
+      <SeeAlso>goto</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>at</Title>
+      <Keywords>at</Keywords>
+      <Summary>At allows you to perform a single command at the specified location. No one
+will see you leave the location to perform the command, or enter the
+location, you will simply be there while you do the command and return
+afterwards. Locations can be people, objects, or rooms.</Summary>
+      <Syntax>at &lt;location&gt; &lt;command&gt;
+@&lt;location&gt; &lt;command&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Peace</Title>
+      <Keywords>peace</Keywords>
+      <Summary>Peace stops battles. If you specify "world" everyone in the entire world will
+stop fighting. If you specify nothing, the entire room you are in is calmed,
+otherwise the specified target in your room is calmed. It also removes any
+memory of the battle from mobiles' brains, so they will not immediately
+re-attack the player they may have been fighting.</Summary>
+      <Syntax>peace (world|person)</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Purge</Title>
+      <Keywords>purge</Keywords>
+      <Summary>Purge will take the given targets from the room and destroy them. If you
+specify no targets then the entire room is purged of mobiles and objects. You
+cannot purge players -- why would you think such a thing!</Summary>
+      <Syntax>purge (mobiles|objects)</Syntax>
+      <Text></Text>
+      <SeeAlso>slay</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>110</Level>
+      <Category>0</Category>
+      <Title>Shutdown</Title>
+      <Keywords>shutdown</Keywords>
+      <Summary>Shuts down Age of Wonder, it will not reboot. You have to go into the shell
+and manually restart the startup script.</Summary>
+      <Syntax>shutdown</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Set</Title>
+      <Keywords>set</Keywords>
+      <Summary>Set allows you manipulate in-game things and change their values. You may
+specify a player, mobile, or object. If you leave the &lt;field&gt; and &lt;value&gt;
+arguments blank it will tell you a list of fields you may set on the given
+target. Set will fail if you attempt to use it on someone equally or more
+powerful than yourself. And yes I'm aware you can force someone equally as
+powerful to set themselves, but you realize, they can do the same thing back
+right?</Summary>
+      <Syntax>set (person|object) &lt;target&gt; &lt;field&gt; &lt;value&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Restore</Title>
+      <Keywords>restore</Keywords>
+      <Summary>Restores the life, energy, and movement of its targets. If you specify no
+target, you and all the people around you are restored. If you specify
+"world" then you will restore all the players in the world, aww you're such a
+NICE imm now arent you.. No there isn't a command to hurt all the players at
+once ;)</Summary>
+      <Syntax>restore (world|target)</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Slay</Title>
+      <Keywords>slay</Keywords>
+      <Summary>Will instantly kill the specified targets with a single strike of immortal
+fury. Slay will fail if you attempt to use it on someone equally or more
+powerful than yourself. You cannot slay yourself, weirdo.</Summary>
+      <Syntax>slay &lt;people&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso>restore</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Stat</Title>
+      <Keywords>stat</Keywords>
+      <Summary>Gives you the statistics on a player, mobile, or object that is currently in
+play. These statistics may differ from object indexes, that's why the command
+exists.</Summary>
+      <Syntax>stat &lt;player|mobile|object&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso>set</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Assume</Title>
+      <Keywords>assume</Keywords>
+      <Summary>Assume allows you to turn yourself into a player at any given level. You need
+to specify a level, the other options are optional and they can be entered in
+any order. Example: 'assume elf rog 14' would turn you into a level 14 elf
+rogue. Pretty easy. To turn back into your immortal self just use 'assume imm'.
+Makes it easy to test the difficulty of your mobiles, though you still need to
+wear armor/weapons of that level as well to get the exact player experience.</Summary>
+      <Syntax>assume &lt;level&gt; (class) (race)
+assume immortal</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+  </Helps>
+</HelpFile>

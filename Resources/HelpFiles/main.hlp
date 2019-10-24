@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HelpFile ObjectClass="HelpFile">
+  <Name>The Main Helps</Name>
+  <FileName>main.hlp</FileName>
+  <Helps>
+    <Help ObjectClass="Help">
+      <Level>0</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>motd</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^r-=-=-=-=-=-=-=-=-=-=-=-=-=-=^m[^x ^!^wMessage of the Day!^x ^m]^r=-=-=-=-=-=-=-=-=-=-=-=-=-=-^x
+
+^y^!*^x Updated: ^UFriday February 16th, 2001^x
+
+^y^!*^x The ^gGET-OBJECT-CONTAINER^x Bug Has Been Fixed!!
+
+^y^!*^x ^gArchery^x Has Been Fixed!!
+
+^!^y*^x Please Check Out The Age of Wonder Website:
+^!^y*^x ^ghttp://www.ageofwonder.com/^x   -- You can see who's online!
+
+^r-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-^x</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>0</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>greeting</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+                Another World...                                      _|_
+                              Another Time...                          |
+                                           In the Age of Wonder...
+        0=}_______&gt;
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+%s
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[Hit Return To Continue]</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>0</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>menu</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^x
+                   +=-------------------------------------=+
+                           ^!Age of Wonder Login Menu^x
+^x                   +=-------------------------------------=+
+                      [ 1 ] Play an Existing Character
+                      [ 2 ] Create a New Character
+                      [ 3 ] Disconnect from Age of Wonder
+                   +=-------------------------------------=+
+
+Your name or choice?</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>11565</Level>
+      <Category>0</Category>
+      <Title>Buy</Title>
+      <Keywords>buy</Keywords>
+      <Summary>Buy allows you to buy items from a shop. You may purchase an item by number,
+which is shown on the left when you type list. You may also buy an item by its
+name. Either option may be prefixed with an amount you'd like to buy followed
+by an asterisk.</Summary>
+      <Syntax>buy #&lt;number&gt;
+buy &lt;amount&gt;*#&lt;number&gt;
+buy &lt;item&gt;
+buy &lt;amount&gt;*&lt;item&gt;
+buy (options) &lt;keeper&gt;  If more than one shopkeeper is present.</Syntax>
+      <Text></Text>
+      <SeeAlso>sell, list, value, inspect</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>1</Level>
+      <Category>0</Category>
+      <Title>Shoot</Title>
+      <Keywords>shoot</Keywords>
+      <Summary>Shoot is the command for long-range combat in Age of Wonder. You should have a
+secondary weapon for close-range combat sheathed before you attempt to shoot
+anything, because it can flee into your room and engage you. Bows of any type
+are useless in a face-to-face fight.
+
+Once you have your bow wielded you need to be wearing a quiver or some other
+device on your shoulders with which to hold your arrows or bolts. You'll need
+arrows or bolts in it as well. If you don't specify a specific arrow to shoot
+then you will automatically draw the first arrow you put into your quiver.
+
+Once you shoot the target will hate you, and most often it will flee out of a
+sense of self preservation. If your shot hit the arrow will stay stuck in the
+target, otherwise it will land in the room. The only way to get your arrows
+back from the target is to kill it, so be careful what you shoot.</Summary>
+      <Syntax>shoot &lt;dir&gt; &lt;target&gt; (with &lt;arrow&gt;)</Syntax>
+      <Text></Text>
+      <SeeAlso>draw, sheath</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>1</Level>
+      <Category>0</Category>
+      <Title>Draw</Title>
+      <Keywords>draw</Keywords>
+      <Summary>Draw is the command to draw your currently sheathed weapon. The weapon you draw
+will then be in your wield slot and ready for combat. If you draw a sheathed
+weapon while you already have another weapon wielded it will simply exchange
+the weapons for you.</Summary>
+      <Syntax>draw</Syntax>
+      <Text></Text>
+      <SeeAlso>sheath, wield</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>1</Level>
+      <Category>0</Category>
+      <Title>Sheath</Title>
+      <Keywords>sheath</Keywords>
+      <Summary>Sheath will put your currently wielded weapon into the sheathed position. In
+this position you will not use it during battle, but it will be ready in case
+you need it in which case you would use the 'draw' command. You are not
+required to actually be wearing a sheath-type object around your waist to use
+this command. It's nice for roleplay as well, most people don't walk into
+taverns with longswords drawn and expect to get service.</Summary>
+      <Syntax>sheath</Syntax>
+      <Text></Text>
+      <SeeAlso>draw, wield</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>1</Level>
+      <Category>0</Category>
+      <Title>Wield</Title>
+      <Keywords>wield</Keywords>
+      <Summary>Wield allows you to wield the specified weapon. You don't need to give a
+location to wield it in unless you're specifically trying to use it in an
+offhand or dual-handed fashion.</Summary>
+      <Syntax>wield &lt;weapon&gt; (location)</Syntax>
+      <Text></Text>
+      <SeeAlso>draw, sheath</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>1</Level>
+      <Category>0</Category>
+      <Title>Object Conditions</Title>
+      <Keywords>conditions</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>Most objects in Age of Wonder will deteriorate from combat. Once they reach 0%
+condition they will fall apart and be lost forever, to stop this be sure to
+repair your items before they reach such a state.
+
+Below is a list of conditions and their relative percentages.
+^bexcl^x   ^bexcellent^x  == 96% to 100
+^bscra^x   ^bscratched^x  == 86% to 95%
+^gvrgd^x   ^gvery good^x  == 76% to 85%
+^ggood^x   ^ggood^x       == 66% to 75%
+^ydcnt^x   ^ydecent^x     == 56% to 65%
+^yworn^x   ^yworn^x       == 46% to 55%
+^yvwrn^x   ^yvery worn^x  == 36% to 45%
+^rdmgd^x   ^rdamaged^x    == 26% to 35%
+^rruin^x   ^rin ruins^x   == 16% to 25%
+^rwrls^x   ^rworthless^x  ==  0% to 15%</Text>
+      <SeeAlso>repair</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>1</Level>
+      <Category>0</Category>
+      <Title>Ability</Title>
+      <Keywords>ability</Keywords>
+      <Summary>The ability command will list out the abilities in certain areas for each
+class. If you do not specify a class then ability will show you your
+character's current abilities and their skill levels. The ? column shows ^HY^x if
+the ability has been coded, otherwise it is blank.</Summary>
+      <Syntax>abil &lt;weap|skill|song|spell&gt; (class)</Syntax>
+      <Text></Text>
+      <SeeAlso>practice</SeeAlso>
+    </Help>
+  </Helps>
+</HelpFile>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HelpFile ObjectClass="HelpFile">
+  <Name>Online Creation Helps</Name>
+  <FileName>olc.hlp</FileName>
+  <Helps>
+    <Help ObjectClass="Help">
+      <Level>102</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>oscript script</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^g^!STEP ONE:^x
+You must open an area containing the object you wish to script.
+To do this type ^c^!olc^x, ^c^!aedit open &lt;area name&gt;.are^x.
+^g^!STEP TWO:^x
+You must now open the object you wish to add a script to.
+To do this type ^c^!oedit open &lt;vnum&gt;^x.
+^g^!STEP THREE:^x
+You must now create a script for the object your editing.
+To do this type ^c^!oscript new^x.
+^g^!STEP FOUR:^x
+Now you are ready to edit the script for the object.
+
+First, you want to set the trigger for the script.
+--For a list of triggers type ^c^!oscript trigger^x.
+--After you have selected a trigger, type ^c^!oscript trigger &lt;trigger&gt;^x.
+  This determines what will set the script off.
+--If you choose the ^c^!phrase^x trigger you need to set commands and keywords.
+  To do this, type ^c^!oscript commands &lt;commands&gt;^x and ^c^!keywords &lt;keywords&gt;^x.
+
+Next, you must add an the code for the script.
+--Type ^c^!function^x for a list of codes to use.
+--After you have selected a code, type ^c^!ocode &lt;code&gt;^x.
+  This adds the code to the script.
+
+SOME EXAMPLES BELOW:
+EX.1 - This sends a msg to the room and char when the object is worn.
+
+   [ 1]  wear(obj, TRUE);
+   [ 2]  act_to_char(wearch, ch, NULL, NULL);
+   [ 3]  act_to_room(wearro, ch, NULL, NULL);
+
+Now, you need to create text variables for the strings.
+--Type ^c^!oscript text new &lt;string name&gt;^x.
+  This creates the text variable and opens it for editing.
+--To edit the text type ^c^!otext &lt;msg&gt;^x.
+  This will send text to the selected person in the code.
+
+SOME EXAMPLES BELOW:
+EX.1 - This is the messages sent to the room and char.
+
+The wearch text variable
+   [ 1] ^^rThe red ruby lenses mold to your eyes and begin to glow.^^x
+          ^rThe red ruby lenses mold to your eyes and begin to glow.^x
+   [ 2] ^^rThe strength of your vision is increased.^^x
+          ^rThe strength of your vision is increased.^x
+
+The wearro text variable
+  [ 1] ^^rThe red ruby lenses mold to a $n's eyes and begin to glow.^^x
+         ^rThe red ruby lenses mold to a Daniel's eyes and begin to glow.^x
+
+After you have set all the codes and variables, you need to compile.
+--To do this, type ^c^!oscript compile^x.
+  If there is an error in the coding the script will not compile.
+  You need to go back through each step and make sure it is typo free.
+
+</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>0</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>Alist</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^!OLC - The Area Listing Command - Alist^x
+
+The alist command lists out all the areas in the mud. Under the To and From
+columns are the minimum and maximum vnums of the area, followed by the file
+name, the area name, which builder is currently editing that area, and then if
+there are any unsaved changes to that area in memory. Alist lists out the areas
+in order of vnum range.
+
+^!alist^x
+This will list out the areas in memory in the mud. It takes no options.
+
+SEE_ALSO: olc
+</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>Astat</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^!OLC - Area Statistics - Astat^x
+
+The astat command will show you a condensed page of info on an area. It
+summarizes various things like the number of rooms, objects, mobiles, etc to
+give you a picture of the overall size and detail of the area. It also lists
+out which areas it links to and if those links go both ways. The sign "-&gt;"
+means a one way link. "&lt;-/-&gt;" means a two way link.
+
+^!astat^x
+The astat command alone will give you the statistics of the current area you
+are editing in online creation, if any.
+
+astat ^!&lt;file_name&gt;^x
+If you provide a file name, in .are format, to astat it will give you the
+statistics on that specific area. Use alist to found out the file names for
+specific areas.
+
+SEE_ALSO: alist, olc
+</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>Aset</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^!OLC - The Area Setting Command - Aset^x
+
+The aset command lets you set variables of the area file you are currently
+editing in online creation.
+
+aset ^!name^x &lt;string&gt;
+This lets you set the name of the area. It is used in the format "the &lt;string&gt;
+area" so don't include "the" or "area" in the actual name you set it to.
+
+aset ^!credits^x &lt;string&gt;
+This lets you set the credits of the area. The credits should be a list of
+names of the people who contributed in making it.
+
+aset ^!min/max^x &lt;vnum&gt;
+This lets you set the minimum and maximum vnum in the area's total range. The
+number of rooms, objects, and mobiles you can have in an area is determined by
+max_vnum - min_vnum so use it wisely.
+
+aset ^!low/high^x &lt;level&gt;
+This lets you set the recommended low and high level ranges for the area. This
+doesn't affect anything except the area report. Zeroes in low and high will
+make the area "for all levels".
+
+SEE_ALSO: olc, vnum</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>Aedit</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^!OLC - The Area Editing Command - Aedit^x
+
+The aedit command is short for area editing and is used to open, close, create,
+and delete area files. Areas must be accessed by their file names. If you need
+to see a list of areas with their corresponding file names and vnums simply
+type "alist". Due to the serious repercussions of some of the aedit sub
+commands it will not respond to partials such as "aedit clo" for closing an
+area, you must fully type each command.
+
+Aedit Sub Commands...
+
+Aedit ^!Open^x &lt;file_name&gt;
+To do any building in OLC you must first open an area file to edit, the open
+sub command does this. It takes one argument which is the full file name of the
+area. All area file names end in ".are". Once you open an area file you may edit
+any of the rooms, objects, mobiles, repopulations, and specials contained
+within.
+
+Aedit ^!Close^x
+Once you've opened an area file you must inevitably close it. If you have
+changed the area and wish those changes to carry over to the next reboot be
+sure to type "aedit save" before moving on. To close the area you're currently
+editing simply type "aedit close" and it will automatically close all objects,
+mobiles, repopulations, and specials when it exits the area.
+
+Aedit ^!Save^x
+When you would like to write the area to disk, which permanently saves it, type
+"aedit save". Use this command often when you're making progress in building an
+area because if the mud crashes it looses everything that wasn't saved to disk.
+
+Aedit ^!New^x &lt;file_name&gt; &lt;min_vnum&gt; &lt;max_vnum&gt;
+You use this command on the rare occassion you need to create a new area and
+add it to the main area list. You provide the file name and max/min vnums for
+the area and the area will be created. Aedit checks for overlaping and invalid
+vnums so don't worry.
+
+Aedit ^!Delete^x &lt;file_name&gt;
+This command is not yet coded. So the help for it has not been written.
+
+SEE_ALSO: vnum, aset, astat, alist</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title></Title>
+      <Keywords>OLC Online Creation</Keywords>
+      <Summary></Summary>
+      <Syntax></Syntax>
+      <Text>^!OLC - Online Creation^x
+
+OLC is a command to enter/exit online creation in _mud. Once you enter OLC
+you'll be flagged as such and have a few extra powers like seeing room numbers
+in the room title, being able to open and close any exits. There are a sets of
+OLC commands bundled together that mimic each other in syntax. They are the
+following...
+
+                  Areas: *aedit   *aset   *astat   *alist
+                  Rooms: *redit   *rset   *rstat   *rlist
+                Mobiles:  medit    mset    mstat    mlist
+                Objects:  oedit    oset    ostat    olist
+   (Repopulation) Zones:  zedit    zset    zstat    zlist
+
+You may get help on any of those commands. Now that big list of commands may
+seem intimidating but the good news is that what the names have in common also
+carries over to the commands themselves. medit open &lt;mob&gt; is the same as oedit
+open &lt;object&gt; if you want to open and edit a mobile/object. This carries over
+for a lot of things but each command of course does have its quirks and you'll
+have to learn what those are. Overall though, don't be too worried, once you
+master a few commands the rest will be easier. Here are some basic rules as to
+why commands are named as such and will normally hold true.
+
+The ^!Edit^x suffix means the command keeps track its things like a file system
+basically. Just as if you wanted to do something with a file you would open,
+close, new, or delete it.
+
+The ^!Set^x suffix means you modify the file. Set some values or edit some
+text. You will spend most of your time using these commands. Hint: rset, mset,
+oset, and zset are the same things as the room, mob, obj, zone commands
+respectively, rset &lt;something&gt; will do the same thing as room &lt;something&gt;.
+
+The ^!Stat^x suffix means it will give you the something's statistics. This is
+a summary of all the things values and descriptions and such, all nicely
+organized. If you are editing something a *stat command with no arguments will
+give you the statistics on the thing you're editing.
+
+The ^!List^x suffix means it will list out its things in a nice orderly
+fashion. Usually a *list command takes a few arguments that will confine what
+it lists.
+
+If you are new to building it is suggested you read the help files for ALL of
+those commands. But right now you should move on to 'help aedit' because you
+need to open an area before you can do anything else.
+
+SEE_ALSO: building</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Offer</Title>
+      <Keywords>offer unoffer</Keywords>
+      <Summary>Offer allows you to have a mobile move items from their inventory to their
+shop. Use it when creating shop repops. The unoffer commands works the same
+but with a reverse affect. Items on sale can be seen with the list command.</Summary>
+      <Syntax>offer &lt;mobile&gt; &lt;items_to_sell&gt;
+unoffer &lt;mobile&gt; &lt;items_to_stop_selling&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Shop</Title>
+      <Keywords>shop</Keywords>
+      <Summary>Will allow you to manipulate the shop data for the current mobile you're
+editing. Shop keepers need to be told what types of items they can
+buy/sell/repair and at what kind of modified price, this function lets you
+do that. Type 'shop' for a list of options and their explainations.</Summary>
+      <Syntax>shop &lt;options&gt;</Syntax>
+      <Text></Text>
+      <SeeAlso>offer, unoffer</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Room Flags</Title>
+      <Keywords>room flags</Keywords>
+      <Summary>This help file will go through what each room flags for rset flag is for. Flags
+with an * by the name have not yet been coded.</Summary>
+      <Syntax>rset flags &lt;flags&gt;</Syntax>
+      <Text>^tDark^x: forces the room into darkness all the time, except when players are using
+lights of course. Day/nightime has no affect.
+
+^tLight^x: same as dark but forces the room to be lit.
+
+^tIndoors^x: set this if the room is indoors, it effects weather and day-change
+messages.
+
+^tSafe^x: this means no combat is allowed in the room.
+
+^tLaw^x*: unused atm, don't set it.
+
+^tNoMob^x: mobiles aren't allow into the room.
+
+^tNoRecall^x*: can't use the recall spell in this room.
+
+^tNoSpell^x*: can't use any spells in this room.
+
+^tNoSound^x*: yells/cries can't be heard in/through this room.
+
+^tBank^x: allows the balance/deposit/withdraw functions to be used.
+
+^tCurrency^x*: allow currency exchanging. Was thinking of coding this a while back
+but I'm not sure about it anymore. More "advanced" banks would have this
+option, set it regardless.
+
+^tSaveItems^x*: items in this room are saved over crashes/reboots. It's like a bank
+but it's a room. Used for clan storage rooms etc.
+
+^tPunish^x*: not coded, don't set it, don't worry about it.</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Mobile Flags</Title>
+      <Keywords>mobile flags</Keywords>
+      <Summary>This file lists and described what all the flags for mset flag do. Any flags
+with an * by their name have yet to be coded.</Summary>
+      <Syntax>mset flags &lt;flags&gt;</Syntax>
+      <Text>^tSentinel^x: does not move, will still flee though.
+
+^tScavenger^x: picks up random items off the ground.
+
+^tSentient^x*: tries to act human/sentient when interacting with people or just
+wandering around responding to the game world.
+
+^tAggressive^x: will automatically attack anything that comes into the same room.
+Druids are not attacked unless the 'Unnatural' flag is set.
+
+^tStayArea^x: will never leave the area wandering or fleeing.
+
+^tWimpy^x*: will automatically flee at low hitpoints.
+
+^tTrain^x*: can train players stats up for practice points, may or may not ever be
+used it depends.
+
+^tPractice^x*: can teach skills/spells to the player, no way of setting what skills
+yet though, also, we have no skills yet.
+
+^tUndead^x: allows clerical 'turn undead' type spells to be used on it.
+
+^tGhost^x*: mob doesn't make a corpse when it dies, its items and money spill out
+into the room.
+
+^tShopkeeper^x: the mobile is a shopkeeper. Use 'shop' to set the specifics of
+their shop and offer/unoffer to create the shop repop.
+
+^tNightonly^x: only comes out at night, goes home for the day.
+
+^tDayonly^x: only comes out at daytime, goes home for the night.
+
+^tNoKill^x: this mobile may not be attacked or killed.
+
+^tNoPurge^x: this mobile isn't purged during a room purge. Pretty stupid flag, you
+can always slay it if you need to.
+
+^tOutdoors^x: limits the mobiles wanderings to outside rooms.
+
+^tIndoors^x: limits the mobiles wanderings to indoor rooms.
+
+^tBlocks^x: if a player enters a room where this mobile is they are blocked from
+all exits except the one they came in from.
+
+^tUnnatural^x: this creature will attack druids if aggresive.</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Room Exit Flags</Title>
+      <Keywords>exit flags</Keywords>
+      <Summary>This help file lists and describes the function of each of the exit flags that
+you can set via rexit &lt;dir&gt; flags. Any flags with an * by their name have yet
+to be coded.</Summary>
+      <Syntax>rexit &lt;dir&gt; flags &lt;flags&gt;</Syntax>
+      <Text>^tDoor^x: makes the exit a door, can be opened and closed and have a key. You need
+to set the keywords and name for the door as well.
+
+^tClosed^x: flags a door or any exit as closed. Only doors may be reclosed by
+players. If the exit is closed and hidden, it will not show up to players.
+
+^tLocked^x: requires the player have the correct key to open the door.
+
+^tNoWander^x: stops any wandering mob from wandering or fleeing through the exit.
+
+^tNoClose^x: stops any player from closing the door.
+
+^tNoLock^x: stops any player from locking the door.
+
+^tNoSound^x*: yells/cries and sounds don't pass through the exit.
+
+^tNoPass^x*: can't pass through the exit with spells.
+
+^tNoPick^x*: exit cannot be picked, otherwise it can be.
+
+^tEasy/Hard/Infuriating^x*: difficulty level for picking the lock, if none is set
+it defaults to easy.
+
+^tPlural^x: set this if the door is a set or doors and not a single door, allows
+the mud to correctly create open/close messages. The door is open. The doors
+are open.</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Mobile Attack Flags</Title>
+      <Keywords>attack flags</Keywords>
+      <Summary>This help files explains the small number of attack flags you can set when
+you're making mobile attacks.</Summary>
+      <Syntax>attack &lt;#&gt; flags &lt;flags&gt;</Syntax>
+      <Text>^tPlural^x: if the attack hits with more than one thing, 'claw' wouldn't have this
+flag set, but 'claws' would.
+
+^tJustMsg^x: it doesn't show the mobiles name it only shows the attack message.
+Like 'The brutal clawing' or whatever, usually you prefix an attack like this
+with some messages to explain what's coming.
+
+^tNoPart^x: the attack doesn't target a part, just targets the entire target as a
+whole. If this is not set it will always choose a part.</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Object 'Extra' Flags</Title>
+      <Keywords>object flags</Keywords>
+      <Summary>This help file explains what all the extra flags for objects do. Any flag with
+an * by the name has yet to be coded into doing anything in play yet.</Summary>
+      <Syntax>oset extra &lt;flags&gt;</Syntax>
+      <Text>^tCursed^x: this item cannot be removed after being worn.
+
+^tNoDrop^x: this item cannot be dropped after being got.
+
+^tNoLiqName^x: makes the drink or fountain conceal what liquid is inside it. You
+would see 'a marble fountain' instead of 'a marble fountain of water'.
+
+^tEnchanted^x: this flag just means something magical is going on with this object.
+There will be a detect magic spell which allows the caster to see objects with
+this flag as 'an enchanted, black longsword' instead of just 'a black
+longsword'.
+
+^tTwo-Handed^x: the weapon takes both hands to be wielded, makes it impossible to
+dual-wield this weapon.
+
+^tThrowable^x: this weapon may be thrown in combat, for items such as throwing
+daggers or throwing axes.</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>101</Level>
+      <Category>0</Category>
+      <Title>Spot Flags</Title>
+      <Keywords>spot flags</Keywords>
+      <Summary>This help file lists what each of the spot flags does to the functionality of a
+spot. Right now these flags only do anything to room spots. Any flags with an *
+by the name has yet to be coded to do its stated function.</Summary>
+      <Syntax>rspot|mspot|ospot flag &lt;flags&gt;</Syntax>
+      <Text>^tHideable^x: can the spot be hid behind when using the 'hide' command.
+
+^tWindow^x*: if the spot is a window, will allow you to see weather messages
+through it. Perhaps in the future you could also look through it and see into
+another room.</Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+  </Helps>
+</HelpFile>

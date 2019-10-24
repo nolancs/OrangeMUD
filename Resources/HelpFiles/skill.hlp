@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HelpFile ObjectClass="HelpFile">
+  <Name>Skill Helps</Name>
+  <FileName>skill.hlp</FileName>
+  <Helps>
+    <Help ObjectClass="Help">
+      <Level>25970</Level>
+      <Category>0</Category>
+      <Title>Punch Skill</Title>
+      <Keywords>punch</Keywords>
+      <Summary>Punching is a vital skill for anyone hoping to master unarmed combat. Using the
+punch command in combat will allow you to punch your foe every other round,
+depending on your skill it may be a weak or devastating attack.</Summary>
+      <Syntax>punch</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>29281</Level>
+      <Category>0</Category>
+      <Title>Bash Skill</Title>
+      <Keywords>bash</Keywords>
+      <Summary>Bashing allows you to knock someone to the ground for a round or two, stopping
+them from hitting back and greatly increase the damage you can do to them in
+the meantime. If you do not specify a target bash will bash the person you are
+fighting.</Summary>
+      <Syntax>bash (target)</Syntax>
+      <Text></Text>
+      <SeeAlso></SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>30799</Level>
+      <Category>0</Category>
+      <Title>Kick Skill</Title>
+      <Keywords>kick</Keywords>
+      <Summary>Kick is an every other round extra attack. Kicking is a tough skill to master,
+from the simpliest foot the groin all the way up to the brutal roundhouse. Your
+unarmed fighting ability and your kicking ability affect the type of damage and
+kick you do. Kick is the next step up from punch, though a skill punch will
+still do more damage than an unskilled kick.</Summary>
+      <Syntax>kick</Syntax>
+      <Text></Text>
+      <SeeAlso>punch</SeeAlso>
+    </Help>
+    <Help ObjectClass="Help">
+      <Level>16711</Level>
+      <Category>0</Category>
+      <Title>Smash Skill</Title>
+      <Keywords>smash</Keywords>
+      <Summary>Smash is an every other round extra attack, the next step up from kicking. When
+smashing your foe you attempt to use the hilt of your weapon to deal a crushing
+and solid blow to their head or body. The momentum of your smash can affect the
+damage, therefore smashing with heavier weapons will do more damage. This is an
+advanced warrior skill and draws from your knowledge of unarmed combat.</Summary>
+      <Syntax>smash</Syntax>
+      <Text></Text>
+      <SeeAlso>punch, kick</SeeAlso>
+    </Help>
+  </Helps>
+</HelpFile>
