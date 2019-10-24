@@ -128,8 +128,8 @@ If you are unfamiliar with MUDs here are some basic commands. Enter them in full
 * `equip`: to see what you're wearing
 * `score`: to show your character's score/stat information
 * `look <target>`: to look at something
-** `look` or `l` with no target will look at the room you're in.
-** `look self` looks at your character
-** `look ring` looks at a ring you're carrying/wearing, etc. 
-*** You can look at specific spots on things if the builder has added them. `look ring gemstone` would look at the gemstone on the ring. 
-* Targets can also be multi-word such as `look 'town guard'`, encased in either double quotes or single quotes.
+ * `look` or `l` with no target will look at the room you're in.
+ * `look self` looks at your character
+ * `look ring` looks at a ring you're carrying/wearing, etc. 
+  * You can look at specific spots on things if the builder has added them. `look ring gemstone` would look at the gemstone on the ring. 
+* Targets can also be multi-word such as `look 'town guard'`, encased in either single quotes or double quotes.
