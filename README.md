@@ -1,5 +1,5 @@
 # OrangeMUD
-Advanced multi-player online RPG (MUD) server codebase built in C++. built in C++. Features an extensible C-like scripting language, a full suite of online creation tools, and much more. Runs natively on Mac (OS X and pre OS X), Windows, and Unix. Custom built by Matthew Nolan for Age of Wonder MUD circa 2000.
+Advanced multi-player online RPG (MUD) server codebase built in C++. Features an extensible C-like scripting language, a full suite of online creation tools, and much more. Runs natively on Mac (OS X and pre OS X), Windows, and Unix. Custom built by Matthew Nolan for Age of Wonder MUD circa 2000.
 
 ## Features 
 
